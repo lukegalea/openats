@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "RangeDateTimeQueryType",
     "description": "Range query type based on date and time data.",

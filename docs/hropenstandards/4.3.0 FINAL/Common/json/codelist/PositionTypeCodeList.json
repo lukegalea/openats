@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "PositionTypeCodeList",
     "description": "Deprecated for the Employee Earnings specifications in 4.3 release. Use PositionTermType, or appropriate indicators in PositionType. Other domains will review in future releases. These are values that are descriptive in classifying a position or a position opportunity or \"offering\". They are not precise classes useful internally to drive pay, benefits, or HR compliance. Enumerated values are: DirectHire, Temporary, TemporaryToHire, ContractToHire, Contract, Internship, Externship, Apprenticeship, Seasonal, Student, and Volunteer. Consider that \"Temporary\" and \"DirectHire\" are not parallel concepts, but are still commonly used in classifying jobs within advertising.",

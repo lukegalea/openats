@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "PayRateIntervalCodeList",
     "description": "An interval of time or other basis used to express a rate of pay, remuneration, or deduction. OED: Interval, n.  2. a. The space of time intervening between two points of time; any intervening time. TwoWeek24 applies when there are 24 deductions within the year and TwoWeek26 applies when there are 26 deductions within the year.",

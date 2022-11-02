@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "WellnessType",
     "description": "A set of recorded activity information related to an individual. The main purpose is to allow employees to set and reach employee wellness goals within their employment organization.",

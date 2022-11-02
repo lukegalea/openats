@@ -1,5 +1,5 @@
 {
-  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "$schema" : "http://json-schema.org/draft-07/schema#",
   "version" : "4.3.0-rc.2",
   "title" : "AnnotatedDefinedTermType",
   "description" : "Word, name, acronym, phrase, defined in a controlled value space (e.g., taxonomy, glossary, dictionary, tag list, and other forms of enumeration). Note(s): Used in the context of JDX to assign terms from occupation, industry and instructional program classifications, skills and abilities, and abstract concepts to JDX entities. Through the class' relationship with the ScaledAnnotation class, terms can be conditioned through applications of scales for attributes such as importance and frequency.",

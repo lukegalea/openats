@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "ObjectiveActionCodeList",
     "description": "A code classifying an action to be taken with respect to achieving an objective. This may be used in the definition or specification of an objective or objective plan.",

@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "LanguageCodeList",
     "description": "This list is based on Internet Engineering Task Force (IETF) RFC 4646 and RFC 4647 for language tags. This tag system is extensible to region, dialect, and private designations. The IANA Language Subtag Registry is a source of the tag values. See http://www.iana.org/assignments/language-subtag-registry",

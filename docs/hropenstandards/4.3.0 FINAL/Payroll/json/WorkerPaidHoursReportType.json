@@ -1,5 +1,5 @@
 {
-	"$schema": "http://json-schema.org/draft-04/schema#",
+	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.0",
 	"title": "WorkerPaidHoursType",
 	"description": "The hours a worker was paid for time off or actual time worked.",

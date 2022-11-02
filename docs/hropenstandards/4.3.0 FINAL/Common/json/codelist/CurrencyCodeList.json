@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "CurrencyCodeList",
     "description": "ISO 4217 is the International Standard for currency codes. The most recent edition is ISO 4217:2015.",

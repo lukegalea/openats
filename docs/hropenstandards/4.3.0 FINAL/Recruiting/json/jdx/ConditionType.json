@@ -1,5 +1,5 @@
 {
-  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "$schema" : "http://json-schema.org/draft-07/schema#",
   "version" : "4.3.0-rc.2",
   "title" : "ConditionType",
   "description" : "Entity providing the means to make logical assertions that combine resources that in aggregate fulfill education, experience and credential requirements.",

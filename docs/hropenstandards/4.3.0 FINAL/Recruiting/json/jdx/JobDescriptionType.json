@@ -1,5 +1,5 @@
 {
-  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "$schema" : "http://json-schema.org/draft-07/schema#",
   "version" : "4.3.0-rc.2",
   "title" : "JobDescriptionType",
   "description" : "Entity providing a statement of a job position generally including the formal job title, duties, purpose, responsibilities, scope, reporting relationships and working conditions along with the knowledge, skills, abilities, education, qualifications, experience and other requirements for performing the job.",

@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "RequestedMatchedObjectDescriptorType",
     "description": "Type to define a matched object descriptor, which is used to define the fields from the matching results to be returned.",

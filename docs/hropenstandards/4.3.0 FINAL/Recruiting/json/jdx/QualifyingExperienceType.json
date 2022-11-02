@@ -1,5 +1,5 @@
 {
-  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "$schema" : "http://json-schema.org/draft-07/schema#",
   "version" : "4.3.0-rc.2",
   "title" : "QualifyingExperienceType",
   "description" : "Entity describing verifiable work, education or training experience supporting a person's qualification to perform the tasks and responsibilities of a position. Note(s): A QualifyingExperience that results in the award of some form of credential should use the Credential class to describe that award.",

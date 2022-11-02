@@ -1,5 +1,5 @@
 {
-  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "$schema" : "http://json-schema.org/draft-07/schema#",
   "version" : "4.3.0-rc.2",
   "title" : "DefinedTermSetType",
   "description" : "A set of defined terms for example a set of categories or a classification scheme, a glossary, dictionary or enumeration.",

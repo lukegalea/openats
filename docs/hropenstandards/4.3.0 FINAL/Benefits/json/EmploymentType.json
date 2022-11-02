@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "EmploymentType",
     "description": "This data type has been deprecated.  WorkLifeCycleType will be used instead. Describes the work life cycle of a person, i.e details for leave of absence, termination or retirement. ",

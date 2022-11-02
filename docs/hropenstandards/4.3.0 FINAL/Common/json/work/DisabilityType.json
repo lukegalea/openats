@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "DisabilityType",
     "description": "Describes a disability associated with a specified person. Want of ability to discharge a function. Incapacity in the eye of the law.",

@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "AtomicResponseMessageType",
     "description": "A response message for communicating processing results of a request to process a single resource, an atomic request.",

@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "TimecardType",
     "description": "A record of time worked; associated expenses to be reimbursed; and/or allowances associated with the engagement.",
