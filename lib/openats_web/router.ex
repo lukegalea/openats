@@ -1,6 +1,8 @@
 defmodule OpenatsWeb.Router do
   use OpenatsWeb, :router
 
+  import AshAdmin.Router
+
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
@@ -18,14 +20,18 @@ defmodule OpenatsWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
-
-    ash_admin "/admin"
   end
 
   scope "/json_api" do
     pipe_through(:api)
 
     forward "/ats", Openats.Ats.Router
+  end
+
+  scope "/" do
+    pipe_through :browser
+
+    ash_admin "/admin"
   end
 
   # Other scopes may use custom stacks.
