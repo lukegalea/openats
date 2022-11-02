@@ -1,0 +1,81 @@
+{
+    "documentId": {
+        "value": "Order7777"
+    },
+    "language": "en-US",
+    "dataProtectionPolicy": {
+        "retentionDate": "2018-01-18",
+        "retentionDays": 60,
+        "geoRestrictions": [
+            {
+                "country": "US",
+                "policy": "Full Control"
+            },
+            {
+                "country": "US",
+                "policy": "Full Control"
+            }
+        ]
+    },
+    "subjectId": {
+        "value": "123789"
+    },
+    "aLaCarteItems": [
+        {
+            "screeningCode": "CrimFed",
+            "screeningInstructions": {
+                "value": "Federal Criminal Check",
+                "languageCode": "en-US"
+            }
+        },
+        {
+            "screeningCode": "CrimStVA",
+            "screeningInstructions": {
+                "value": "Virginia State Criminal Check",
+                "languageCode": "en-US"
+            }
+        }
+    ],
+    "purpose": "Employment Background Check",
+    "referenceObject": [
+        {
+            "referenceObjectName": "Department Code",
+            "referenceObjectValue": "Dpt1234"
+        }
+    ],
+    "party": {
+        "customer": {
+            "id": {
+                "value": "9876"
+            },
+            "legalId": {
+                "value": "Acme9876",
+                "description": "ACME Legal Id"
+            },
+            "personContacts": [
+                {
+                    "roleCode": "Hiring Manager",
+                    "name": {
+                        "formattedName": "John Smith"
+                    },
+                    "communication": {
+                        "phone": [
+                            {
+                                "useCode": "Business",
+                                "areaDialingCode": "123",
+                                "formattedNumber": "1234567"
+                            }
+                        ],
+                        "email": [
+                            {
+                                "name": "John Smiith email address",
+                                "useCode": "Business",
+                                "address": "jsmith@acmecompany.com"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

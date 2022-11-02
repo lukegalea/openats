@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hropen:Screening xmlns:hropen="https://hropenstandards.org/schema/xml/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<order>
+		<documentId>
+			<value>Order7777</value>
+		</documentId>
+		<language>en-US</language>
+		<dataProtectionPolicy>
+			<retentionDate>2018-01-18</retentionDate>
+			<retentionDays>60</retentionDays>
+			<geoRestrictions>
+				<item>
+					<country>US</country>
+					<policy>Full Control</policy>
+				</item>
+				<item>
+					<country>US</country>
+					<policy>Full Control</policy>
+				</item>
+			</geoRestrictions>
+		</dataProtectionPolicy>
+		<subjectId><id>
+			<value>123789</value>
+		</id>
+		</subjectId>
+		<aLaCarteItems>
+			<item>
+				<screeningCode>CrimFed</screeningCode>
+				<screeningInstructions>
+					<value>Federal Criminal Check</value>
+					<languageCode>en-US</languageCode>
+				</screeningInstructions>
+			</item>
+			<item>
+				<screeningCode>CrimStVA</screeningCode>
+				<screeningInstructions>
+					<value>Virginia State Criminal Check</value>
+					<languageCode>en-US</languageCode>
+				</screeningInstructions>
+			</item>
+		</aLaCarteItems>
+		<purpose>Employment Background Check</purpose>
+		<referenceObject>
+			<item>
+				<referenceObjectName>Department Code</referenceObjectName>
+				<referenceObjectValue>Dpt1234</referenceObjectValue>
+			</item>
+		</referenceObject>
+		<party>
+			<customer>
+				<id>
+					<value>9876</value>
+				</id>
+				<legalId>
+					<value>Acme9876</value>
+					<description>ACME Legal Id</description>
+				</legalId>
+				<personContacts>
+					<item>
+						<roleCode>Hiring Manager</roleCode>
+						<name>
+							<formattedName>John Smith</formattedName>
+						</name>
+						<communication>
+							<phone>
+								<item>
+									<useCode>Business</useCode>
+									<areaDialingCode>123</areaDialingCode>
+									<formattedNumber>1234567</formattedNumber>
+								</item>
+							</phone>
+							<email>
+								<item>
+									<name>John Smiith email address</name>
+									<useCode>Business</useCode>
+									<address>jsmith@acmecompany.com</address>
+								</item>
+							</email>
+						</communication>
+					</item>
+				</personContacts>
+			</customer>
+		</party>
+	</order>
+</hropen:Screening>

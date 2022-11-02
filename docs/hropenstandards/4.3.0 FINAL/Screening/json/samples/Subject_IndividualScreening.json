@@ -1,0 +1,94 @@
+{
+  "documentId": {
+    "value": "IndSubject",
+    "schemeId": "AwesomeATS"
+  },
+  "language": "en-US",
+  "dataProtectionPolicy": {
+    "geoRestrictions": [{
+      "country": "US",
+      "policy": "Full Control"
+    }],
+    "retentionDate": "2020-12-31",
+    "retentionDays": 365
+  },
+  "person": {
+    "profile": {
+      "profileName": "Mara Profile",
+      "languageCode": "en-US",
+      "education": [{
+        "institution": {
+          "taxId": {
+            "value": "1345789"
+          },
+          "industryCodes": ["Nursing College"],
+          "headCount": 300,
+          "contacts": [{
+            "roleCode": "Prof",
+            "name": {
+              "formattedName": "Jamie Carino"
+            },
+            "communication": {
+              "phone": [{
+                "areaDialingCode": "420",
+                "dialNumber": "719-2224",
+                "formattedNumber": "420-719-2224"
+              }],
+              "email": [{
+                "address": "Jamie.Carino@SmithCollege.edu"
+              }]
+            }
+          }],
+          "programs": ["Nursing Program"],
+          "goodStandingIndicator": true,
+          "educationDegrees": [{
+            "codes": [
+              "Associate Degree"
+            ],
+            "date": "2012-08",
+            "score": {
+              "scoresNumeric": [{
+                "value": 3.14,
+                "scoreCode": "GPA"
+              }]
+            },
+            "currentlyAttendingIndicator": false
+          }]
+        }
+      }]
+    },
+    "names": [{
+        "validFrom": "2006-01-10T20:43:39.8499484Z",
+        "formattedName": "Marina Faraday",
+        "alias": "Mara",
+        "formerFamily": "Sanderson",
+        "language": "en-US"
+    }],
+    "addresses": [{
+        "line": "5211 Cable Street",
+        "countryCode": "US",
+        "countrySubDivisions": [{
+            "type": "State",
+            "value": "Vermont"
+        }],
+        "city": "IdleWilde",
+        "postalCode": "42119",
+        "validFrom": "2009-01-10T12:01:01",
+        "validTo": "2012-11-01T12:01:01"
+    }],
+    "traits": {
+        "citizenship": ["US"],
+        "birthDate": "1991-05-21",
+        "name": {
+            "formattedName": "Marina Faraday"
+        }
+    },
+    "legal": {
+        "birthPlace": "Castleton, VT"
+    },
+    "attachments": [{
+	"url":"https://api.awesomeats.com/subject/1234/attachment/3456",
+	"descriptions": ["Test Certification"]
+    }]
+  }
+}

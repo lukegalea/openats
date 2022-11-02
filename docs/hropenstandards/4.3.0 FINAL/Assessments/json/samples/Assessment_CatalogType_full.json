@@ -1,0 +1,409 @@
+{
+	"party": {
+		"customer": {
+			"id": {
+				"value": "273029373",
+				"schemeId": "DUNS"
+			},
+			"communication": {
+				"web": [
+					{
+						"url": "http://www.maxtechexample.com"
+					}
+				],
+				"email": [
+					{
+						"address": "info@maxtechexample.com"
+					}
+				],
+				"phone": [
+					{
+						"formattedNumber": "+1-919-555-8126",
+						"useCode": "BusinessOffice"
+					}
+				],
+				"address": [
+					{
+						"city": "Raleigh",
+						"line": "456 Main Street",
+						"postalCode": "27612",
+						"countryCode": "US",
+						"countrySubDivisions": [
+							{
+								"type": "state",
+								"value": "North Carolina"
+							}
+						],
+						"useCode": "CompanyHeadquarters"
+					}
+				]
+			},
+			"personContacts": [
+				{
+					"roleCode": "Hiring Manager",
+					"id": {
+						"value": "12382763",
+						"schemeId": "CompanyId"
+					},
+					"name": {
+						"given": "Rocel",
+						"family": "Singh",
+						"preferredSalutationCode": "Ms."
+					},
+					"communication": {
+						"email": [
+							{
+								"address": "rocel.singh@maxtechexample.com"
+							}
+						],
+						"phone": [
+							{
+								"formattedNumber": "+1-919-555-8173",
+								"useCode": "Mobile",
+								"preference": 1
+							},
+							{
+								"formattedNumber": "+1-919-555-8175",
+								"useCode": "Office"
+							}
+						],
+						"address": [
+							{
+								"city": "Raleigh",
+								"line": "456 Main Street",
+								"postalCode": "27612",
+								"countryCode": "US",
+								"countrySubDivisions": [
+									{
+										"type": "state",
+										"value": "North Carolina"
+									}
+								],
+								"useCode": "CompanyHeadquarters"
+							}
+						]
+					}
+				}
+			],
+			"name": "MaxTech Enterprises"
+		},
+		"supplier": {
+			"id": {
+				"value": "234019273",
+				"schemeId": "DUNS"
+			},
+			"communication": {
+				"web": [
+					{
+						"url": "http://www.williamsandwilliamsexample.com"
+					}
+				],
+				"email": [
+					{
+						"address": "info@williamsandwilliamsexample.com"
+					}
+				],
+				"phone": [
+					{
+						"formattedNumber": "+1-212-555-8271",
+						"useCode": "BusinessOffice"
+					}
+				],
+				"address": [
+					{
+						"city": "New York",
+						"line": "123 Main Street",
+						"postalCode": "12345",
+						"countryCode": "US",
+						"countrySubDivisions": [
+							{
+								"type": "state",
+								"value": "New York"
+							}
+						],
+						"useCode": "CompanyHeadquarters"
+					}
+				]
+			},
+			"personContacts": [
+				{
+					"roleCode": "SalesCoordinator",
+					"id": {
+						"value": "9289173",
+						"schemeId": "CompanyId"
+					},
+					"name": {
+						"given": "David",
+						"family": "Williams",
+						"preferredSalutationCode": "Mr."
+					},
+					"communication": {
+						"email": [
+							{
+								"address": "dave@williamsandwilliamsexample.com"
+							}
+						],
+						"phone": [
+							{
+								"formattedNumber": "+1-212-555-8720",
+								"useCode": "Mobile",
+								"preference": 1
+							},
+							{
+								"formattedNumber": "+1-212-555-8724",
+								"useCode": "Office"
+							}
+						],
+						"address": [
+							{
+								"city": "New York",
+								"line": "123 Main Street",
+								"postalCode": "12345",
+								"countryCode": "US",
+								"countrySubDivisions": [
+									{
+										"type": "state",
+										"value": "New York"
+									}
+								],
+								"useCode": "CompanyHeadquarters"
+							}
+						]
+					}
+				}
+			],
+			"name": "Williams and Williams Assessments"
+		},
+		"requester": {
+			"id": {
+				"value": "1826378303",
+				"schemeId": "DUNS"
+			},
+			"communication": {
+				"web": [
+					{
+						"url": "http://www.hrisexample.com"
+					}
+				],
+				"email": [
+					{
+						"address": "info@hrisexample.com"
+					}
+				],
+				"phone": [
+					{
+						"formattedNumber": "+1-309-555-7152",
+						"useCode": "BusinessOffice"
+					}
+				],
+				"address": [
+					{
+						"city": "Peoria",
+						"line": "789 Main Street",
+						"postalCode": "61525",
+						"countryCode": "US",
+						"countrySubDivisions": [
+							{
+								"type": "state",
+								"value": "Illinois"
+							}
+						],
+						"useCode": "CompanyHeadquarters"
+					}
+				]
+			},
+			"personContacts": [
+				{
+					"roleCode": "HR Fulfillment Coordinator",
+					"id": {
+						"value": "82763290",
+						"schemeId": "CompanyId"
+					},
+					"name": {
+						"given": "Jason",
+						"family": "Smith",
+						"preferredSalutationCode": "Mr."
+					},
+					"communication": {
+						"email": [
+							{
+								"address": "jason@hrisexample.com"
+							}
+						],
+						"phone": [
+							{
+								"formattedNumber": "+1-309-555-7193",
+								"useCode": "Mobile",
+								"preference": 1
+							},
+							{
+								"formattedNumber": "+1-309-555-0012",
+								"useCode": "Office"
+							}
+						],
+						"address": [
+							{
+								"city": "Peoria",
+								"line": "789 Main Street",
+								"postalCode": "61525",
+								"countryCode": "US",
+								"countrySubDivisions": [
+									{
+										"type": "state",
+										"value": "Illinois"
+									}
+								],
+								"useCode": "CompanyHeadquarters"
+							}
+						]
+					}
+				}
+			],
+			"name": "Human Resources Enterprises"
+		}
+	},
+	"language": "en-US",
+	"packages": [
+		{
+			"packageId": {
+				"value": "urn:williamsandwilliamsexample:assessments:package:12345",
+				"schemeId": "URN"
+			},
+			"ids": [
+				{
+					"value": "urn:williamsandwilliamsexample:assessments:catalog:12345",
+					"schemeId": "URN"
+				}
+			],
+			"name": "Tech Program For New Hires",
+			"descriptions": [
+				"Technical Programming Assessments"
+			],
+			"packageTypeCodes": [
+				"AR56"
+			],
+			"serviceAvailabilityCode": "Available",
+			"packageCost": {
+				"baseAmount": {
+					"value": 500,
+					"currency": "USD"
+				},
+				"totalAmount": {
+					"value": 500,
+					"currency": "USD"
+				}
+			},
+			"administration": {
+				"descriptions": [
+					"Java EE Programming"
+				],
+				"proctoredAssessmentIndicator": true,
+				"timeEnforcedIndicator": true,
+				"testDuration": 2.0,
+				"schedulingRequiredIndicator": true
+			},
+			"applicability": {
+				"assessmentTypeCodes": [
+					"Knowledge"
+				],
+				"assessedCompetencies": [
+					{
+						"competencyIds": [
+							{
+								"value": "Java01",
+								"schemeId": "CatalogNumber"
+							}
+						],
+						"name": "Java Programming 100",
+						"proficiencyLevel": {
+							"scoresNumeric": [
+								{
+									"value": 70.0,
+									"scoreCode": "RawScore"
+								}
+							],
+							"scoresText": [
+								{
+									"value": "70.0",
+									"minimum": "70.0%",
+									"maximum": "70.0%"
+								}
+							]
+						}
+					},
+					{
+						"competencyIds": [
+							{
+								"value": "Python01",
+								"schemeId": "CatalogNumber"
+							}
+						],
+						"name": "Python Introduction",
+						"proficiencyLevel": {
+							"scoresNumeric": [
+								{
+									"value": 70.0,
+									"scoreCode": "RawScore"
+								}
+							],
+							"scoresText": [
+								{
+									"value": "75.0",
+									"minimum": "75.0%",
+									"maximum": "75.0%"
+								}
+							]
+						}
+					},
+					{
+						"competencyIds": [
+							{
+								"value": "Linux01",
+								"schemeId": "CatalogNumber"
+							}
+						],
+						"name": "Linux Administration 100",
+						"proficiencyLevel": {
+							"scoresNumeric": [
+								{
+									"value": 70.0,
+									"scoreCode": "RawScore"
+								}
+							],
+							"scoresText": [
+								{
+									"value": "60.0",
+									"minimum": "60.0%",
+									"maximum": "60.0%"
+								}
+							]
+						}
+					}
+				],
+				"careerLevelCode": "EntryLevel"
+			},
+			"fulfillment": {
+				"effectivePeriod": {
+					"validFrom": "2019-01-01T12:01:01",
+					"validTo": "2019-01-01T12:01:01"
+				},
+				"reportLanguageCodes": [
+					"en-US"
+				]
+			}
+		}
+	],
+	"documentId": {
+		"value": "918203038",
+		"schemeId": "RequestForCatalogOrderNumber"
+	},
+	"dataProtectionPolicy": {
+		"retentionDays": 30,
+		"geoRestrictions": [
+			{
+				"country": "US",
+				"policy": "Read"
+			}
+		]
+	}
+}

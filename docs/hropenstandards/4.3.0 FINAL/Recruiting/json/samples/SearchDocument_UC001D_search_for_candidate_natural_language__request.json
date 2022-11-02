@@ -1,0 +1,51 @@
+{
+    "documentId": {
+        "value": "e442629a-79ef-11e9-b1b8-0ad9795e4ce6",
+        "schemeId": "AcmeStaffingCVDB"
+    },
+    "language": "en-US",
+    "searchQuery": {
+        "limit": {
+            "from": 0,
+            "size": 20
+        },
+        "orders": [
+            {
+                "criterion": {
+                    "propertyPath": "person.name.family"
+                },
+                "direction": "Asc",
+                "sequence": 1
+            },
+            {
+                "criterion": {
+                    "propertyPath": "person.name.given"
+                },
+                "direction": "Asc",
+                "sequence": 2
+            }
+        ],
+        "requestedMatchedObjectDescriptors": [
+            {
+                "propertyPath": "person.name.formattedName"
+            },
+            {
+                "propertyPath": "person.communication"
+            }
+        ],
+        "searchCriteria": [
+            {
+                "fulltext": {
+                    "propertyPaths": [
+                        "fulltext"
+                    ],
+                    "values": [
+                        "Avionics Systems Engineer",
+                        "Los Angeles",
+                        "3D CAD"
+                    ]
+                }
+            }
+        ]
+    }
+}

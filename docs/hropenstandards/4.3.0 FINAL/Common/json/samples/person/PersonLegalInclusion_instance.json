@@ -1,0 +1,15 @@
+{
+    "fatherName": "Rodrìguez",
+    "motherName": "Goodman",
+    "birthPlace": "Cicero, Illinois",
+    "nationality": ["US"],
+    "maritalStatus": "unmarried",
+    "religion": ["atheist"],
+    "legalDocuments": [{
+        "documentType": "Passport",
+        "issuingAuthority": "United States Department of State",
+        "value": "0123456789",
+        "issueDate": "2015-04-02",
+        "expirationDate": "2025-04-02"
+    }]
+}

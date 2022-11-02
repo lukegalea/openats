@@ -1,0 +1,74 @@
+{
+	"legalId": {
+		"value": "999-88-7777",
+		"description": "SSN",
+		"schemeAgencyId": "US Social Security"
+	},
+	"previousLegalId": {
+		"value": "666-55-4444",
+		"description": "SSN",
+		"schemeAgencyId": "US Social Security"
+	},	
+	"name": {
+		"given": "Jasmine",
+		"legal": "Jasmine Violet Rose",
+		"family": "Rose",
+		"middle": "Violet",
+		"formerFamily": "Aster",
+		"formattedName": "Jasmine Rose",
+		"generationAffixCode": "II"
+	},
+	"birthDate": "1970-03-31",
+	"communication": {
+				"phone": [
+			{
+				"formattedNumber": "(911) 911-9119"
+				}
+		],
+		"address": [
+			{
+				"city": "Dewy Rose",
+				"line": "214 Primrose",
+				"postalCode": "30634",
+				"countryCode": "US",
+				"formattedAddress": "214 Primrose, Dewy Rose, Georgia, 30634, US",
+				"countrySubDivisions": [
+					{
+						"type": "State",
+						"value": "Georgia"
+					}
+				]
+			}
+		]
+		
+	},
+	"motherName": "Blumenthal",
+	"legalDocuments": [
+		{
+			"issueDate": "2019-03-31",
+			"documentType": "Drivers License",
+			"expirationDate": "2024-03-31",
+			"issuingAuthority": "Georgia Department of Transportation",
+			"value": "GA123456789"
+		},
+		{
+			"issueDate": "2015-04-22",
+			"documentType": "VISA",
+			"expirationDate": "00000110",
+			"issuingAuthority": "US State Department",
+			"value": "H-2A"
+		}
+	],	
+	"citizenship": [
+		"AS"
+	],
+	"militaryStatus": "3",
+	"gender": "Female",		
+	"ethnicity": [
+		"7"
+	],			
+	"race": [
+		"2"
+	],
+	"disabilityIndicator": false
+}

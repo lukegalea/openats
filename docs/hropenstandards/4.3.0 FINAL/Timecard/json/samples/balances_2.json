@@ -1,0 +1,98 @@
+{
+    "documentId": {
+        "value": "Balance schedule and usage"
+    },
+    "person": {
+        "id": {
+            "value": "750111"
+        },
+        "name": {
+            "given": "John",
+            "family": "Doe"
+        }
+    },
+    "items": [
+        {
+            "period": "2015-01-15",
+            "typeCode": "Illness",
+            "name": "Sick Time Off",
+            "balances": [
+                {
+                    "name": "accrued",
+                    "quantity": {
+                        "value": 8,
+                        "unitCode": "HUR"
+                    }
+                },
+                {
+                    "name": "used",
+                    "quantity": {
+                        "value": 4,
+                        "unitCode": "HUR"
+                    }
+                },
+                {
+                    "name": "current",
+                    "quantity": {
+                        "value": 4,
+                        "unitCode": "HUR"
+                    }
+                }
+            ]
+        },
+        {
+            "period": "2015-01-15",
+            "typeCode": "Vacation",
+            "name": "Vacation Time Off",
+            "balances": [
+                {
+                    "name": "accrued",
+                    "quantity": {
+                        "value": 8,
+                        "unitCode": "HUR"
+                    }
+                },
+                {
+                    "name": "used",
+                    "quantity": {
+                        "value": 0,
+                        "unitCode": "HUR"
+                    }
+                },
+                {
+                    "name": "current",
+                    "quantity": {
+                        "value": 8,
+                        "unitCode": "HUR"
+                    }
+                }
+            ]
+        },
+        {
+            "period": "2015-01-01",
+            "typeCode": "Illness",
+            "timeTotal": "PT4H"
+        },
+        {
+            "period": {
+                "start": "2015-10-10",
+                "end": "2015-10-12"
+            },
+            "typeCode": "Vacation",
+            "quantity": {
+                "value": 24,
+                "unitCode": "HUR"
+            },
+            "approvers": [
+                {
+                    "person": {
+                        "name": {
+                            "family": "Manager",
+                            "given": "Mister"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

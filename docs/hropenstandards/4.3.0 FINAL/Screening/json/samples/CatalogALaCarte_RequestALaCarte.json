@@ -1,0 +1,45 @@
+{
+    "catalogALaCarte": {
+        "screenings": [{
+                "screeningCode": "FedCrim",
+                "category": { "value": "Criminal" },
+                "screeningDescription": { "value": "Federal Criminal Search" }
+            },
+            {
+                "screeningCode": "StateCrim",
+                "category": { "value": "Criminal" },
+                "screeningDescription": { "value": "State Criminal Search" }
+            },
+            {
+                "screeningCode": "CountyCrim",
+                "category": { "value": "Criminal" },
+                "screeningDescription": { "value": "County Criminal Search" }
+            },
+            {
+                "screeningCode": "Drug",
+                "category": { "value": "Clinical" },
+                "screeningDescription": { "value": "Drug Test" }
+            },
+            {
+                "screeningCode": "DOTPhys",
+                "category": { "value": "Clinical" },
+                "screeningDescription": { "value": "Dept. of Transportation Physical" }
+            },
+            {
+                "screeningCode": "Emp",
+                "category": { "value": "Verification" },
+                "screeningDescription": { "value": "Employment Verification" }
+            },
+            {
+                "screeningCode": "Ref",
+                "category": { "value": "Verification" },
+                "screeningDescription": { "value": "Reference Verification" }
+            },
+            {
+                "screeningCode": "Mil",
+                "category": { "value": "Verification" },
+                "screeningDescription": { "value": "Military Verification" }
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "competencyName": "Reading Comprehension",
+    "description": "Understanding written sentences and paragraphs.",
+    "competencyIds": [{
+        "value": "2.A.1.a",
+        "schemeId": "O*NET",
+        "schemeVersionId": "20.1",
+        "schemeAgencyId": "Occupational Information Network"
+    }],
+    "proficiencyLevel": {"scoresText": [{
+        "value": "80",
+        "maximum": "100",
+        "minimum": "0"
+    }]},
+    "lastUsedDate": "2019-11-04",
+    "experienceMeasure": {
+        "value": 5,
+        "unitCode": "ANN"
+    },
+    "interestLevel": {"scoresText": [{
+        "value": "60",
+        "maximum": "100",
+        "minimum": "0"
+    }]},
+    "competencyDimensions": [{
+        "dimensionType": "ability",
+        "score": {"value": "85"}
+    }]
+}

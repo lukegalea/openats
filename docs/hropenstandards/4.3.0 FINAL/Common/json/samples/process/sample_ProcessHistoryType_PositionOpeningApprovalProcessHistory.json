@@ -1,0 +1,10 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "version": "4.3.0",
+    "title": "sample_ProcessHistoryType_PositionOpeningApprovalProcessHistory",
+    "description": "A sample schema to demonstrate data type usage.",
+    "type": "object",
+    "properties": {
+        "approvalProcessHistory": { "$ref": "../../../json/process/ProcessHistoryType.json#" }
+    }
+}

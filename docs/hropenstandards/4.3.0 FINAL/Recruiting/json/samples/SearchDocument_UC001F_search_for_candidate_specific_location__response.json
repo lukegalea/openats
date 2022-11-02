@@ -1,0 +1,240 @@
+{
+    "documentId": {
+        "value": "e442629a-79ef-11e9-b1b8-0ad9795e4ce6",
+        "schemeId": "AcmeEurostaffing"
+    },
+    "language": "en-US",
+    "searchQuery": {
+        "limit": {
+            "from": 0,
+            "size": 20
+        },
+        "orders": [
+            {
+                "criterion": {
+                    "propertyPath": "person.communication.address.distance",
+                    "options": [
+                        {
+                            "key": "latitude",
+                            "value": "49.485503"
+                        },
+                        {
+                            "key": "longitude",
+                            "value": "6.114295"
+                        }
+                    ]
+                },
+                "direction": "Asc"
+            }
+        ],
+        "requestedMatchedObjectDescriptors": [
+            {
+                "propertyPath": "person.name.formattedName"
+            },
+            {
+                "propertyPath": "person.communication.email.address"
+            },
+            {
+                "propertyPath": "person.communication.address.city"
+            },
+            {
+                "propertyPath": "person.communication.address.countryCode"
+            },
+            {
+                "propertyPath": "person.communication.address.distance"
+            }
+        ],
+        "searchCriteria": [
+            {
+                "fulltext": {
+                    "propertyPaths": [
+                        "fulltext",
+                        "profiles.employment.positionHistories.title",
+                        "profiles.employment.positionHistories.descriptions",
+                        "profiles.positionPreferences.positionTitles"
+                    ],
+                    "values": [
+                        "cnc machinist"
+                    ]
+                }
+            },
+            {
+                "id": {
+                    "value": "criterion#geodistance"
+                },
+                "geoDistance": {
+                    "propertyPath": "person.communication.address.geoLocation",
+                    "geoPoint": {
+                        "latitude": 49.485503,
+                        "longitude": 6.114295
+                    },
+                    "distance": {
+                        "lessThanOrEqualTo": 100,
+                        "unitCode": "KMT"
+                    }
+                }
+            }
+        ]
+    },
+    "searchResult": {
+        "count": 3,
+        "countAll": 3,
+        "executionCode": "0",
+        "executionTime": {
+            "value": 0.006,
+            "unitCode": "SEC"
+        },
+        "items": [
+            {
+                "relevanceRank": 1,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "9e257988-8187-11e9-bc42-526af7764f64",
+                    "schemeId": "AcmeStaffingCVDB"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Dubois, Lucas"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["dubois.lucas1234@gmail.com"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.countryCode",
+                        "values": ["BE"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.city",
+                        "values": ["Aubange"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.distance",
+                        "values": ["30.0"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 2,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "ad1d50aa-8187-11e9-bc42-526af7764f64",
+                    "schemeId": "AcmeStaffingCVDB"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Bernard, Ames"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["a.bernard14393@gmail.com"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.countryCode",
+                        "values": ["FR"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.city",
+                        "values": ["Longwy"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.distance",
+                        "values": ["37.3"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 3,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "bbaa20d0-8187-11e9-bc42-526af7764f64",
+                    "schemeId": "AcmeStaffingCVDB"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Schmidt, Heinrich"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["heinrich.schmidt323@gmail.com"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.countryCode",
+                        "values": ["DE"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.city",
+                        "values": ["Saarburg"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.distance",
+                        "values": ["45.8"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 4,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "bc786dd0-8189-11e9-bc42-526af7764f64",
+                    "schemeId": "AcmeStaffingCVDB"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Appelkoorn, Jean-Claude"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["jcappelkoorn@gmail.com"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.countryCode",
+                        "values": ["LU"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.city",
+                        "values": ["Befort"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.distance",
+                        "values": ["52.4"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 5,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "1a466ca0-818a-11e9-bc42-526af7764f64",
+                    "schemeId": "AcmeStaffingCVDB"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Bergerac, Philippe"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["philberg@gmail.com"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.countryCode",
+                        "values": ["FR"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.city",
+                        "values": ["Metz"]
+                    },
+                    {
+                        "propertyPath": "person.communication.address.distance",
+                        "values": ["53.9"]
+                    }
+                ]
+            }
+        ]
+    }
+}

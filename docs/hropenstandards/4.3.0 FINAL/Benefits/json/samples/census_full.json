@@ -1,0 +1,203 @@
+{
+	"person": {
+		"id": {
+			"value": "12345"
+		},
+		"legalId": {
+			"value": "212112121"
+		},
+		"name": {
+			"formattedName": "Max Fields",
+			"given": "Max",
+			"family": "Fields"
+		},
+		"communication": {
+			"address": [
+				{
+					"line": "1 Smith Drive",
+					"city": "Smithville",
+					"countrySubDivisions": [
+						{
+							"type": "state",
+							"value": "MA"
+						}
+					],
+					"postalCode": "02341"
+				}
+			],
+			"phone": [
+				{
+					"formattedNumber": "508-555-5555"
+				},
+				{
+					"useCode": "fax",
+					"formattedNumber": "508-555-5656"
+				}
+			],
+			"email": [
+				{
+					"address": "J.Smith@company.com"
+				}
+			]
+		},
+		"birthDate": "1996-02-05",
+		"deceasedIndicator": true,
+		"deathDate": "2017-02-22T14:00:00",
+		"certifiedDeathDate": "2017-02-22T16:00:00",
+		"gender": "Male",
+		"maritalStatus": "Unmarried",
+		"primaryLanguage": "en",
+		"citizenship": [
+			"US"
+		],
+		"residenceCountry": [
+			"US"
+		],
+		"militaryStatus": "Active",
+		"disability": {
+			"indicator": true,
+			"summary": [
+				{
+					"disabilityLevelCode": "4",
+					"percentage": 10,
+					"disabilityType": {
+						"name": "Mobility Impairments",
+						"code": "MI243"
+					},
+					"disabilityDate": "2015-11-23",
+					"disabilityCertifiedDate": "2015-12-22",
+					"recoveryDate": "2016-01-10",
+					"accommodationTypeCode": [
+						"no-tech"
+					],
+					"comment": {
+						"author": "Mary Smith",
+						"datetime": "2016-01-10T06:30:00",
+						"note": "Minimum Details - Returned to work"
+					}
+				}
+			]
+		},
+		"tobaccoUserIndicator": true,
+		"weight": {
+			"value": 125,
+			"unitCode": "LBR"
+		},
+		"height": {
+			"value": 64,
+			"unitCode": "INH"
+		}
+	},
+	"employee": {
+		"id": {
+			"value": "12345"
+		},
+		"positionTypeCode": "DirectHire",
+		"laborBargainingUnitMemberIndicator": false,
+		"specialClassifications": [
+			{
+				"code": "VIP"
+			}
+		],
+		"specialProvisions": "None",
+		"reportingCode": "CEO"
+	},
+	"employment": {
+		"hire": {
+			"expectedFirstWorkDate": "2000-07-01",
+			"cancelDate": "2000-07-03",
+			"typeCode": "Rehire",
+			"date": "2015-07-15",
+			"originalDate": "2000-07-15",
+			"adjustedDate": "2014-08-15",
+			"firstWorkDate": "2015-08-01"
+		},
+		"leave": {
+			"statusCode": "Inactive",
+			"reasonCode": "Sabbatical",
+			"startDate": "2016-10-10",
+			"lastWorkedDate": "2016-10-09",
+			"lastPaidDate": "2016-10-09",
+			"scheduledWorkReturnDate": "2016-11-10",
+			"workReturnDate": "2016-11-10"
+		},
+		"termination": {
+			"reasonCode": "Death",
+			"date": "2017-02-22",
+			"lastWorkedDate": "2017-02-21",
+			"lastPaidDate": "2017-02-21"
+		},
+		"retirement": {
+			"intendedDate": "2020-09-09"
+		}
+	},
+	"deployment": [
+		{
+			"resourceRelationshipCode": "Employee",
+			"organizationIds": [
+				{
+					"value": "ACME"
+				}
+			],
+			"workLocation": {
+				"id": {
+					"value": "1"
+				},
+				"name": "One Company",
+				"address": {
+					"line": "1 Company Drive",
+					"city": "Boston",
+					"countrySubDivisions": [
+						{
+							"type": "state",
+							"value": "MA"
+						}
+					],
+					"postalCode": "02108"
+				},
+				"description": {
+					"value": "USHO"
+				}
+			},
+			"communication": {
+				"address": [
+					{
+						"line": "1 Company Drive",
+						"city": "Boston",
+						"countrySubDivisions": [
+							{
+								"type": "state",
+								"value": "MA"
+							}
+						],
+						"postalCode": "02108"
+					}
+				]
+			},
+			"job": {
+				"id": {
+					"value": "786"
+				},
+				"title": "CEO",
+				"categoryCode": "Professionals",
+				"planCode": "5year",
+				"gradeCode": "C-Level",
+				"stepCode": "Tier 1",
+				"description": "CEO"
+			},
+			"employeeReportingCodes": [
+				{
+					"type": "Code452",
+					"value": "A736552"
+				}
+			],
+			"position": {
+				"remunerationBasisCode": "Salaried",
+				"positionScheduleType": "PartTime"
+			},
+			"assignmentReasonCode": "Demotion",
+			"fullTimeEquivalentRatio": 0.5,
+			"wageHourLawCoverageIndicator": true
+		}
+	]
+}

@@ -1,0 +1,118 @@
+{
+    "requestSummary": {
+        "cycleCode": "Day",
+        "episodeCode": "Daily",
+        "unitCode": "Steps",
+        "categoryCode": "Walking"
+    },
+    "activitySummaries": [
+        {
+            "categoryCode": "Walking",
+            "totalRoutine": 12300,
+            "totalModerate": 600,
+            "totalIntense": 1200,
+            "units": "Steps",
+            "period": {
+                "start": "2013-03-12T07:00:00",
+                "end": "2013-03-12T07:12:16"
+            }
+        },
+        {
+            "categoryCode": "Swimming",
+            "totalRoutine": 100,
+            "totalModerate": 600,
+            "totalIntense": 50,
+            "units": "Strokes",
+            "period": {
+                "start": "2013-03-12T07:00:00",
+                "end": "2013-03-12T09:00:00"
+            }
+        }
+    ],
+    "activities": [
+        {
+            "periodType": "Daily",
+            "id": {
+                "value": "51552cd7fded0807c400001f"
+            },
+            "lastAcquisitionTime": "2013-03-14T07:12:16",
+            "period": {
+                "start": "2013-03-10T00:00:00",
+                "end": "2013-03-10T07:12:16"
+            },
+            "utcOffset": 3,
+            "categoryCode": "Walking",
+            "units": "Steps",
+            "intensity": "Low",
+            "value": 2600,
+            "source": {
+                "vendor": "zapfit",
+                "device": "zapband",
+                "name": "Zap Band"
+            }
+        },
+        {
+            "periodType": "Daily",
+            "id": {
+                "value": "51552cd7fded0807c400001b"
+            },
+            "lastAcquisitionTime": "2013-03-14T07:12:16+00:00",
+            "period": {
+                "start": "2013-03-11T07:12:16+00:00",
+                "end": "2013-03-11T07:12:16+00:00"
+            },
+            "utcOffset": 3,
+            "categoryCode": "Walking",
+            "units": "Steps",
+            "intensity": "Low",
+            "value": 10030,
+            "source": {
+                "vendor": "zapfit",
+                "device": "zapband",
+                "name": "Zap Band"
+            }
+        },
+        {
+            "periodType": "Daily",
+            "id": {
+                "value": "51552cd7fded0807c400001a"
+            },
+            "lastAcquisitionTime": "2013-03-14T07:12:16",
+            "period": {
+                "start": "2013-03-12T07:12:16",
+                "end": "2013-03-12T07:12:16"
+            },
+            "utcOffset": 3,
+            "categoryCode": "Walking",
+            "units": "Steps",
+            "intensity": "Low",
+            "value": 12600,
+            "source": {
+                "vendor": "zapfit",
+                "device": "zapband",
+                "name": "Zap Band"
+            }
+        },
+        {
+            "periodType": "Daily",
+            "id": {
+                "value": "51552cd7fded0807c400001a"
+            },
+            "lastAcquisitionTime": "2013-03-14T07:12:16",
+            "period": {
+                "start": "2013-03-12T07:12:16",
+                "end": "2013-03-12T07:12:16"
+            },
+            "utcOffset": 3,
+            "categoryCode": "Swimming",
+            "units": "Strokes",
+            "intensity": "Low",
+            "value": 1200,
+            "source": {
+                "vendor": "zapfit",
+                "device": "zapband",
+                "name": "Zap Band"
+            }
+        }
+    ]
+}

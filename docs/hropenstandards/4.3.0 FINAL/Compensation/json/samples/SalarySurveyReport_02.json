@@ -1,0 +1,222 @@
+{
+	"documentId": {
+		"schemeId": "samples",
+		"value": "SalarySurveyReport_02",
+		"description": "This represents data from column H in the SalarySurveyReport_20180412.xslx document."
+	},
+	"match": {
+		"surveyJobCode": "001",
+		"surveyJobTitle": "Accountant",
+		"surveyJobDescription": "",
+		"surveyJobCodeLevel": {
+			"title": "Intermediate",
+			"description": "",
+			"code": "INT"
+		},
+		"surveyJobCodeSpeciality": {
+			"title": "ALL",
+			"description": "",
+			"code": "ALLINT"
+		}
+	},
+	"source": {
+		"publicationCompany": "HROpen Sample Company",
+		"publicationDate": "2017-10-01",
+		"publicationName": "Custom Analysis",
+		"publicationNotes": ""
+	},
+	"results": [
+		{
+			"rewardCode": "Base Salary",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "Median",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 32000
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Base Salary",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "Average",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 33100
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Base Salary",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "25th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 15000
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Base Salary",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "75th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 60000
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Incentive",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "Median",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 1500
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Incentive",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "Average",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 1650
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Incentive",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "25th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 650
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Incentive",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "75th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 2000
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Overtime",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "Median",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 5000
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Overtime",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "Average",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 5250
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Overtime",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "25th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 800
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Overtime",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "75th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 7300
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Total Cash",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "Median",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 38500
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Total Cash",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "Average",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 40000
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Total Cash",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "25th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 34950
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		},
+		{
+			"rewardCode": "Total Cash",
+			"dimensionType": "All",
+			"dimensionName": "",
+			"statisticName": "75th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 69300
+			},
+			"numberOfOrganizations": 8500,
+			"numberOfEmployees": 39000
+		}
+	]
+}

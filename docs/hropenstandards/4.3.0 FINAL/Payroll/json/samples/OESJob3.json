@@ -1,0 +1,12 @@
+{
+	"id": {
+		"value": "A1"
+	},
+	"title": "Gardener",
+	"occupationId": {
+		"value": "a",
+		"schemeAgencyId": "a",
+		"description": "a"
+	},
+	"jobResponsibilities": "Water, fertilize and maintain plants."
+}

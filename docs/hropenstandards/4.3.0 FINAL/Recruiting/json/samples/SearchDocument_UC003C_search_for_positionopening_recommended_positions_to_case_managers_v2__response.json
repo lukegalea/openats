@@ -1,0 +1,213 @@
+{
+    "documentId": {
+        "value": "1d7b3644-934f-11ea-bbb8-005056931252",
+        "schemeId": "state-michigan-labor-exchange-system"
+    },
+    "language": "en-US",
+    "searchQuery": {
+        "limit": {
+            "from": 0,
+            "size": 20
+        },
+        "orders": [
+            {
+                "criterion": {
+                    "propertyPath": "relevanceScore"
+                },
+                "direction": "Desc"
+            }
+        ],
+        "requestedMatchedObjectDescriptors": [
+            {
+                "propertyPath": "publicationStartDate"
+            },
+            {
+                "propertyPath": "positionUri"
+            },
+            {
+                "propertyPath": "positionId"
+            },
+            {
+                "propertyPath": "positionTitle"
+            },
+            {
+                "propertyPath": "positionFormattedDescriptions"
+            },
+            {
+                "propertyPath": "positionOrganizations.name"
+            },
+            {
+                "propertyPath": "positionLocation"
+            }
+        ],
+        "searchCriteria": [
+            {
+                "terms": {
+                    "propertyPath": "jobCategories",
+                    "values": [
+                        "17-3011.02",
+                        "17-3013.00"
+                    ]
+                }
+            },
+            {
+                "fulltext": {
+                    "propertyPaths": [
+                        "positionTitle",
+                        "positionFormattedDescriptions"
+                    ],
+                    "values": [
+                        "Surveyor",
+                        "Drafter",
+                        "AutoCAD",
+                        "Project management",
+                        "Teamwork",
+                        "Mechanical skills for equipment maintenance"
+                    ]
+                }
+            },
+            {
+                "geoDistance": {
+                    "propertyPath": "positionLocation.geoLocation",
+                    "geoPoint": {
+                        "latitude": 42.694089,
+                        "longitude": -84.557592
+                    },
+                    "distance": {
+                        "lessThanOrEqualTo": 30.0,
+                        "unitCode": "SMI"
+                    }
+                }
+            }
+        ]
+    },
+    "searchResult": {
+        "count": 2,
+        "countAll": 2,
+        "executionCode": "0",
+        "executionTime": {
+            "value": 0.009,
+            "unitCode": "SEC"
+        },
+        "items": [
+            {
+                "relevanceRank": 1,
+                "relevanceScore": 0.9,
+                "matchedObjectId": {
+                    "value": "d4ce1e32-9170-11ea-bdb7-005056931252"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "language",
+                        "values": ["en-US"]
+                    },
+                    {
+                        "propertyPath": "statusCode",
+                        "values": ["Active"]
+                    },
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2020-04-29"]
+                    },
+                    {
+                        "propertyPath": "positionUri",
+                        "values": ["https://www.usnlx.com/viewjob?jk=727e3a6db0d6bdc4"]
+                    },
+                    {
+                        "propertyPath": "positionId",
+                        "values": ["NIO 234"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["CAD Designer"]
+                    },
+                    {
+                        "propertyPath": "positionFormattedDescriptions",
+                        "values": [
+                            "Description: Full-time position for design of particle accelerators and particle accelerator components for R&D and isotope production."
+                        ]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations.name",
+                        "values": ["Niowave"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["Lansing"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.postalCode",
+                        "values": ["48906"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countryCode",
+                        "values": ["US"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countrySubDivisions.state",
+                        "values": ["MI"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 2,
+                "relevanceScore": 0.9,
+                "matchedObjectId": {
+                    "value": "f81fea14-8e19-11ea-9a7a-005056931252"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "language",
+                        "values": ["en-US"]
+                    },
+                    {
+                        "propertyPath": "statusCode",
+                        "values": ["Active"]
+                    },
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2020-05-02"]
+                    },
+                    {
+                        "propertyPath": "positionUri",
+                        "values": ["https://www.usnlx.com/viewjob?jk=a7f3b7444c4aa43a"]
+                    },
+                    {
+                        "propertyPath": "positionId",
+                        "values": ["BERGMANN-24322"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["Civil CAD Technician"]
+                    },
+                    {
+                        "propertyPath": "positionFormattedDescriptions",
+                        "values": [
+                            "Ideal candidate should have experience with AutoCAD software; experience with Civil 3D and related software is a plus."
+                        ]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations.name",
+                        "values": ["Bergmann"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["Lansing"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.postalCode",
+                        "values": ["48836"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countryCode",
+                        "values": ["US"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countrySubDivisions.state",
+                        "values": ["MI"]
+                    }
+                ]
+            }
+        ]
+    }
+}

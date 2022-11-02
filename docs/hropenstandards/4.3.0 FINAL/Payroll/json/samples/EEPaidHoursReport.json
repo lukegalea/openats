@@ -1,0 +1,127 @@
+{
+	"workerId": {
+		"value": "ABCDEF"
+	},
+	"reportingTimePeriod": {
+		"validTo": "2020-09-01T00:00:00",
+		"validFrom": "2020-09-30T24:00:00"
+	},
+	"workedWeeks": 4,
+	"paidForWorkInPayPeriod": [
+		{
+			"includedDayOfMonth": "12",
+			"reportedMonth": "09",
+			"paidForWorkIndicator": true
+		}
+	],
+	"totalPaidHours": 176,
+	"totalWorkedHours": 126,
+	"regularWorkedHours": 106,
+	"premiumWorkedHours": [
+		{
+			"workedPayTypeCode": "Overtime",
+			"description": "",
+			"workedHours": 4
+		},
+		{
+			"workedPayTypeCode": "ShiftPay",
+			"description": "",		
+			"workedHours": 2
+		},
+		{
+			"workedPayTypeCode": "CallBack",
+			"description": "",		
+			"workedHours": 2
+		},
+		{
+			"workedPayTypeCode": "Holiday",
+			"description": "",		
+			"workedHours": 8
+		},		
+		{
+			"workedPayTypeCode": "Hazard",
+			"description": "",		
+			"workedHours": 4
+		},
+		{
+			"workedPayTypeCode": "OtherPremium",
+			"description": "",		
+			"workedHours": 0
+		}				
+	],
+	"totalPremiumWorkedHours": 20,		
+	"paidTimeOffHours": [
+		{
+			"timeOffTypeCode": "Administrative",
+			"description": "",		
+			"timeOffHours": 3
+		},
+		{
+			"timeOffTypeCode": "Bereavement",
+			"description": "",		
+			"timeOffHours": 2
+		},
+		{
+			"timeOffTypeCode": "Compensatory",
+			"description": "Compensation for working on day off.",		
+			"timeOffHours": 8
+		},
+		{
+			"timeOffTypeCode": "Consolidated",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "Education",
+			"description": "Attended Conference",		
+			"timeOffHours": 4
+		},
+		{
+			"timeOffTypeCode": "Family",
+			"description": "",		
+			"timeOffHours": 5
+		},
+		{
+			"timeOffTypeCode": "InLieuOfNotice",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "JuryDuty",
+			"description": "",		
+			"timeOffHours": 3
+		},
+		{
+			"timeOffTypeCode": "MilitaryDuty",
+			"description": "",		
+			"timeOffHours": 5
+		},
+		{
+			"timeOffTypeCode": "Sick",
+			"description": "",		
+			"timeOffHours": 6
+		},
+		{
+			"timeOffTypeCode": "Vacation",
+			"description": "",		
+			"timeOffHours": 4
+		},
+		{
+			"timeOffTypeCode": "OtherPersonal",
+			"description": "",		
+			"timeOffHours": 2
+		},
+		{
+			"timeOffTypeCode": "PublicHoliday",
+			"description": "",		
+			"timeOffHours": 8
+		},
+		{
+			"timeOffTypeCode": "FloatingHoliday",
+			"description": "",		
+			"timeOffHours": 0
+		}
+	],
+	"totalHolidayPaidTimeOffHours": 8,
+	"totalPaidTimeOffHours": 50
+}

@@ -1,0 +1,181 @@
+{
+    "documentId": {
+        "value": "71a2d9ec-6eb0-21e8-89dc-1211cf1065ef",
+        "schemeId": "state-newyork-labor-exchange-system"
+    },
+    "language": "en-US",
+    "searchQuery": {
+        "limit": {
+            "from": 0,
+            "size": 20
+        },
+        "orders": [
+            {
+                "criterion": {
+                    "propertyPath": "publicationStartDate"
+                },
+                "direction": "Desc"
+            }
+        ],
+        "requestedMatchedObjectDescriptors": [
+            {
+                "propertyPath": "publicationStartDate"
+            },
+            {
+                "propertyPath": "positionTitle"
+            },
+            {
+                "propertyPath": "positionOrganizations.name"
+            },
+            {
+                "propertyPath": "positionLocation.city"
+            },
+            {
+                "propertyPath": "positionLocation.countryCode"
+            }
+        ],
+        "searchCriteria": [
+            {
+                "fulltext": {
+                    "propertyPaths": [
+                        "positionProfiles.positionQualifications.positionCompetencies.competencyName"
+                    ],
+                    "values": [
+                        "CCNA",
+                        "Cisco Certified Network Associate"
+                    ]
+                },
+                "geoDistance": {
+                    "propertyPath": "positionLocation.geoLocation",
+                    "geoPoint": {
+                        "latitude": 40.7320328,
+                        "longitude": -73.7925177
+                    },
+                    "distance": {
+                        "lessThanOrEqualTo": 20.0,
+                        "unitCode": "SMI"
+                    }
+                }
+            }
+        ]
+    },
+    "searchResult": {
+        "count": 2,
+        "countAll": 2,
+        "executionCode": "0",
+        "executionTime": {
+            "value": 0.012,
+            "unitCode": "SEC"
+        },
+        "items": [
+            {
+                "relevanceRank": 1,
+                "relevanceScore": 1.0,
+                "relevanceScoreDetails": [
+                    {
+                        "fulfillmentScore": 1.0,
+                        "fulfillmentData": [
+                            {
+                                "propertyPath": "positionProfiles.positionQualifications.positionCompetencies.competencyName",
+                                "values": ["Active Cisco Certified Network Associate (CCNA) certification"]
+                            }
+                        ]
+                    }
+                ],
+                "matchedObjectId": {
+                    "value": "aaa7cb30-7643-11e8-8907-12618e975f99"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "language",
+                        "values": ["en-US"]
+                    },
+                    {
+                        "propertyPath": "statusCode",
+                        "values": ["Active"]
+                    },
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2020-04-11"]
+                    },
+                    {
+                        "propertyPath": "positionId",
+                        "values": ["HFE1"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["Senior Network Engineer"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["New York"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.postalCode",
+                        "values": ["10001"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countryCode",
+                        "values": ["US"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countrySubDivisions.state",
+                        "values": ["NY"]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations",
+                        "values": ["Felisoft Global"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 2,
+                "matchedObjectId": {
+                    "value": "990cb5f2-7644-11e8-8907-12618e975f99"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "language",
+                        "values": ["en-US"]
+                    },
+                    {
+                        "propertyPath": "statusCode",
+                        "values": ["Active"]
+                    },
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2020-04-04"]
+                    },
+                    {
+                        "propertyPath": "positionId",
+                        "values": ["UXD1"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["Network Administrator"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["New York"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.postalCode",
+                        "values": ["10001"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countryCode",
+                        "values": ["US"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countrySubDivisions.state",
+                        "values": ["NY"]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations",
+                        "values": ["Cangitant Technology"]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,115 @@
+{
+	"workerId": {
+		"value": "ABCD",
+		"description": "Employee Id"
+	},
+	"reportingTimePeriod": {
+		"validFrom": "2020-07-01T00:00:00",
+		"validTo": "2020-09-30T00:00:00"
+	},
+	"paidForWorkInPayPeriod": [
+		{
+			"includedDayOfMonth": "12",
+			"reportedMonth": "07",
+			"paidForWorkIndicator": true
+		},
+		{
+			"includedDayOfMonth": "12",
+			"reportedMonth": "08",
+			"paidForWorkIndicator": true
+		},
+		{
+			"includedDayOfMonth": "12",
+			"reportedMonth": "09",
+			"paidForWorkIndicator": true
+		}
+	],	
+	"totalPaidHours": 270,
+	"totalWorkedHours": 270,
+	"regularWorkedHours": 250,
+	"totalPremiumWorkedHours": 20,
+	"premiumWorkedHours": [	
+		{
+			"WorkedPayTypeCode": "Hazard",
+			"description": "",		
+			"workedHours": 20
+		},
+		{
+			"WorkedPayTypeCode": "OtherPremium",
+			"description": "",		
+			"workedHours": 0
+		}				
+	],	
+	"paidTimeOffHours": [
+		{
+			"timeOffTypeCode": "Administrative",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "Bereavement",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "Compensatory",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "Consolidated",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "Education",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "Family",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "InLieuOfNotice",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "JuryDuty",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "MilitaryDuty",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "Sick",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "Vacation",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "OtherPersonal",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "PublicHoliday",
+			"description": "",		
+			"timeOffHours": 0
+		},
+		{
+			"timeOffTypeCode": "FloatingHoliday",
+			"description": "",		
+			"timeOffHours": 0
+		}
+	]
+}

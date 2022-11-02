@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "version": "4.0.1",
+    "title": "sample_EvaluationTypes",
+    "description": "A schema to demonstrate data type usage.",
+    "type": "object",
+    "properties": {
+        "gpa-score": { "$ref": "../../evaluation/ScoreTextType.json#" },
+        "intelligenceQuotient": { "$ref": "../../evaluation/ScoreNumericType.json#" },
+        "normalcurve": { "$ref": "../../evaluation/ScoreNumericType.json#" },
+        "percentile": { "$ref": "../../evaluation/ScoreNumericType.json#" },
+        "raw-score": { "$ref": "../../evaluation/ScoreNumericType.json#" },
+        "scaled-score": { "$ref": "../../evaluation/ScoreNumericType.json#" },
+        "stanine-score": { "$ref": "../../evaluation/ScoreNumericType.json#" },
+        "sten-score": { "$ref": "../../evaluation/ScoreNumericType.json#" },
+        "tscore": { "$ref": "../../evaluation/ScoreNumericType.json#" },
+        "zscore": { "$ref": "../../evaluation/ScoreNumericType.json#" }
+    }
+}

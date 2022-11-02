@@ -1,0 +1,46 @@
+{
+	"candidates": [
+		{
+			"candidateName": {
+				"given": "Joe",
+				"family": "Smith"
+			},
+			"candidateContact": {
+				"email": [
+					{
+						"address": "candidate@email.com"
+					}
+				]
+			}
+		}
+	],
+	"candidateInstructions": "Wear business casual clothes",
+	"interviewAddress": {
+		"comments": [
+			"Bldg A, across street from Taco Bell"
+		]
+	},
+	"positionId": {
+		"value": "12345"
+	},
+	"sessions": [
+		{
+			"name": "Interview Session",
+			"languageCode": "en-US",
+			"timezone": "UTC−08:00",
+			"durationMinutes": 30,
+			"participants": [
+				{
+					"contactEmail": {
+						"address": "recruiter@email.com"
+					},
+					"given": "Rick",
+					"family": "Ruiter",
+					"formattedName": "Rick Ruiter"
+				}
+			]
+		}
+	],
+	"selfScheduleIndicator": true,
+	"status": "not-invited"
+}

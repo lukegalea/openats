@@ -1,0 +1,110 @@
+{
+    "documentId": {
+        "value": "Multiple Pay Rates"
+    },
+    "person": {
+        "id": {
+            "value": "750111"
+        },
+        "name": {
+            "given": "John",
+            "family": "Doe"
+        }
+    },
+    "period": {
+        "start": "2014-07-21",
+        "end": "2014-07-27"
+    },
+    "payRates": [
+        {
+            "code": "P1",
+            "name": "Press 1",
+            "amount": {
+                "value": 15.50,
+                "currency": "USD"
+            }
+        },
+        {
+            "code": "P2",
+            "name": "Press 2",
+            "amount": {
+                "value": 17.50,
+                "currency": "USD"
+            }
+        },
+        {
+            "code": "P3",
+            "name": "Press 3",
+            "amount": {
+                "value": 16.00,
+                "currency": "USD"
+            }
+        }
+    ],
+    "items": [
+        {
+            "location": { "code": "P1" },
+            "period": {
+                "start": "2014-07-21",
+                "end": "2014-07-21"
+            },
+            "timeTotal": "PT4H"
+        },
+        {
+            "location": { "code": "P2" },
+            "period": {
+                "start": "2014-07-21",
+                "end": "2014-07-21"
+            },
+            "timeTotal": "PT2H"
+        },
+        {
+            "location": { "code": "P3" },
+            "period": {
+                "start": "2014-07-21",
+                "end": "2014-07-21"
+            },
+            "timeTotal": "PT2H"
+        },
+        {
+            "location": { "code": "P3" },
+            "period": {
+                "start": "2014-07-22",
+                "end": "2014-07-22"
+            },
+            "timeTotal": "PT8H"
+        },
+        {
+            "location": { "code": "P3" },
+            "period": {
+                "start": "2014-07-23",
+                "end": "2014-07-23"
+            },
+            "timeTotal": "PT8H"
+        },
+        {
+            "location": { "code": "P3" },
+            "period": {
+                "start": "2014-07-24",
+                "end": "2014-07-24"
+            },
+            "timeTotal": "PT2H"
+        },
+        {
+            "location": { "code": "P2" },
+            "period": {
+                "start": "2014-07-24",
+                "end": "2014-07-24"
+            },
+            "timeTotal": "PT6H"
+        },
+        {
+            "location": { "code": "P1" },
+            "period": {
+                "start": "2014-07-25",
+                "end": "2014-07-25"
+            },
+            "timeTotal": "PT8H"
+        }
+    ]
+}

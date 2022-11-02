@@ -1,0 +1,23 @@
+{
+    "positionId": {
+        "value": "a7206ec8-0f51-43dc-a7f9-443fb315203b"
+    },
+    "interviewOrderId": {
+        "value": "645905ca-a4fc-4cde-a72f-b43fe1eae1f6"
+    },
+    "externalInterviewOrderId": {
+        "value": "dc8a83a5-dc37-4c6d-8af6-939e83db404e"
+    },
+    "comments": [
+        {
+            "status": "Click on application URL for additional status information",
+            "note": "https://sampleApplication.montagetalent.com/aURLforRedirect"
+        }
+    ],
+    "documentId": {
+        "value": " "
+    },
+    "alternateIds": [],
+    "dataProtectionPolicy": {},
+    "language": "en-US"
+}

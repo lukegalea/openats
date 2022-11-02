@@ -1,0 +1,20 @@
+{
+    "indicator": true,
+    "summary": [{
+        "disabilityLevelCode": "4",
+        "percentage": 10,
+        "disabilityType": {
+            "name": "Mobility Impairments",
+            "code": "MI243"
+        },
+        "disabilityDate": "2015-11-23",
+        "disabilityCertifiedDate": "2015-12-22",
+        "recoveryDate": "2016-01-10",
+        "accomodationTypeCode": ["no-tech"],
+        "comment": {
+            "author": "Mary Smith",
+            "datetime": "2016-01-10T06:30:00",
+            "note": "Minimum Details - Returned to work"
+        }
+    }]
+}

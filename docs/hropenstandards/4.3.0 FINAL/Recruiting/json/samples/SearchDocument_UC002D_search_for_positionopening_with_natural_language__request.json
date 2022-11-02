@@ -1,0 +1,53 @@
+{
+    "documentId": {
+        "value": "candidate-search-profile-1456297999-01",
+        "schemeId": "AcmeAts"
+    },
+    "language": "en-US",
+    "searchQuery": {
+        "limit": {
+            "from": 0,
+            "size": 5
+        },
+        "orders": [
+            {
+                "criterion": {
+                    "propertyPath": "relevanceScore"
+                },
+                "direction": "Desc",
+                "sequence": 1
+            },
+            {
+                "criterion": {
+                    "propertyPath": "positionTitle"
+                },
+                "direction": "Asc",
+                "sequence": 2
+            }
+        ],
+        "requestedMatchedObjectDescriptors": [
+            {
+                "propertyPath": "positionTitle"
+            },
+            {
+                "propertyPath": "positionOrganizations.name"
+            },
+            {
+                "propertyPath": "positionLocation.city"
+            }
+        ],
+        "searchCriteria": [
+            {
+                "fulltext": {
+                    "propertyPaths": [
+                        "fulltext"
+                    ],
+                    "values": [
+                        "Avionics Systems Engineer",
+                        "Greater Los Angeles area"
+                    ]
+                }
+            }
+        ]
+    }
+}

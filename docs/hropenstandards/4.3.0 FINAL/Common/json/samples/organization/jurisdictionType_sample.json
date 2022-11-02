@@ -1,0 +1,10 @@
+{
+    "city": "Philadelphia",
+    "countryCode": "US",
+    "countrySubDivisions": [
+        {
+            "type": "state",
+            "value": "PA"
+        }
+    ]
+}
