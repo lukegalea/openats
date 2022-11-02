@@ -1,0 +1,29 @@
+{
+	"name": "Acme Recycling Company",
+	"communication": {
+		"address": [
+			{
+				"city": "Wichita",
+				"line": "123 Main Street",
+				"extendedLines": [
+					{
+						"type": "suite",
+						"value": "100"
+					}
+				],
+				"postalCode": "12345",
+				"countryCode": "US",
+				"countrySubDivisions": [
+					{
+						"type": "state",
+						"value": "KS"
+					}
+				]
+			}
+		]
+	},
+	"taxId": {
+		"description": "FEIN",
+		"value": "11-2222222"
+	}
+}

@@ -1,9 +1,8 @@
 
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "ResultStatusCodeList",
-    "$id": "https://www.hropenstandards.org/hros/ResultStatusCodeList.json",
     "description": "Result status values code list.",
     "enum": [
         "Succeeded",

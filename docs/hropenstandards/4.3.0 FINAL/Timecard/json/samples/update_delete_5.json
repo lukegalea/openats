@@ -1,0 +1,29 @@
+{
+    "documentId": {
+        "value": "Delete By Negation"
+    },
+    "person": {
+        "id": {
+            "value": "750111"
+        },
+        "name": {
+            "given": "John",
+            "family": "Doe"
+        }
+    },
+    "items": [
+        {
+            "typeCode": "Regular",
+            "code": "PTO",
+            "timeTotal": "-PT8H",
+            "period": "2014-11-06"
+        },
+        {
+            "typeCode": "Regular",
+            "code": "PTO",
+            "timeTotal": "-PT8H",
+            "period": "2014-11-07"
+        }
+
+    ]
+}

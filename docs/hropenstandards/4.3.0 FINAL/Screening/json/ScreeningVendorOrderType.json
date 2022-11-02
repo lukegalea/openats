@@ -1,14 +1,12 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "version": "4.3.0",
   "title": "ScreeningVendorOrderType",
-    "$id": "https://www.hropenstandards.org/hros/ScreeningVendorOrderType.json",
   "description": "A Screening vendor order.",
   "type": "object",
   "definitions": {
     "CourtSearchOptionsType": {
       "title": "CourtSearchOptionsType",
-    "$id": "https://www.hropenstandards.org/hros/CourtSearchOptionsType.json",
       "description": "A set of court specific search options.",
       "type": "object",
       "properties": {
@@ -36,7 +34,6 @@
     },
     "ScreeningVendorOrderSubjectType": {
       "title": "ScreeningVendorOrderSubjectType",
-    "$id": "https://www.hropenstandards.org/hros/ScreeningVendorOrderSubjectType.json",
       "description": "A set of subject specific properties.",
       "type": "object",
       "properties": {

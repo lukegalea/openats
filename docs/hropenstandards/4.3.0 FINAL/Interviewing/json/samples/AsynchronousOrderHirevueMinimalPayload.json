@@ -1,0 +1,19 @@
+{
+    "candidate": {
+        "candidateName": {
+            "given": "Joel",
+            "family": "Smith"
+        },
+        "candidateContact": {
+            "email": [
+                {
+                    "address": "candidate@email.com"
+                }
+            ]
+        }
+    },
+    "positionId": {
+        "value": "12345"
+    },
+    "languageCode": "en-US"
+}

@@ -1,0 +1,172 @@
+{
+    "documentId": {
+        "value": "00348728",
+        "schemeId": "SomeVendorHris"
+    },
+    "alternateIds": [
+        {
+            "schemeId": "positionopening_uc006",
+            "value": "1",
+            "schemeLink": "https://github.com/HROpen/Recruiting/wiki/positionopening_uc006"
+        }
+    ],
+    "statusCode": "Incomplete",
+    "approvalStatusCode": "Approved",
+    "approvalMessage": "Granted by controlling department.",
+    "postingRequester": {
+        "id": {
+            "value": "OID-124342",
+            "schemeId": "SomeVendorHris"
+        },
+        "name": "ACME R&D Headquarters",
+        "personContacts": [
+            {
+                "id": {
+                    "value": "PID-112233",
+                    "schemeId": "SomeVendorHris"
+                },
+                "name": {
+                    "given": "Alice",
+                    "family": "Jones"
+                },
+                "primaryLanguage": "en-US",
+                "roleCode": "Hiring Manager",
+                "communication": {
+                    "email": [
+                        {
+                            "address": "alice.jones@acme.com"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "positionProfiles": [
+        {
+            "profileName": "Basic Profile",
+            "profileId": {
+                "value": "PP-1000001",
+                "schemeId": "VendorHris"
+            },
+            "positionId": {
+                "value": "JOB-8989",
+                "schemeId": "VendorAts"
+            },
+            "positionTitle": "Database Administrator",
+            "positionOrganizations": [
+                {
+                    "id": {
+                        "value": "OID-124342",
+                        "schemeId": "SomeVendorHris"
+                    },
+                    "name": "ACME Industries",
+                    "responsibilityCode": "Parent",
+                    "domainName": "http://www.acme.de"
+                }
+            ],
+            "jobCategories": [
+                {
+                    "id": {
+                        "value": "4",
+                        "schemeId": "SomeVendorHris"
+                    },
+                    "code": "Technicians"
+                }
+            ],
+            "careerLevels": [
+                {
+                    "id": {
+                        "value": "7",
+                        "schemeId": "SomeVendorHris"
+                    },
+                    "code": "MidCareer"
+                }
+            ],
+            "positionOfferingTypes": [
+                "DirectHire"
+            ],
+            "offeredRemunerationPackage": {
+                "benefitsSummary": [
+                    "Standard contract including usage of company car."
+                ],
+                "validFrom": "2018-01-01T00:00:00Z",
+                "validTo": "2018-12-31T23:59:59Z",
+                "basisCode": "Salaried",
+                "ranges": [
+                    {
+                        "intervalCode": "Year",
+                        "referenceAmount": {
+                            "value": 90000,
+                            "currency": "USD"
+                        },
+                        "typeCode": "BasePay"
+                    }
+                ]
+            },
+            "positionPeriod": {
+                "description": "Desired start date.",
+                "start": "2018-03-01"
+            },
+            "positionLocation": [
+                {
+                    "name": "ACME R&D Headquarters",
+                    "line": "144 Townsend St",
+                    "city": "San Francisco",
+                    "postalCode": "CA 94107",
+                    "countryCode": "US",
+                    "countrySubDivisions": [
+                        {
+                            "type": "state",
+                            "value": "California"
+                        }
+                    ]
+                }
+            ],
+            "positionScheduleTypeCodes": [
+                "FullTime"
+            ],
+            "positionQualifications": [
+                {
+                    "qualificationSummary": "The computer program Oracle Rdb is a tool for creating, updating and managing databases, developed by the software company Oracle.",
+                    "positionCompetencies": [
+                        {
+                            "competencyName": "Java",
+                            "competencyIds": [
+                                {
+                                    "value": "de9f85ba-e77f-48fd-8c66-f5ebaf32d655",
+                                    "schemeId": "ESCO Skills",
+                                    "schemeVersionId": "1.0.2",
+                                    "schemeAgencyId": "EU",
+                                    "schemeLink": "http://data.europa.eu/esco/skill/de9f85ba-e77f-48fd-8c66-f5ebaf32d655",
+                                    "agencyUri": "http://data.europa.eu"
+                                }
+                            ],
+                            "requiredProficiencyLevel": {
+                                "scoresText": [
+                                    {
+                                        "value": "Professional"
+                                    }
+                                ]
+                            },
+                            "desiredProficiencyLevel": {
+                                "scoresText": [
+                                    {
+                                        "value": "Expert"
+                                    }
+                                ]
+                            },
+                            "weight": {
+                                "value": 90,
+                                "minimumScore": 0,
+                                "maximumScore": 100
+                            }
+                        }
+                    ],
+                    "educationRequirement": {
+                        "iscedEducationLevelCode": "6"
+                    }
+                }
+            ]
+        }
+    ]
+}

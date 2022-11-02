@@ -1,8 +1,7 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "http://json-schema.org/draft-04/schema",
   "version": "4.3.0",
   "title": "SubjectType",
-    "$id": "https://www.hropenstandards.org/hros/SubjectType.json",
   "description": "Represents a subject (person or organization).",
   "type": "object",
   "allOf": [
@@ -11,7 +10,6 @@
   "oneOf": [{
       "type": "object",
       "title": "personObject",
-    "$id": "https://www.hropenstandards.org/hros/personObject.json",
       "properties": {
         "person": { "$ref": "#/definitions/ScreeningPersonType" }
       },
@@ -20,7 +18,6 @@
     {
       "type": "object",
       "title": "organizationObject",
-    "$id": "https://www.hropenstandards.org/hros/organizationObject.json",
       "properties": {
         "organization": { "$ref": "../../common/json/organization/OrganizationType.json#" }
       },
@@ -30,7 +27,6 @@
   "definitions": {
     "SubjectDisclosureType": {
       "title": "SubjectDisclosureType",
-    "$id": "https://www.hropenstandards.org/hros/SubjectDisclosureType.json",
       "description": "A Subject's disclosure.",
       "type": "object",
       "properties": {

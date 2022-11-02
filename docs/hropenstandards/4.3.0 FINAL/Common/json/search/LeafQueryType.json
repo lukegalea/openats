@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "LeafQueryType",
-    "$id": "https://www.hropenstandards.org/hros/LeafQueryType.json",
     "description": "Set of all leaf query types, i.e. without any substructure, which look for a particular value in a particular field, such as the fulltext match, terms, geo distance, or range queries.",
     "type": "object",
     "allOf": [

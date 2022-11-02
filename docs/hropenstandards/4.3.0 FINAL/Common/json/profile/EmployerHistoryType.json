@@ -1,13 +1,11 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "EmployerHistoryType",
-    "$id": "https://www.hropenstandards.org/hros/EmployerHistoryType.json",
     "description": "The prior and current details of a person's employment, work, or relevant experience such as might be reported within a professional profile, CV, resume, employment application, or similar document. Details of a particular tenure of employment or work with an organization.",
     "definitions": {
         "PositionHistoryType": {
             "title": "PositionHistoryType",
-    "$id": "https://www.hropenstandards.org/hros/PositionHistoryType.json",
             "description": "The details about a persons tenure within position.",
             "allOf": [
                 { "$ref": "BaseHistoryType.json#" }

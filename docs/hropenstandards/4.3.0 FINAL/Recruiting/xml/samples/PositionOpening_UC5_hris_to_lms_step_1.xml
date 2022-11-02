@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hropen:PositionOpening xmlns:hropen="https://hropenstandards.org/schema/xml/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <documentId>
+    <value><![CDATA[00348728]]></value>
+    <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+  </documentId>
+  <alternateIds>
+    <item>
+      <schemeId><![CDATA[positionopening_uc005]]></schemeId>
+      <value><![CDATA[1]]></value>
+      <schemeLink><![CDATA[https://github.com/HROpen/Recruiting/wiki/positionopening_uc005]]></schemeLink>
+    </item>
+  </alternateIds>
+  <statusCode><![CDATA[Active]]></statusCode>
+  <approvalStatusCode><![CDATA[Approved]]></approvalStatusCode>
+  <approvalMessage><![CDATA[Granted by controlling department.]]></approvalMessage>
+  <postingRequester>
+    <id>
+      <value><![CDATA[OID-124342]]></value>
+      <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+    </id>
+    <name><![CDATA[ACME R&D Headquarters]]></name>
+    <personContacts>
+      <item>
+        <id>
+          <value><![CDATA[PID-112233]]></value>
+          <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+        </id>
+        <name>
+          <given><![CDATA[Jennifer]]></given>
+          <family><![CDATA[Jones]]></family>
+        </name>
+        <primaryLanguage><![CDATA[en-US]]></primaryLanguage>
+        <roleCode><![CDATA[Hiring Manager]]></roleCode>
+        <communication>
+          <email>
+            <item>
+              <address><![CDATA[jennifer.jones@acme.com]]></address>
+            </item>
+          </email>
+          <address>
+            <item>
+              <line><![CDATA[]]></line>
+              <city><![CDATA[San Francisco]]></city>
+              <countryCode><![CDATA[US]]></countryCode>
+            </item>
+          </address>
+        </communication>
+      </item>
+    </personContacts>
+  </postingRequester>
+  <positionProfiles>
+    <item>
+      <profileName><![CDATA[Basic Profile]]></profileName>
+      <profileId>
+        <value><![CDATA[PP-1000000]]></value>
+        <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+      </profileId>
+      <positionId>
+        <value><![CDATA[JOB-122334]]></value>
+        <schemeId><![CDATA[SomeVendorAts]]></schemeId>
+      </positionId>
+      <positionTitle><![CDATA[Senior Software Developer Java]]></positionTitle>
+      <positionLocation>
+        <item>
+          <name><![CDATA[ACME R&D Headquarters]]></name>
+          <line><![CDATA[144 Townsend St]]></line>
+          <city><![CDATA[San Francisco]]></city>
+          <postalCode><![CDATA[CA 94107]]></postalCode>
+          <countryCode><![CDATA[US]]></countryCode>
+          <countrySubDivisions>
+            <item>
+              <type><![CDATA[state]]></type>
+              <value><![CDATA[California]]></value>
+            </item>
+          </countrySubDivisions>
+        </item>
+      </positionLocation>
+      <positionOrganizations>
+        <item>
+          <id>
+            <value><![CDATA[OID-124342]]></value>
+            <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+          </id>
+          <name><![CDATA[ACME Industries]]></name>
+          <responsibilityCode><![CDATA[Parent]]></responsibilityCode>
+          <domainName><![CDATA[http://www.acme.de]]></domainName>
+        </item>
+        <item>
+          <id>
+            <value><![CDATA[OID-348299]]></value>
+            <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+          </id>
+          <name><![CDATA[ACME R&D Headquarters]]></name>
+          <responsibilityCode><![CDATA[Division]]></responsibilityCode>
+        </item>
+        <item>
+          <id>
+            <value><![CDATA[OID-145667]]></value>
+            <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+          </id>
+          <name><![CDATA[AI Research Department]]></name>
+          <responsibilityCode><![CDATA[Department]]></responsibilityCode>
+        </item>
+      </positionOrganizations>
+      <positionOpenQuantity><![CDATA[2]]></positionOpenQuantity>
+      <jobCategories>
+        <item>
+          <id>
+            <value><![CDATA[4]]></value>
+            <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+          </id>
+          <code><![CDATA[Technicians]]></code>
+        </item>
+      </jobCategories>
+      <careerLevels>
+        <item>
+          <id>
+            <value><![CDATA[7]]></value>
+            <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+          </id>
+          <code><![CDATA[MidCareer]]></code>
+        </item>
+      </careerLevels>
+      <positionOfferingTypes>
+        <item><![CDATA[DirectHire]]></item>
+      </positionOfferingTypes>
+      <positionQualifications>
+        <item>
+          <qualificationSummary><![CDATA[Experienced software developer; Main programming language: Java; Expected experience: at least 5 years; Expected further qualifications: OOP, UML, NoSQL, SQL.]]></qualificationSummary>
+        </item>
+      </positionQualifications>
+      <workingLanguages>
+        <item>
+          <name><![CDATA[English]]></name>
+          <code><![CDATA[en-US]]></code>
+        </item>
+      </workingLanguages>
+      <positionPeriod>
+        <start><![CDATA[2018-01-01]]></start>
+        <end><![CDATA[2022-12-31]]></end>
+      </positionPeriod>
+      <immediateStartIndicator><![CDATA[true]]></immediateStartIndicator>
+      <positionScheduleTypeCodes>
+        <item><![CDATA[FullTime]]></item>
+      </positionScheduleTypeCodes>
+    </item>
+  </positionProfiles>
+</hropen:PositionOpening>

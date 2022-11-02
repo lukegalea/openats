@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "CertificationType",
-    "$id": "https://www.hropenstandards.org/hros/CertificationType.json",
     "description": "A document or confirmation certifying the status or acquirements of the bearer, or his fulfillment of conditions which authorize him to act or practise in a specified way; hence, often equal to a certificate.",
     "type": "object",
     "properties": {

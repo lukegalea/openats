@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hropen:Interview
+    xmlns:hropen="https://hropenstandards.org/schema/xml/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <statusNotification>
+        <interviewId>
+            <value>8836683</value>
+        </interviewId>
+        <positionId>
+            <value>3847586</value>
+        </positionId>
+        <status>Interview Started</status>
+        <comments>
+            <item>
+                <note>P7mykpm-6zpug2 </note>
+            </item>
+        </comments>
+    </statusNotification>
+</hropen:Interview>
+

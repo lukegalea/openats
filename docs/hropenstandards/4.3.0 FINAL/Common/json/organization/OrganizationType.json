@@ -1,13 +1,11 @@
 {
-	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$schema": "http://json-schema.org/draft-04/schema#",
 	"version": "4.3.0",
 	"title": "OrganizationType",
-    "$id": "https://www.hropenstandards.org/hros/OrganizationType.json",
 	"description": "Information to identify and reference a specific organization.",
 	"definitions": {
 		"GeographicResponsibilityCodeList": {
 			"title": "GeographicResponsibilityCodeList",
-    "$id": "https://www.hropenstandards.org/hros/GeographicResponsibilityCodeList.json",
 			"description": "Values that classify the geographic level at which the organization operates.",
 			"enum": [
 				"Global",
@@ -18,7 +16,6 @@
 		},
 		"OwnershipTypeCodeList": {
 			"title": "OwnershipTypeCodeList",
-    "$id": "https://www.hropenstandards.org/hros/OwnershipTypeCodeList.json",
 			"description": "Values that classify the ownership of the organization.",
 			"enum": [
 				"Public",

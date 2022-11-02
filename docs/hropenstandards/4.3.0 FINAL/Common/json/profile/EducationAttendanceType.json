@@ -1,13 +1,11 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "EducationAttendanceType",
-    "$id": "https://www.hropenstandards.org/hros/EducationAttendanceType.json",
     "description": "Contains details documenting a person's attendance at an educational institution. (OED Institution, n. An establishment, organization, or association, instituted for the promotion of education.)",
     "definitions": {
         "EducationSpecializationType": {
             "title": "EducationSpecializationType",
-    "$id": "https://www.hropenstandards.org/hros/EducationSpecializationType.json",
             "allOf": [
                 { "$ref": "../base/EntityType.json#" }
             ],
@@ -21,7 +19,6 @@
         },
         "EducationDegreeType": {
             "title": "EducationDegreeType",
-    "$id": "https://www.hropenstandards.org/hros/EducationDegreeType.json",
             "description": "Contains details about the student's degree. A degree is a recognized completion of studies at a school (such as a college or university). A certificate, which may be a diploma or degree, is generally issued in recognition of having completed the course of study.",
             "type": "object",
             "properties": {

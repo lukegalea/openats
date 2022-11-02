@@ -1,13 +1,11 @@
 {
-	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$schema": "http://json-schema.org/draft-04/schema#",
 	"version": "4.3.0",
 	"title": "WorkerPaidHoursType",
-    "$id": "https://www.hropenstandards.org/hros/WorkerPaidHoursType.json",
 	"description": "The hours a worker was paid for time off or actual time worked.",
 	"definitions": {
 		"PaidForWorkInPayPeriodType": {
 			"title": "PaidForWorkInPayPeriodType",
-    "$id": "https://www.hropenstandards.org/hros/PaidForWorkInPayPeriodType.json",
 			"description": "Details on if the worker was paid in a particular month.",
 			"type": "object",
 			"properties": {
@@ -27,7 +25,6 @@
 		},
 		"WorkedHoursType": {
 			"title": "WorkedHoursType",
-    "$id": "https://www.hropenstandards.org/hros/WorkedHoursType.json",
 			"description": "Specifies the hours worked for a specific pay type. For example, 8 hours of holiday pay.",
 			"type": "object",
 			"properties": {
@@ -47,7 +44,6 @@
 		},
 		"TimeOffHoursType": {
 			"title": "TimeOffHoursType",
-    "$id": "https://www.hropenstandards.org/hros/TimeOffHoursType.json",
 			"description": "The hours a worker took off. For example, 8 hours of vacation pay.",
 			"type": "object",
 			"properties": {

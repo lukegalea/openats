@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hropen:PositionOpening xmlns:hropen="https://hropenstandards.org/schema/xml/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <documentId>
+    <value><![CDATA[J12345]]></value>
+    <schemeId><![CDATA[ATS]]></schemeId>
+  </documentId>
+  <language><![CDATA[en-US]]></language>
+  <statusCode><![CDATA[Active]]></statusCode>
+  <postingRequester>
+    <id>
+      <value><![CDATA[1]]></value>
+      <schemeId><![CDATA[atsRequesterId]]></schemeId>
+    </id>
+    <code><![CDATA[D-145364]]></code>
+    <name><![CDATA[ABC Inc]]></name>
+    <personContacts>
+      <item>
+        <name>
+          <given><![CDATA[John]]></given>
+          <family><![CDATA[Smith]]></family>
+        </name>
+        <roleCode><![CDATA[Hiring Manager]]></roleCode>
+        <communication>
+          <email>
+            <item>
+              <address><![CDATA[john.smith@abccompany.com]]></address>
+            </item>
+          </email>
+          <address>
+            <item>
+              <city><![CDATA[New York]]></city>
+              <countryCode><![CDATA[US]]></countryCode>
+              <countrySubDivisions>
+                <item>
+                  <type><![CDATA[state]]></type>
+                  <value><![CDATA[NY]]></value>
+                </item>
+              </countrySubDivisions>
+            </item>
+          </address>
+        </communication>
+      </item>
+    </personContacts>
+  </postingRequester>
+  <positionProfiles>
+    <item>
+      <profileName><![CDATA[Sales Manager Job Posting]]></profileName>
+      <profileId>
+        <value><![CDATA[J12345]]></value>
+        <schemeId><![CDATA[ATS]]></schemeId>
+      </profileId>
+      <language><![CDATA[en-US]]></language>
+      <postingInstructions>
+        <item>
+          <channelId>
+            <value><![CDATA[BestJobBoard]]></value>
+          </channelId>
+          <templateId><![CDATA[]]></templateId>
+          <brandingId><![CDATA[]]></brandingId>
+          <applicationMethods>
+            <item>
+              <instructions><![CDATA[online application]]></instructions>
+              <personContact>
+                <name>
+                  <given><![CDATA[Jane]]></given>
+                  <family><![CDATA[Smith]]></family>
+                </name>
+                <roleCode><![CDATA[Hiring Manager]]></roleCode>
+                <communication>
+                  <email>
+                    <item>
+                      <address><![CDATA[jane.smith@abccompany.com]]></address>
+                    </item>
+                  </email>
+                </communication>
+              </personContact>
+              <applicationUri>
+                <url><![CDATA[http://abccompany.ttcportals.com/jobs/124740-corporate-sales-manager]]></url>
+              </applicationUri>
+            </item>
+          </applicationMethods>
+        </item>
+      </postingInstructions>
+      <positionId>
+        <value><![CDATA[EXT-J12345]]></value>
+        <schemeId><![CDATA[ATS]]></schemeId>
+      </positionId>
+      <positionTitle><![CDATA[Sales Manager]]></positionTitle>
+      <positionLocation>
+        <item>
+          <name><![CDATA[ABC Inc. Headquarters]]></name>
+          <line><![CDATA[1 Wall St]]></line>
+          <city><![CDATA[New York]]></city>
+          <postalCode><![CDATA[10005]]></postalCode>
+          <countryCode><![CDATA[US]]></countryCode>
+          <countrySubDivisions>
+            <item>
+              <type><![CDATA[state]]></type>
+              <value><![CDATA[NY]]></value>
+            </item>
+          </countrySubDivisions>
+          <geoLocation>
+            <latitude><![CDATA[40.7071269]]></latitude>
+            <longitude><![CDATA[-74.0139965]]></longitude>
+          </geoLocation>
+        </item>
+      </positionLocation>
+      <positionOrganizations>
+        <item>
+          <name><![CDATA[ABC Inc.]]></name>
+          <responsibilityCode><![CDATA[Parent]]></responsibilityCode>
+          <domainName><![CDATA[http://www.abccompany.com]]></domainName>
+        </item>
+      </positionOrganizations>
+      <positionOpenQuantity><![CDATA[1]]></positionOpenQuantity>
+      <jobCategories>
+        <item>
+          <id>
+            <value><![CDATA[5]]></value>
+            <schemeId><![CDATA[ATS]]></schemeId>
+          </id>
+          <code><![CDATA[Sales]]></code>
+        </item>
+      </jobCategories>
+      <careerLevels>
+        <item>
+          <id>
+            <value><![CDATA[11]]></value>
+            <schemeId><![CDATA[ATS]]></schemeId>
+          </id>
+          <code><![CDATA[Manager]]></code>
+        </item>
+      </careerLevels>
+      <positionOfferingTypes>
+        <item><![CDATA[DirectHire]]></item>
+      </positionOfferingTypes>
+      <positionQualifications>
+        <item>
+          <educationRequirement>
+            <educationLevelCode><![CDATA[]]></educationLevelCode>
+            <iscedEducationLevelCode><![CDATA[6]]></iscedEducationLevelCode>
+            <degreeTypeCode><![CDATA[bachelors]]></degreeTypeCode>
+          </educationRequirement>
+        </item>
+      </positionQualifications>
+      <positionFormattedDescriptions>
+        <item>
+          <descriptionId>
+            <value><![CDATA[job_description]]></value>
+          </descriptionId>
+          <title><![CDATA[Job Description]]></title>
+          <content><![CDATA[Are you a LEADER and a BUILDER?  Global is looking for individuals who are dynamic, sales-oriented, and who want to control their destiny.  With a full training programme and consistent support, Global will provide you with the tools to excel in this very lucrative business.]]></content>
+        </item>
+        <item>
+          <descriptionId>
+            <value><![CDATA[job_requirements]]></value>
+          </descriptionId>
+          <title><![CDATA[Qualifications]]></title>
+          <content><![CDATA[5 years of direct sales experience. At least 2 years of Sales Management experience.]]></content>
+        </item>
+        <item>
+          <descriptionId>
+            <value><![CDATA[company_description]]></value>
+          </descriptionId>
+          <title><![CDATA[About Us]]></title>
+          <content><![CDATA[ABC Company manufactures and distributes precision engineered metal, plastic, cork, rubber and wood products to companies and private individuals worldwide. All our products are functional, well-designed and manufactured to the highest quality standards. Customers across the world look to us for high quality products at competitive prices. Orders are prepared for shipment as soon as possible - often within minutes. Our volume and expertise in domestic and international shipping gets us drastically reduced shipping rates and we pass those savings directly to you. If ever we fail to deliver exceptional quality, service or value please email us so we can correct the problem.]]></content>
+        </item>
+      </positionFormattedDescriptions>
+      <positionScheduleTypeCodes>
+        <item><![CDATA[FullTime]]></item>
+      </positionScheduleTypeCodes>
+      <offeredRemunerationPackage>
+        <basisCode><![CDATA[Salaried]]></basisCode>
+        <ranges>
+          <item>
+            <intervalCode><![CDATA[Year]]></intervalCode>
+            <referenceAmount>
+              <value><![CDATA[100000]]></value>
+              <currency><![CDATA[USD]]></currency>
+            </referenceAmount>
+            <typeCode><![CDATA[BasePay]]></typeCode>
+          </item>
+          <item>
+            <intervalCode><![CDATA[Year]]></intervalCode>
+            <referenceAmount>
+              <value><![CDATA[5000]]></value>
+              <currency><![CDATA[USD]]></currency>
+            </referenceAmount>
+            <typeCode><![CDATA[Bonus]]></typeCode>
+          </item>
+        </ranges>
+      </offeredRemunerationPackage>
+    </item>
+  </positionProfiles>
+</hropen:PositionOpening>

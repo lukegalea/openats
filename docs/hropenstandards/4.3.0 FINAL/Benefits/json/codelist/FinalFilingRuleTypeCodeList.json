@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "FinalFilingRuleTypeCodeList",
-    "$id": "https://www.hropenstandards.org/hros/FinalFilingRuleTypeCodeList.json",
     "description": "A code identifying the source of the election.",
     "enum": [
         "AfterXDaysFromPlanEndDate",

@@ -1,0 +1,210 @@
+{
+    "applicationProcessHistory": [
+        {
+            "id": {
+                "value": "45829221",
+                "schemeId": "SomeVendorAts"
+            },
+            "actionDate": "2019-01-15T12:33:32",
+            "action": {
+                "code": "application-send"
+            },
+            "status": {
+                "code": "new"
+            },
+            "primaryParties": [
+                {
+                    "person": {
+                        "name": {
+                            "given": "Pedro",
+                            "family": "Cruz"
+                        },
+                        "roleCode": "candidate"
+                    }
+                }
+            ]
+        },
+        {
+            "id": {
+                "value": "39605938",
+                "schemeId": "SomeVendorAts"
+            },
+            "actionDate": "2019-01-16T09:31:56",
+            "action": {
+                "code": "status-change"
+            },
+            "status": {
+                "code": "reviewed"
+            },
+            "primaryParties": [
+                {
+                    "person": {
+                        "value": "34764569",
+                        "schemeId": "SomeVendorAts",
+                        "name": {
+                            "given": "Ricarda",
+                            "family": "de Gruyter"
+                        },
+                        "roleCode": "recruiter"
+                    }
+                }
+            ]
+        },
+        {
+            "id": {
+                "value": "69847632",
+                "schemeId": "SomeVendorAts"
+            },
+            "actionDate": "2019-01-16T10:04:43",
+            "action": {
+                "code": "forward"
+            },
+            "status": {
+                "code": "forwarded-to-hiring-department"
+            },
+            "primaryParties": [
+                {
+                    "person": {
+                        "id": {
+                            "value": "34764569",
+                            "schemeId": "SomeVendorAts"
+                        },
+                        "name": {
+                            "given": "Ricarda",
+                            "family": "de Gruyter"
+                        },
+                        "roleCode": "recruiter"
+                    }
+                }
+            ],
+            "associatedParties": [
+                {
+                    "person": {
+                        "id": {
+                            "value": "58673445",
+                            "schemeId": "SomeVendorAts"
+                        },
+                        "name": {
+                            "given": "Hugh",
+                            "family": "Dawson"
+                        },
+                        "roleCode": "hiring-department"
+                    },
+                    "organization": {
+                        "id": {
+                            "value": "59293876",
+                            "schemeId": "SomeVendorAts"
+                        },
+                        "name": "Development Department",
+                        "communication": {
+                            "email": [
+                                {
+                                    "address": "hire-dev-dep@ac.me"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": {
+                "value": "86497485",
+                "schemeId": "SomeVendorAts"
+            },
+            "actionDate": "2019-01-22T11:21:44",
+            "action": {
+                "code": "invite"
+            },
+            "status": {
+                "code": "invited-by-hiring-department"
+            },
+            "primaryParties": [
+                {
+                    "person": {
+                        "id": {
+                            "value": "58673445",
+                            "schemeId": "SomeVendorAts"
+                        },
+                        "name": {
+                            "given": "Hugh",
+                            "family": "Dawson"
+                        },
+                        "roleCode": "hiring-department"
+                    }
+                }
+            ]
+        },
+        {
+            "id": {
+                "value": "86498754",
+                "schemeId": "SomeVendorAts"
+            },
+            "actionDate": "2019-01-27T13:24:05",
+            "status": {
+                "code": "offer-made"
+            },
+            "primaryParties": [
+                {
+                    "person": {
+                        "id": {
+                            "value": "34764569",
+                            "schemeId": "SomeVendorAts"
+                        },
+                        "name": {
+                            "given": "Ricarda",
+                            "family": "de Gruyter"
+                        },
+                        "roleCode": "recruiter"
+                    }
+                }
+            ]
+        },
+        {
+            "id": {
+                "value": "86498806",
+                "schemeId": "SomeVendorAts"
+            },
+            "actionDate": "2019-02-01T18:13:43",
+            "status": {
+                "code": "offer-accepted"
+            },
+            "primaryParties": [
+                {
+                    "person": {
+                        "name": {
+                            "given": "Pedro",
+                            "family": "Cruz"
+                        },
+                        "roleCode": "candidate"
+                    }
+                }
+            ]
+        },
+        {
+            "id": {
+                "value": "86498872",
+                "schemeId": "SomeVendorAts"
+            },
+            "actionDate": "2019-02-02T09:37:55",
+            "status": {
+                "code": "hired"
+            },
+            "primaryParties": [
+                {
+                    "person": {
+                        "id": {
+                            "value": "34764569",
+                            "schemeId": "SomeVendorAts"
+                        },
+                        "name": {
+                            "given": "Ricarda",
+                            "family": "de Gruyter"
+                        },
+                        "roleCode": "recruiter"
+                    }
+                }
+            ]
+        }
+    ]
+}

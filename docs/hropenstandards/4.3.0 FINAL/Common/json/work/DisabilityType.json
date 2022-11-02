@@ -1,13 +1,11 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "DisabilityType",
-    "$id": "https://www.hropenstandards.org/hros/DisabilityType.json",
     "description": "Describes a disability associated with a specified person. Want of ability to discharge a function. Incapacity in the eye of the law.",
     "definitions": {
         "DisabilityLevelCodeList": {
             "title": "DisabilityLevelCodeList",
-    "$id": "https://www.hropenstandards.org/hros/DisabilityLevelCodeList.json",
             "description": "A value classifying the level of disability.",
             "enum": [
                 "1",
@@ -26,7 +24,6 @@
         },
         "DisabilitySummaryType": {
             "title": "DisabilitySummaryType",
-    "$id": "https://www.hropenstandards.org/hros/DisabilitySummaryType.json",
             "description": "Describes a disability associated with a specified person. Want of ability to discharge a function. Incapacity in the eye of the law.",
             "type": "object",
             "properties": {

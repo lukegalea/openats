@@ -1,0 +1,27 @@
+{
+	"person": {
+		"personId": {
+			"schemeId": "HRIS",
+			"value": 50310
+		},
+		"personName": {
+			"formattedName": "Miranda Matthews-King",
+			"legal": "Miranda Matthews-King ",
+			"given": "Miranda",
+			"family": "Matthews",
+			"formerFamily": "King",
+			"preferredSalutationCode": "Ms",
+			"nameType": "legal"
+		}
+	},
+	"communication": {
+		"address": [
+			{
+				"line": "Lage Mosten 11",
+				"city": "Breda",
+				"countycode": "NL",
+				"typeCode": "home"
+			}
+		]
+	}
+}

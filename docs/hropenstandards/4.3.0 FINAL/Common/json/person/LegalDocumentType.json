@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "LegalDocumentType",
-    "$id": "https://www.hropenstandards.org/hros/LegalDocumentType.json",
     "description": "Identifying information for a legal document, e.g. Passport, Visa, etc.",
     "type": "object",
     "allOf": [{

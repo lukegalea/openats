@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hropen:Compensation xmlns:hropen="https://hropenstandards.org/schema/xml/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<salarySurvey>
+		<salarySurveySubmissions>
+			<item>
+				<deployment>
+					<job>
+						<title>Buyer 1</title>
+					</job>
+				</deployment>
+				<reward>
+					<item>
+						<rewardCode>BasePay</rewardCode>
+						<eligibleIndicator>true</eligibleIndicator>
+						<clientProvidedValue>
+							<name>
+								<value>Salary</value>
+							</name>
+							<valueAmount>
+								<value>29000</value>
+								<currency>USD</currency>
+							</valueAmount>
+							<rateIntervalCode>Year</rateIntervalCode>
+							<cashIndicator>true</cashIndicator>
+						</clientProvidedValue>
+					</item>
+				</reward>
+			</item>
+		</salarySurveySubmissions>
+	</salarySurvey>
+</hropen:Compensation>

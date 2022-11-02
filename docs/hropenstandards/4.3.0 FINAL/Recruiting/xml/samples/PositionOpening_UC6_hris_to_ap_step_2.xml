@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hropen:PositionOpening xmlns:hropen="https://hropenstandards.org/schema/xml/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <documentId>
+    <value><![CDATA[00348728]]></value>
+    <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+  </documentId>
+  <alternateIds>
+    <item>
+      <schemeId><![CDATA[positionopening_uc006]]></schemeId>
+      <value><![CDATA[1]]></value>
+      <schemeLink><![CDATA[https://github.com/HROpen/Recruiting/wiki/positionopening_uc006]]></schemeLink>
+    </item>
+  </alternateIds>
+  <statusCode><![CDATA[Incomplete]]></statusCode>
+  <approvalStatusCode><![CDATA[Approved]]></approvalStatusCode>
+  <approvalMessage><![CDATA[Granted by controlling department.]]></approvalMessage>
+  <postingRequester>
+    <id>
+      <value><![CDATA[OID-124342]]></value>
+      <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+    </id>
+    <name><![CDATA[ACME R&D Headquarters]]></name>
+    <personContacts>
+      <item>
+        <id>
+          <value><![CDATA[PID-112233]]></value>
+          <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+        </id>
+        <name>
+          <given><![CDATA[Alice]]></given>
+          <family><![CDATA[Jones]]></family>
+        </name>
+        <primaryLanguage><![CDATA[en-US]]></primaryLanguage>
+        <roleCode><![CDATA[Hiring Manager]]></roleCode>
+        <communication>
+          <email>
+            <item>
+              <address><![CDATA[alice.jones@acme.com]]></address>
+            </item>
+          </email>
+        </communication>
+      </item>
+    </personContacts>
+  </postingRequester>
+  <positionProfiles>
+    <item>
+      <profileName><![CDATA[Basic Profile]]></profileName>
+      <profileId>
+        <value><![CDATA[PP-1000001]]></value>
+        <schemeId><![CDATA[VendorHris]]></schemeId>
+      </profileId>
+      <positionId>
+        <value><![CDATA[JOB-8989]]></value>
+        <schemeId><![CDATA[VendorAts]]></schemeId>
+      </positionId>
+      <positionTitle><![CDATA[Database Administrator]]></positionTitle>
+      <positionOrganizations>
+        <item>
+          <id>
+            <value><![CDATA[OID-124342]]></value>
+            <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+          </id>
+          <name><![CDATA[ACME Industries]]></name>
+          <responsibilityCode><![CDATA[Parent]]></responsibilityCode>
+          <domainName><![CDATA[http://www.acme.de]]></domainName>
+        </item>
+      </positionOrganizations>
+      <jobCategories>
+        <item>
+          <id>
+            <value><![CDATA[4]]></value>
+            <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+          </id>
+          <code><![CDATA[Technicians]]></code>
+        </item>
+      </jobCategories>
+      <careerLevels>
+        <item>
+          <id>
+            <value><![CDATA[7]]></value>
+            <schemeId><![CDATA[SomeVendorHris]]></schemeId>
+          </id>
+          <code><![CDATA[MidCareer]]></code>
+        </item>
+      </careerLevels>
+      <positionOfferingTypes>
+        <item><![CDATA[DirectHire]]></item>
+      </positionOfferingTypes>
+      <offeredRemunerationPackage>
+        <benefitsSummary>
+          <item><![CDATA[Standard contract including usage of company car.]]></item>
+        </benefitsSummary>
+        <validFrom><![CDATA[2018-01-01T00:00:00Z]]></validFrom>
+        <validTo><![CDATA[2018-12-31T23:59:59Z]]></validTo>
+        <basisCode><![CDATA[Salaried]]></basisCode>
+        <ranges>
+          <item>
+            <intervalCode><![CDATA[Year]]></intervalCode>
+            <referenceAmount>
+              <value><![CDATA[90000]]></value>
+              <currency><![CDATA[USD]]></currency>
+            </referenceAmount>
+            <typeCode><![CDATA[BasePay]]></typeCode>
+          </item>
+        </ranges>
+      </offeredRemunerationPackage>
+      <positionPeriod>
+        <description><![CDATA[Desired start date.]]></description>
+        <start><![CDATA[2018-03-01]]></start>
+      </positionPeriod>
+      <positionLocation>
+        <item>
+          <name><![CDATA[ACME R&D Headquarters]]></name>
+          <line><![CDATA[144 Townsend St]]></line>
+          <city><![CDATA[San Francisco]]></city>
+          <postalCode><![CDATA[CA 94107]]></postalCode>
+          <countryCode><![CDATA[US]]></countryCode>
+          <countrySubDivisions>
+            <item>
+              <type><![CDATA[state]]></type>
+              <value><![CDATA[California]]></value>
+            </item>
+          </countrySubDivisions>
+        </item>
+      </positionLocation>
+      <positionScheduleTypeCodes>
+        <item><![CDATA[FullTime]]></item>
+      </positionScheduleTypeCodes>
+      <positionQualifications>
+        <item>
+          <qualificationSummary><![CDATA[The computer program Oracle Rdb is a tool for creating, updating and managing databases, developed by the software company Oracle.]]></qualificationSummary>
+          <positionCompetencies>
+            <item>
+              <competencyName><![CDATA[Java]]></competencyName>
+              <competencyIds>
+                <item>
+                  <value><![CDATA[de9f85ba-e77f-48fd-8c66-f5ebaf32d655]]></value>
+                  <schemeId><![CDATA[ESCO Skills]]></schemeId>
+                  <schemeVersionId><![CDATA[1.0.2]]></schemeVersionId>
+                  <schemeAgencyId><![CDATA[EU]]></schemeAgencyId>
+                  <schemeLink><![CDATA[http://data.europa.eu/esco/skill/de9f85ba-e77f-48fd-8c66-f5ebaf32d655]]></schemeLink>
+                  <agencyUri><![CDATA[http://data.europa.eu]]></agencyUri>
+                </item>
+              </competencyIds>
+              <requiredProficiencyLevel>
+                <scoresText>
+                  <item>
+                    <value><![CDATA[Professional]]></value>
+                  </item>
+                </scoresText>
+              </requiredProficiencyLevel>
+              <desiredProficiencyLevel>
+                <scoresText>
+                  <item>
+                    <value><![CDATA[Expert]]></value>
+                  </item>
+                </scoresText>
+              </desiredProficiencyLevel>
+              <weight>
+                <value><![CDATA[90]]></value>
+                <minimumScore><![CDATA[0]]></minimumScore>
+                <maximumScore><![CDATA[100]]></maximumScore>
+              </weight>
+              <competencyEvidenceRequirement>
+                <evidenceTypeCode><![CDATA[assessment]]></evidenceTypeCode>
+                <ids>
+                  <item>
+                    <schemeId><![CDATA[TechAssessments]]></schemeId>
+                    <value><![CDATA[DBA_3]]></value>
+                    <schemeLink><![CDATA[https://tech-assessments.com/api/dba/5e9f8cb3]]></schemeLink>
+                    <description><![CDATA[Assessment Package for DBAs]]></description>
+                  </item>
+                </ids>
+                <scores>
+                  <item>
+                    <scoresNumeric>
+                      <item>
+                        <minimum><![CDATA[80]]></minimum>
+                        <value><![CDATA[0]]></value>
+                      </item>
+                    </scoresNumeric>
+                  </item>
+                </scores>
+              </competencyEvidenceRequirement>
+            </item>
+          </positionCompetencies>
+          <educationRequirement>
+            <iscedEducationLevelCode><![CDATA[6]]></iscedEducationLevelCode>
+          </educationRequirement>
+        </item>
+      </positionQualifications>
+    </item>
+  </positionProfiles>
+</hropen:PositionOpening>

@@ -1,0 +1,102 @@
+{
+    "documentId": {"value": "3b2dec5e-f75c-47d0-9313-a8f3e9f928f2"},
+    "subject": {"subjectId": {"value": "C001211"}},
+    "assessmentRequesterName": "Modern Recruiting ATS",
+    "code": "INV003011",
+    "party": {"customer": {"id": {"value": "00000123"}}},
+    "packages": [
+        {
+            "packageId": {"value": "ATSA-001"},
+            "descriptions": ["Technical Skills Assessment"],
+            "party": {
+				"supplier": {
+					"id": {"value": "ATSA"},
+					"legalId": {"value": "Acme Technical Skills Assessments"}
+				}
+            },
+            "sendAssessmentResultsToURL": {
+                "uri": "sftp://in.example.com/123e4567-e89b-12d3-a456-426655440000/",
+                "errorsTo": {"email": [{"address": "jack.black@abcompanyexample.com"}]}
+            },
+            "conditions": [{
+                "type": "post",
+                "terms": {
+                    "propertyPath": "report.results[0].overallResult.passedIndicator",
+                    "values": [true]
+                }
+            }]
+        },
+        {
+            "packageId": {"value": "CPAC-004"},
+            "descriptions": ["Cognitive Skills Assessment"],
+            "party": {
+				"supplier": {
+					"id": {"value": "CPAC"},
+					"legalId": {"value": "CNC Personnel Assessment Company"}
+				}
+            },
+            "sendAssessmentResultsToURL": {
+                "uri": "sftp://in.example.com/123e4567-e89b-12d3-a456-426655440000/",
+                "errorsTo": {"email": [{"address": "jack.black@abcompanyexample.com"}]}
+            },
+            "conditions": [{
+                "type": "post",
+                "terms": {
+                    "propertyPath": "report.results[0].detailedResults[2].score.scoresNumeric[0].value",
+                    "values": [
+                        "A",
+                        "B",
+                        "C"
+                    ],
+                    "matchMode": "anyOf"
+                }
+            }]
+        },
+        {
+            "packageId": {"value": "CPAC-005"},
+            "descriptions": ["Personality Assessment"],
+            "party": {
+				"supplier": {
+					"id": {"value": "CPAC"},
+					"legalId": {"value": "CNC Personnel Assessment Company"}
+				}
+            },
+            "sendAssessmentResultsToURL": {
+                "uri": "sftp://in.example.com/123e4567-e89b-12d3-a456-426655440000/",
+                "errorsTo": {"url": [{"address": "https://example.com/inbound/errors"}]}
+            },
+            "conditions": [{
+                "type": "post",
+                "terms": {
+                    "propertyPath": "report.results[0].overallResult.score.scoresNumeric[5].value",
+                    "lessThan": 60
+                }
+            }]
+        },
+        {
+            "packageId": {"value": "XCAI-002"},
+            "descriptions": ["Culture Fit Assessment"],
+            "party": {
+				"supplier": {
+					"id": {"value": "XCAI"},
+					"legalId": {"value": "XYZ Culture Alignment, Inc."}
+				}
+            },
+            "sendAssessmentResultsToURL": {
+                "uri": "sftp://in.example.com/123e4567-e89b-12d3-a456-426655440000/",
+                "errorsTo": {"email": [{"address": "jack.black@abcompanyexample.com"}]}
+            },
+            "conditions": [{
+                "type": "post",
+                "terms": {
+                    "propertyPath": "report.results[0].overallResult.score.scoresText[0].value",
+                    "values": [
+                        "excellent",
+                        "good"
+                    ],
+                    "matchMode": "anyOf"
+                }
+            }]
+        }
+    ]
+}

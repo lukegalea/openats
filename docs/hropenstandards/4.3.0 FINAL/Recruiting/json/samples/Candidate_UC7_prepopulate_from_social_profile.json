@@ -1,0 +1,264 @@
+{
+    "person": {
+        "id": {
+            "value": "7caebb13-14a5-4a98-a86c-7e714084a9c6",
+            "schemeAgencyId": "SomeVendor",
+            "schemeId": "SomeVendorAts"
+        },
+        "name": {
+            "formattedName": "Mr. Jason Bourne",
+            "given": "Jason",
+            "family": "Bourne",
+            "preferredSalutationCode": "Mr."
+        },
+        "communication": {
+            "address": [
+                {
+                    "useCode": "private",
+                    "countryCode": "US",
+                    "countrySubDivisions": [
+                        {
+                            "type": "state",
+                            "value": "CT"
+                        }
+                    ],
+                    "city": "New Haven",
+                    "postalCode": "06511",
+                    "line": "Lawrence Street 61",
+                    "extendedLines": [
+                        {
+                            "type": "apartment",
+                            "value": "Apartment 4"
+                        }
+                    ],
+                    "geoLocation": {
+                        "longitude": -72.9171123,
+                        "latitude": 41.3188820
+                    },
+                    "formattedAddress": "61 Lawrence Street, Apartment 4, New Haven, CT 06511"
+                }
+            ],
+            "phone": [
+                {
+                    "useCode": "private",
+                    "preference": 1,
+                    "formattedNumber": "+1 203 11223344",
+                    "countryDialingCode": "1",
+                    "areaDialingCode": "203",
+                    "dialNumber": "11223344"
+                }
+            ],
+            "email": [
+                {
+                    "useCode": "private",
+                    "preference": 1,
+                    "address": "jason.nustad@aol.com"
+                }
+            ],
+            "web": [
+                {
+                    "name": "Linkedin",
+                    "useCode": "business",
+                    "url": "https://www.linkedin.com/in/jbourne666"
+                }
+            ]
+        }
+    },
+    "profiles": [
+        {
+            "languageCode": "en-US",
+            "profileId": {
+                "value": "06511 ",
+                "schemeId": "SomeVendorAts"
+            },
+            "profileName": "Main profile",
+            "employment": [
+                {
+                    "id": {
+                        "value": "1342345"
+                    },
+                    "organization": {
+                        "name": "General Electric",
+                        "domainName": "http://www.ge.com",
+                        "industryCodes": [
+                            "NAICS:334516"
+                        ]
+                    },
+                    "start": "2001-07",
+                    "current": true,
+                    "positionHistories": [
+                        {
+                            "id": {
+                                "value": "13423-1"
+                            },
+                            "title": "Software Developer for NMR Analysis",
+                            "resourceRelationshipCode": "VendorEmployee",
+                            "organization": {
+                                "id": {
+                                    "value": "23534523"
+                                },
+                                "name": "Research Lab NMR",
+                                "domainName": "http://www.ge.com/nmr"
+                            },
+                            "location": {
+                                "countryCode": "US",
+                                "countrySubDivisions": [
+                                    {
+                                        "type": "state",
+                                        "value": "CT"
+                                    }
+                                ],
+                                "city": "New Haven",
+                                "postalCode": "06511",
+                                "line": "Lawrence Street 61"
+                            },
+                            "start": "2001-07",
+                            "end": "2008-12"
+                        },
+                        {
+                            "id": {
+                                "value": "13423-2"
+                            },
+                            "title": "Project manager, NMR Analyis",
+                            "resourceRelationshipCode": "Employee",
+                            "organization": {
+                                "id": {
+                                    "value": "2353423"
+                                },
+                                "name": "Research Center",
+                                "domainName": "http://www.ge.com/nmr"
+                            },
+                            "location": {
+                                "countryCode": "US",
+                                "countrySubDivisions": [
+                                    {
+                                        "type": "state",
+                                        "value": "NY"
+                                    }
+                                ],
+                                "city": "Niskayuna",
+                                "postalCode": "12309",
+                                "line": "1 Research Cir"
+                            },
+                            "start": "2008-01",
+                            "current": true
+                        }
+                    ]
+                }
+            ],
+            "education": [
+                {
+                    "id": {
+                        "value": "EDUHIST1"
+                    },
+                    "start": "1988-06",
+                    "end": "1996-05",
+                    "institution": {
+                        "name": "Martin Luther King High School",
+                        "communication": {
+                            "address": [
+                                {
+                                    "countryCode": "US",
+                                    "countrySubDivisions": [
+                                        {
+                                            "type": "state",
+                                            "value": "PA"
+                                        }
+                                    ],
+                                    "city": "Philadelphia",
+                                    "postalCode": "19138",
+                                    "line": "6100 Stenton Ave"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": {
+                        "value": "EDUHIST2"
+                    },
+                    "start": "1996-10",
+                    "end": "1999-05",
+                    "institution": {
+                        "name": "Yale University"
+                    },
+                    "department": {
+                        "name": "Department of Computer Science",
+                        "communication": {
+                            "address": [
+                                {
+                                    "countryCode": "US",
+                                    "countrySubDivisions": [
+                                        {
+                                            "type": "state",
+                                            "value": "CT"
+                                        }
+                                    ],
+                                    "city": "New Haven",
+                                    "postalCode": "06511",
+                                    "line": "51 Prospect St"
+                                }
+                            ]
+                        }
+                    },
+                    "programs": [
+                        "Computer Science",
+                        "Linguistics"
+                    ],
+                    "educationDegrees": [
+                        {
+                            "name": "Bachelor of Science",
+                            "codes": [ "Bachelor of Science" ],
+                            "iscedEducationLevelCode": "6",
+                            "degreeGrantedStatus": "Granted",
+                            "date": "1999-05-15",
+                            "specializations": [
+                                {
+                                    "name": "Computer Science",
+                                    "type": "major"
+                                },
+                                {
+                                    "name": "Linguistics",
+                                    "type": "minor"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "qualifications": [
+                {
+                    "competencyIds": [
+                        {
+                            "value": "ESCO ITM:22587",
+                            "schemeId": "ESCO Skills",
+                            "schemeVersionId": "ESCO ITM:20150303191510054",
+                            "schemeAgencyId": "EU"
+                        }
+                    ],
+                    "competencyName": "Java",
+                    "proficiencyLevel": {
+                        "scoresText": [
+                            {
+                                "value": "Expert level"
+                            }
+                        ]
+                    },
+                    "experienceMeasure": {
+                        "value": 5,
+                        "unitCode": "ANN"
+                    }
+                }
+            ],
+            "executiveSummary":  "I know how to do things. Hire me.",
+            "attachments": [
+                {
+                    "id": {
+                        "value": "Online Resume"
+                    },
+                    "url": "https://www.linkedin.com/in/jbourne666"
+                }
+            ]
+        }
+    ]
+}

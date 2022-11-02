@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hropen:Order xmlns:hropen="https://hropenstandards.org/schema/xml/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <documentId>
+    <value>AP000001</value>
+  </documentId>
+  <alternateIds>
+    <item>
+      <schemeId>orderId</schemeId>
+      <value>order_0001</value>
+    </item>
+  </alternateIds>
+  <subject>
+    <subjectId>
+      <value>C001211</value>
+    </subjectId>
+  </subject>
+  <assessmentRequesterName>Modern Recruiting ATS</assessmentRequesterName>
+  <packageId>
+    <value>123456</value>
+  </packageId>
+  <assessmentAccessURL>
+    <uri>https://www.atsvendor.com/guid</uri>
+    <message>Click here to begin your assessment.</message>
+  </assessmentAccessURL>
+  <party>
+    <customer>
+      <id>
+        <value>00000123</value>
+      </id>
+    </customer>
+  </party>
+</hropen:Order>

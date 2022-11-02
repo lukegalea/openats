@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "EnrollmentType",
-    "$id": "https://www.hropenstandards.org/hros/EnrollmentType.json",
     "description": "The data involved in initial creation and maintenance of employee benefit changes.",
     "type": "object",
     "allOf": [

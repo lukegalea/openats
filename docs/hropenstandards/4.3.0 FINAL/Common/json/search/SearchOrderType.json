@@ -1,9 +1,8 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "SearchOrderType": {
         "title": "SearchOrderType",
-    "$id": "https://www.hropenstandards.org/hros/SearchOrderType.json",
         "description": "Specifying order information of search results.",
         "type": "object",
         "properties": {

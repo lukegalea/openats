@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "FamilyRelationshipCodeList",
-    "$id": "https://www.hropenstandards.org/hros/FamilyRelationshipCodeList.json",
     "description": "A Family Relationship Code List",
     "enum": [
        "AdoptedChild",

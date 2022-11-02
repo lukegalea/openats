@@ -1,0 +1,7 @@
+{
+  "orderId": {
+    "value": "123456"
+  },
+  "statusMessage": "status text",
+  "reportLink": "https://api.cra-example.com/hropen/4_2/report/1234?uid=adf321"
+}

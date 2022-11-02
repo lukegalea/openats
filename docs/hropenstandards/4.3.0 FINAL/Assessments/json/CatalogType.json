@@ -1,13 +1,11 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "CatalogType",
-    "$id": "https://www.hropenstandards.org/hros/CatalogType.json",
     "description": "Represents an Assessments Catalog for HR Open Standards.",
     "definitions": {
         "AdditionalAmountType": {
             "title": "AdditionalAmountType",
-    "$id": "https://www.hropenstandards.org/hros/AdditionalAmountType.json",
             "description": "Part of assessment package costs.",
             "allOf": [
                 { "$ref": "../../common/json/base/AmountType.json#" }
@@ -22,7 +20,6 @@
         },
         "AdditionalItemType": {
             "title": "AdditionalItemType",
-    "$id": "https://www.hropenstandards.org/hros/AdditionalItemType.json",
             "description": "Structure to define additional items between trading partners.",
             "type": "object",
             "properties": {
@@ -107,7 +104,6 @@
         },
         "IdSetType": {
             "title": "IdSetType",
-    "$id": "https://www.hropenstandards.org/hros/IdSetType.json",
             "description": "Identification Set",
             "allOf": [
                 { "$ref": "../../common/json/base/EffectiveTimePeriodType.json#" }
@@ -123,7 +119,6 @@
         },
         "AssessmentPackageType": {
             "title": "AssessmentPackageType",
-    "$id": "https://www.hropenstandards.org/hros/AssessmentPackageType.json",
             "definition": "Describes a set of component services that are marketed and can be ordered as a unit.",
             "type": "object",
             "properties": {

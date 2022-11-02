@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "DataProtectionPolicyInclusion",
-    "$id": "https://www.hropenstandards.org/hros/DataProtectionPolicyInclusion.json",
     "description": "Data protection policy according General Data Protection Regulation (GDPR) (Regulation (EU) 2016/679).",
     "definitions": {
         "SecurityPermissionType": {

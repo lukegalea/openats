@@ -1,0 +1,39 @@
+{
+    "position": {
+        "positionTemplate": {
+            "id": {
+                "value": "91cfedc9-2c53-4846-8584-2befa072a75f"
+            },
+            "name": "The Works Position Template"
+        },
+        "positionTitle": "The Works Position from a Template",
+        "interviewFormatArray": [
+            "live video",
+            "asychronous video",
+            "live phone",
+            "asyncrhonous phone",
+            "SMS",
+            "in-person",
+            "personality assessment"
+        ]
+    },
+    "recruiter": {
+        "recruiterContact": {
+            "email": [
+                {
+                    "address": "greg.meyers@montagetalent.com"
+                }
+            ]
+        },
+        "name": "Gregory L. Meyers"
+    },
+    "externalId": {
+        "value": "604eef27-c20b-4fd1-8c1d-e194d6a38b8f"
+    },
+    "documentId": {
+        "value": " "
+    },
+    "alternateIds": [],
+    "dataProtectionPolicy": {},
+    "language": "en-US"
+}

@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "PositionProfileType",
-    "$id": "https://www.hropenstandards.org/hros/PositionProfileType.json",
     "description": "A profile of a job or position opening that is available at an organization.",
     "type": "object",
     "allOf": [
@@ -77,7 +76,6 @@
     "definitions": {
         "BasePositionProfileType": {
             "title": "BasePositionProfileType",
-    "$id": "https://www.hropenstandards.org/hros/BasePositionProfileType.json",
             "description": "The core information about a job or position opening.",
             "type": "object",
             "properties": {
@@ -217,7 +215,6 @@
         },
         "PostingInstructionType": {
             "title": "PostingInstructionType",
-    "$id": "https://www.hropenstandards.org/hros/PostingInstructionType.json",
             "description": "A collection of information about where and how a posting should be communicated. A posting channel usually would be a job board or other advertising medium.",
             "type": "object",
             "properties": {
@@ -267,7 +264,6 @@
         },
         "ApplicationMethodType": {
             "title": "ApplicationMethodType",
-    "$id": "https://www.hropenstandards.org/hros/ApplicationMethodType.json",
             "description": "Instructions on how to apply for the position.",
             "type": "object",
             "properties": {

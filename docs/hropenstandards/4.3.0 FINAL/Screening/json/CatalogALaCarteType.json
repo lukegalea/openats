@@ -1,14 +1,12 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema",
     "version": "4.3.0",
     "title": "CatalogALaCarteType",
-    "$id": "https://www.hropenstandards.org/hros/CatalogALaCarteType.json",
     "description": "A list of all available ALaCarte items.",
     "type": "object",
     "definitions": {
         "ALaCarteItemType": {
             "title": "ALaCarteItemType",
-    "$id": "https://www.hropenstandards.org/hros/ALaCarteItemType.json",
             "description": "An aLaCarte screen.",
             "type": "object",
             "properties": {

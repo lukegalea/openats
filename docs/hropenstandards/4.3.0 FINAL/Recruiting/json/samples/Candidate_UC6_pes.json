@@ -1,0 +1,635 @@
+{
+    "documentId": {
+        "value": "Candidate061",
+        "schemeId": "PESSweden"
+    },
+     "dataProtectionPolicy": {
+        "retentionDate": "2017-04-30",
+        "retentionDays": 365,
+        "geoRestrictions": [
+            {
+                "country": "NO",
+                "policy": "Read"
+            },
+            {
+                "country": "DK",
+                "policy": "Read"
+            },
+            {
+                "country": "FI",
+                "policy": "Read"
+            }
+        ]
+    },
+    "uri": "https://hr-xml.org/lightweight_recruiting_example/getCandidate/61",
+    "person": {
+        "id": {
+            "value": "Candidate061",
+            "schemeAgencyId": "SomeVendor",
+            "schemeId": "PESSweden",
+            "schemeVersionId": "5.0"
+        },
+        "name": {
+            "formattedName": "Colin Grange",
+            "given": "Colin",
+            "family": "Grange",
+            "preferredSalutationCode": "Mr."
+        },
+        "height": {
+            "value": 180,
+            "unitCode": "CMT"
+        },
+        "weight": {
+            "value": 80,
+            "unitCode": "KGM"
+        },
+        "gender": "Male",
+        "birthDate": "1998-03-26",
+        "communication": {
+            "address": [
+                {
+                    "useCode": "private",
+                    "countryCode": "SE",
+                    "countrySubDivisions": [
+                        {
+                            "type": "Municipality",
+                            "value": "Stockholm"
+                        }
+                    ],
+                    "city": "Stockholm",
+                    "postalCode": "12079",
+                    "line": "Maltgatan 3",
+                    "extendedLines": [
+                        {
+                            "type": "apartment",
+                            "value": "Lgh 2012"
+                        }
+                    ],
+                    "geoLocation": {
+                        "longitude": 18.0976655,
+                        "latitude": 59.3032185
+                    },
+                    "formattedAddress": "Maltgatan 3, Lgh 2012, 120 79 Stockholm"
+                }
+            ],
+            "phone": [
+                {
+                    "useCode": "private",
+                    "preference": 1,
+                    "formattedNumber": "+46 8 11223344",
+                    "countryDialingCode": "46",
+                    "areaDialingCode": "8",
+                    "dialNumber": "11223344"
+                },
+                {
+                    "useCode": "mobile",
+                    "preference": 2,
+                    "formattedNumber": "+46 73 55667788",
+                    "countryDialingCode": "46",
+                    "areaDialingCode": "73",
+                    "dialNumber": "55667788"
+                }
+            ],
+            "email": [
+                {
+                    "useCode": "private",
+                    "preference": 1,
+                    "address": "colin.grange@domain.com"
+                },
+                {
+                    "useCode": "school",
+                    "preference": 2,
+                    "address": "colin.grange@school.se"
+                }
+            ],
+            "web": [
+                {
+                    "name": "Linkedin",
+                    "useCode": "business",
+                    "url": "https://www.linkedin.com/in/colgrange"
+                },
+                {
+                    "name": "Homepage",
+                    "url": "http://www.colin-grange.se"
+                },
+                {
+                    "name": "Facebook",
+                    "useCode": "private",
+                    "url": "https://www.facebook.com/colgrange"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/colgrange"
+                },
+                {
+                    "name": "SnapChat",
+                    "url": "https://snapchat.com/colgrange"
+                }
+            ]
+        }
+    },
+    "profiles": [
+        {
+            "languageCode": "sv-SE",
+            "profileId": {
+                "value": "Candidate061-01",
+                "schemeId": "PESSweden"
+            },
+            "alternateIds": [
+                {
+                    "value": "EMP-3654345634",
+                    "schemeId": "SomeOtherVendorHris"
+                }
+            ],
+            "profileName": "Main profile",
+            "personAvailability": {
+                "availabilityDates": [ 
+                    {
+                        "startDateTime": "2016-06-01T00:00:00Z",
+                        "endDateTime": "2016-06-30T23:59:59Z"
+                    },
+                    {
+                        "startDateTime": "2016-08-01T00:00:00Z",
+                        "endDateTime": "2016-08-31T23:59:59Z"
+                    },
+                    {
+                        "startDateTime": "2016-10-01T00:00:00Z",
+                        "endDateTime": "2016-10-31T23:59:59Z"
+                    }
+                ],
+                "noticePeriodMeasure": { 
+                    "value": 2,
+                    "unitCode": "WEE"
+                },
+                "immediateStartIndicator": true
+            },
+            "distributionGuidelines": { 
+                "doNotRedistributeIndicator": true,
+                "distributeTo": [
+                    {
+                        "startDate": "2016-01-01",
+                        "organization": {
+                            "name": "Private Employment Service 1",
+                            "id": {
+                                "value": "MAN-33567234"
+                            }
+                        }
+                    },
+                    {
+                        "startDate": "2016-03-05",
+                        "endDate": "2016-03-31",
+                        "organization": {
+                            "name": "Private Employment Service 2",
+                            "id": {
+                                "value": "ACCWork-38525483"
+                            }
+                        }
+                    }
+                ],
+                "doNotDistributeTo": [
+                    {
+                        "organization": {
+                            "name": "Other department of some organization",
+                            "id": {
+                                "value": "O-28593058"
+                            },
+                            "domainName": "http://otherdepartment.someorganization.com"
+                        }
+                    }
+                ]
+            },
+            "employerPreferences": [
+                {
+                    "organizationNames": [
+                        "SysOffice",
+                        "Stockholm Stad"
+                    ],
+                    "organizationTypes": [
+                        "private",
+                        "public"
+                    ],
+                    "industryCodes": [
+                        {
+                            "value": "4741",
+                            "schemeId": "NACE"
+                        }
+                    ],
+                    "headcountRange": {
+                        "minimum": 20,
+                        "maximum": 200
+                    },
+                    "descriptions": [
+                        "Prefer companies older than 5 years"
+                    ]
+                }
+            ],
+            "positionPreferences": [
+                {
+                    "locations": [ 
+                        {
+                            "maximumCommuteDuration": {
+                                "value": 45,
+                                "unitCode": "MIN"
+                            },
+                            "maximumCommuteDistance": {
+                                "value": 50,
+                                "unitCode": "KMT"
+                            },
+                            "referenceLocation": {
+                                "countryCode": "SE",
+                                "countrySubDivisions": [
+                                    {
+                                        "type": "Municipality",
+                                        "value": "Stockholm"
+                                    }
+                                ],
+                                "city": "Stockholm",
+                                "postalCode": "12079",
+                                "line": "Maltgatan 3",
+                                "geoLocation": {
+                                    "longitude": 18.0976655,
+                                    "latitude": 59.3032185
+                                },
+                                "formattedAddress": "Maltgatan 3, Lgh 2012, 120 79 Stockholm"
+                            }
+                        }
+                    ],
+                    "jobCategories": [
+                        {
+                            "name": "Plumber",
+                            "code": "7136"
+                        },
+                        {
+                            "name": "Waiter",
+                            "code": "5123"
+                        }
+                    ],
+                    "positionTitles": [
+                        "Plumber"
+                    ],
+                    "positionOfferingTypeCodes": [
+                        "DirectHire",
+                        "ContractToHire"
+                    ],
+                    "positionScheduleTypeCodes": [
+                        "FullTime"
+                    ],
+                    "careerLevelCodes": [
+                        "EntryLevel"
+                    ],
+                    "shiftDescriptions": [
+                        "Prefer to work close to public transport"
+                    ],
+                    "offeredRemunerationPackage": {
+                        "basisCode": "Salaried",
+                        "ranges": [
+                            {
+                                "typeCode": "BasePay",
+                                "minimumAmount": {
+                                    "value": 15000,
+                                    "currency": "SEK"
+                                },
+                                "intervalCode": "Month"
+                            },
+                            {
+                                "typeCode": "Bonus",
+                                "minimumAmount": {
+                                    "value": 0,
+                                    "currency": "SEK"
+                                },
+                                "maximumAmount": {
+                                    "value": 2000,
+                                    "currency": "SEK"
+                                },
+                                "intervalCode": "Month"
+                            }
+                        ],
+                        "descriptions": [
+                            "Interest in overtime"
+                        ]
+                    },
+                    "travel": {
+                        "willingToTravelIndicator": true,
+                        "percentage": 50
+                    },
+                    "relocation": {
+                        "willingToRelocateIndicator": true
+                    },
+                    "workingLanguageCodes": [
+                        "en",
+                        "se"
+                    ]
+                }
+            ],
+            "employment": [
+                {
+                    "id": {
+                        "value": "1342345"
+                    },
+                    "organization": {
+                        "name": "VVS Plumber",
+                        "domainName": "http://www.plumbing.com",
+                        "headCount": 100,
+                        "industryCodes": [
+                            "NAICS:4120"
+                        ]
+                    },
+                    "start": "2016-07",
+                    "current": true,
+                    "positionHistories": [
+                        {
+                            "id": {
+                                "value": "13423-1"
+                            },
+                            "title": "Assistant plumber",
+                            "resourceRelationshipCode": "Employee",
+                            "organization": {
+                                "id": {
+                                    "value": "23534523"
+                                },
+                                "name": "VVS Plumbing",
+                                "domainName": "http://www.plumbing.com/nmr"
+                            },
+                            "location": {
+                                "countryCode": "SE",
+                                "countrySubDivisions": [
+                                    {
+                                        "type": "Region",
+                                        "value": "Stockholm"
+                                    }
+                                ],
+                                "city": "Stockholm",
+                                "postalCode": "12845",
+                                "line": "Emmagaatan 61"
+                            },
+                            "start": "2015-07",
+                            "end": "2016-07"
+                        },
+                        {
+                            "id": {
+                                "value": "13423-2"
+                            },
+                            "title": "Apprentice Plumber",
+                            "resourceRelationshipCode": "Employee",
+                            "organization": {
+                                "id": {
+                                    "value": "2353423"
+                                },
+                                "name": "VVS Plumbing",
+                                "domainName": "http://www.plumbing.com/"
+                            },
+                            "location": {
+                                "countryCode": "SE",
+                                "countrySubDivisions": [
+                                    {
+                                        "type": "region",
+                                        "value": "Gävleborg"
+                                    }
+                                ],
+                                "city": "Gävle",
+                                "postalCode": "12345",
+                                "line": "1 Vavsgatan"
+                            },
+                            "start": "2014-01",
+                            "current": false
+                        }
+                    ]
+                }
+            ],
+            "education": [
+                {
+                    "id": {
+                        "value": "EDUHIST1"
+                    },
+                    "start": "2012-08",
+                    "end": "2015-05",
+                    "institution": {
+                        "name": "Gävle High School",
+                        "communication": {
+                            "address": [
+                                {
+                                    "countryCode": "SE",
+                                    "countrySubDivisions": [
+                                        {
+                                            "type": "Region",
+                                            "value": "Gävleborg"
+                                        }
+                                    ],
+                                    "city": "Gävle",
+                                    "postalCode": "12345",
+                                    "line": "610 School Street"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": {
+                        "value": "EDUHIST2"
+                    },
+                    "start": "2015-06",
+                    "end": "2015-12",
+                    "institution": {
+                        "name": "Gävle Vocational Training"
+                    },
+                    "department": {
+                        "name": "Building and Renovation",
+                        "communication": {
+                            "address": [
+                                {
+                                    "countryCode": "SE",
+                                    "countrySubDivisions": [
+                                        {
+                                            "type": "region",
+                                            "value": "Gävleborg"
+                                        }
+                                    ],
+                                    "city": "Gävle",
+                                    "postalCode": "1234",
+                                    "line": "51 Vocational Street"
+                                }
+                            ]
+                        }
+                    },
+                    "programs": [
+                        "Plumbing",
+                        "Renovation"
+                    ],
+                    "educationLevelCodes": [
+                        {
+                            "id": {
+                                "value": "",
+                                "schemeId": ""
+                            },
+                            "name": ""
+                        }
+                    ],
+                    "educationDegrees": [
+                        {
+                            "id": {
+                                "value": "Qualification1"
+                            },
+                            "name": "High School",
+                            "codes": [ "High School" ],
+                            "iscedEducationLevelCode": "3",
+                            "degreeGrantedStatus": "Granted",
+                            "date": "2015-05-15",
+                            "score": {
+                                "scoresNumeric": [
+                                    {
+                                        "value": 88,
+                                        "minimum": 0,
+                                        "maximum": 100,
+                                        "scoreCode": "Percentile"
+                                    }
+                                ]
+                            },
+                            "specializations": [
+                                {
+                                    "name": "Building",
+                                    "type": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "attachmentReferences": [
+                        {
+                            "uri": "/profiles/attachments/0",
+                            "descriptions": [
+                                "Certificate"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "licenses": [
+                {
+                    "id": {
+                        "value": "SE14352342",
+                        "schemeId": "TransportStyrelse",
+                        "schemeAgencyId": "Swedish Transportation Authority"
+                    },
+                    "name": "Körkort",
+                    "type": {
+                        "name": "Körkort",
+                        "code": "Driving License"
+                    },
+                    "status": "Active",
+                    "effectiveTimePeriod": {
+                        "validFrom": "2015-01-22T00:00:00Z",
+                        "validTo": "2030-01-21T23:59:59Z"
+                    },
+                    "firstIssued": "2015-01-22T10:21:00Z",
+                    "issuingAuthority": {
+                        "name": "Transportstyrelsen"
+                    },
+                    "endorsements": [
+                        {
+                            "value": "B",
+                            "description": "Car"
+                        },
+                        {
+                            "value": "C",
+                            "description": "Truck",
+                            "validFrom": "2015-01-22T00:00:00Z",
+                            "validTo": "2020-01-21T23:59:59Z"
+                        }
+                    ],
+                    "restrictions": [
+                        {
+                            "value": "C, only accompanied driving",
+                            "validTo": "2016-12-31T23:59:59Z"
+                        }
+                    ],
+                    "descriptions": [
+                        "class C, only accompanied driving until 2016-12-31"
+                    ]
+                },
+                {
+                    "id": {
+                        "value": "",
+                        "schemeId": "Heta arbeten",
+                        "schemeAgencyId": "Brandskyddsförening"
+                    },
+                    "name": "Hot Work permit",
+                    "type": {
+                        "name": "Hot Work permit",
+                        "code": "Hot Work Permit"
+                    },
+                    "status": "Active",
+                    "effectiveTimePeriod": {
+                        "validFrom": "2015-02-15T00:00:00Z",
+                        "validTo": "2020-04-14T23:59:59Z"
+                    },
+                    "firstIssued": "2015-02-15T10:21:00Z",
+                    "issuingAuthority": {
+                        "name": "Brandskyddsförening"
+                    },
+                    "endorsements": [
+                        {
+                            "value": "A1",
+                            "description": ""
+                        },
+                        {
+                            "value": "A4",
+                            "description": ""
+                        }
+                    ]
+                }
+            ],
+            "qualifications": [
+                {
+                    "competencyIds": [
+                        {
+                            "value": "ESCO ITM:22587",
+                            "schemeId": "ESCO Skills",
+                            "schemeVersionId": "ESCO ITM:20150303191510054",
+                            "schemeAgencyId": "EU"
+                        },
+                        {
+                            "value": "http://data.europa.eu/esco/skill/16586",
+                            "schemeId": "ESCO Skills",
+                            "schemeVersionId": "ESCO ITM:20150303191510054",
+                            "schemeAgencyId": "EU"
+                        }
+                    ],
+                    "competencyName": "Plumbing",
+                    "proficiencyLevel": {
+                        "scoresText": [
+                            {
+                                "value": "Junior level"
+                            }
+                        ]
+                    },
+                    "experienceMeasure": {
+                        "value": 2,
+                        "unitCode": "ANN"
+                    },
+                    "lastUsedDate": "2016",
+                    "interestLevel": {
+                        "scoresNumeric": [
+                            {
+                                "value": 80,
+                                "maximum": 100,
+                                "minimum": 0
+                            }
+                        ]
+                    }
+                }
+            ],
+            "attachments": [
+                {
+                    "id": {
+                        "value": "ExampleCertificate"
+                    },
+                    "content": {
+                        "value": "VGhpcyBpcyBqdXN0IGFuIGV4YW1wbGUgYXR0YWNobWVudC4gIDotKQ==",
+                        "encoding": "base64",
+                        "mimeType": "application/pdf",
+                        "filename": "ExampleCertificate.pdf"
+                    }
+                }
+            ]
+        }
+    ]
+}

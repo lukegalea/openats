@@ -1,0 +1,74 @@
+{
+    "documentId": {
+        "value": "01a2d9ec-6eb0-11e8-89dc-1211cf1065ec",
+        "schemeId": "MyJobApp"
+    },
+    "language": "en-US",
+    "searchQuery": {
+        "limit": {
+            "from": 0,
+            "size": 20
+        },
+        "orders": [
+            {
+                "criterion": {
+                    "propertyPath": "positionLocation.distance",
+                    "options": [
+                        {
+                            "key": "latitude",
+                            "value": "39.5725189"
+                        },
+                        {
+                            "key": "longitude",
+                            "value": "-104.8890233"
+                        }
+                    ]
+                },
+                "direction": "Asc"
+            }
+        ],
+        "requestedMatchedObjectDescriptors": [
+            {
+                "propertyPath": "publicationStartDate"
+            },
+            {
+                "propertyPath": "positionTitle"
+            },
+            {
+                "propertyPath": "positionOrganizations.name"
+            },
+            {
+                "propertyPath": "positionLocation.city"
+            },
+            {
+                "propertyPath": "positionLocation.countryCode"
+            }
+        ],
+        "searchCriteria": [
+            {
+                "fulltext": {
+                    "propertyPaths": [
+                        "positionTitle"
+                    ],
+                    "values": [
+                        "machinist",
+                        "widget"
+                    ]
+                }
+            },
+            {
+                "geoDistance": {
+                    "propertyPath": "positionLocation.geoLocation",
+                    "geoPoint": {
+                        "latitude": 39.5725189,
+                        "longitude": -104.8890233
+                    },
+                    "distance": {
+                        "lessThanOrEqualTo": 50,
+                        "unitCode": "SMI"
+                    }
+                }
+            }
+        ]
+    }
+}

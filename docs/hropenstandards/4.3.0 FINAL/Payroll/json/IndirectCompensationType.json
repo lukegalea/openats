@@ -1,13 +1,11 @@
 {
-	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$schema": "http://json-schema.org/draft-04/schema#",
 	"version": "4.3.x",
 	"title": "IndirectCompensationType",
-    "$id": "https://www.hropenstandards.org/hros/IndirectCompensationType.json",
 	"description": "The monetary value of compensation paid by the employer for a worker's voluntary and non-voluntary non-cash fringe benefits.",
 	"definitions": {
 		"VoluntaryBenefitAmountType": {
 			"title": "VoluntaryBenefitAmountType",
-    "$id": "https://www.hropenstandards.org/hros/VoluntaryBenefitAmountType.json",
 			"description": "The type and amount of voluntary benefit compensation.",
 			"type": "object",
 			"properties": {
@@ -27,7 +25,6 @@
 		},
 		"NonVoluntaryBenefitAmountType": {
 			"title": "NonVoluntaryBenefitAmountType",
-    "$id": "https://www.hropenstandards.org/hros/NonVoluntaryBenefitAmountType.json",
 			"description": "Describes the type and amount of benefits paid by the employer.",
 			"type": "object",
 			"properties": {

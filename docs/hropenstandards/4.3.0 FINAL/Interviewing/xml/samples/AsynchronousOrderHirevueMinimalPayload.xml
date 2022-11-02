@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hropen:Interview
+    xmlns:hropen="https://hropenstandards.org/schema/xml/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <asynchronousOrder>
+        <candidate>
+            <candidateName>
+                <given>Joe</given>
+                <family>Smith</family>
+            </candidateName>
+            <candidateContact>
+                <email>
+                    <item>
+                        <address>candidate@email.com</address>
+                    </item>
+                </email>
+            </candidateContact>
+        </candidate>
+        <positionId>
+            <value>12345</value>
+        </positionId>
+        <languageCode>en-US</languageCode>
+    </asynchronousOrder>
+</hropen:Interview>

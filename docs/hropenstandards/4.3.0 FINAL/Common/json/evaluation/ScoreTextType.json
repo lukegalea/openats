@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "ScoreTextType",
-    "$id": "https://www.hropenstandards.org/hros/ScoreTextType.json",
     "description": "A non-numeric or textual representation of a Score.",
     "type": "object",
     "properties": {

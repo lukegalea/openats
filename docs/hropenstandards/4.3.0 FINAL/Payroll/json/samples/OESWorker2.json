@@ -1,0 +1,28 @@
+{
+	"workerId": {
+		"value": "BCDE",
+		"description": "Employee Id"
+	},
+	"establishmentIds": [
+		{
+			"value": "99999"
+		}
+	],
+	"workAssignments": [
+		{
+			"jobId": {
+				"value": "C08"
+			}
+		}
+	],
+	"primaryWorkLocation": {
+		"formattedAddress": "23 Azalea Lane, Edelweiss, CA 98462"
+	},
+	"workerTypeCode": "IndependentContractor",
+	"workRelationshipStatus": {
+		"separatedIndicator": false,
+		"statusCode": "Active",
+		"statusDate": "20200402"
+	},
+	"unemploymentCompensationCoverageIndicator": false
+}

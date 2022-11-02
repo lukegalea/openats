@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "CensusType",
-    "$id": "https://www.hropenstandards.org/hros/CensusType.json",
     "description": "The data involved in initial creation and maintenance of employee census changes.",
     "type": "object",
     "allOf": [

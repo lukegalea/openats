@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "LocalizationInclusion",
-    "$id": "https://www.hropenstandards.org/hros/LocalizationInclusion.json",
     "description": "Can be used for any entity to specify localization language code.",
     "type": "object",
     "properties": {

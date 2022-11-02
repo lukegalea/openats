@@ -1,0 +1,17 @@
+{
+    "catalogPackage": {
+        "packages": [{
+                "packageCode": "Executive",
+                "packageDescription": { "value": "Standard package and includes credit check" }
+            },
+            {
+                "packageCode": "Agent",
+                "packageDescription": { "value": "Standard package and includes license verification" }
+            },
+            {
+                "packageCode": "Driver",
+                "packageDescription": { "value": "Standard package and includes DOT Physical" }
+            }
+        ]
+    }
+}

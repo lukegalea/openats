@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "PersonLegalInclusion",
-    "$id": "https://www.hropenstandards.org/hros/PersonLegalInclusion.json",
     "description": "A collection of demographic and personal data about a person.",
     "type": "object",
     "properties": {

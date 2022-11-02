@@ -1,0 +1,38 @@
+{
+    "documentId": {
+        "value": "Two Part Replace"
+    },
+    "person": {
+        "id": {
+            "value": "750111"
+        },
+        "name": {
+            "given": "John",
+            "family": "Doe"
+        }
+    },
+    "items": [
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "department": {
+                "code": "S",
+                "name": "Sales"
+            },
+            "costCenter": { "code": "SL" },
+            "period": "2014-11-02",
+            "timeTotal": "-PT8H"
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "department": {
+                "code": "MR",
+                "name": "Marketing"
+            },
+            "costCenter": { "code": "MKT" },
+            "period": "2014-11-02",
+            "timeTotal": "PT8H"
+        }
+    ]
+}

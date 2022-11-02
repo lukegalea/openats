@@ -1,0 +1,193 @@
+{
+    "documentId": {
+        "value": "candidate-search-profile-1456297999-01",
+        "schemeId": "AcmeAts"
+    },
+    "language": "en-US",
+    "searchQuery": {
+        "limit": {
+            "from": 0,
+            "size": 5
+        },
+        "orders": [
+            {
+                "criterion": {
+                    "propertyPath": "relevanceScore"
+                },
+                "direction": "Desc",
+                "sequence": 1
+            },
+            {
+                "criterion": {
+                    "propertyPath": "positionTitle"
+                },
+                "direction": "Asc",
+                "sequence": 2
+            }
+        ],
+        "requestedMatchedObjectDescriptors": [
+            {
+                "propertyPath": "positionTitle"
+            },
+            {
+                "propertyPath": "positionOrganizations.name"
+            },
+            {
+                "propertyPath": "positionLocation.city"
+            }
+        ],
+        "searchCriteria": [
+            {
+                "fulltext": {
+                    "propertyPaths": [
+                        "fulltext"
+                    ],
+                    "values": [
+                        "Avionics Systems Engineer",
+                        "Greater Los Angeles area"
+                    ]
+                }
+            }
+        ]
+    },
+    "searchResult": {
+        "count": 5,
+        "countAll": 17,
+        "executionCode": "0",
+        "executionTime": {
+            "value": 0.00054,
+            "unitCode": "SEC"
+        },
+        "items": [
+            {
+                "relevanceRank": 1,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "J684938869",
+                    "schemeId": "AcmeJobBoard"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2019-03-29"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["Avionics Systems Engineer"]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations.name",
+                        "values": ["Quest Corporation"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["Los Angeles"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 2,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "J865519493",
+                    "schemeId": "AcmeJobBoard"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2019-03-01"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["Avionics Systems Engineer"]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations.name",
+                        "values": ["ACME Aircraft"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["Inglewood"]
+                    }
+                ]            },
+            {
+                "relevanceRank": 3,
+                "relevanceScore": 0.95,
+                "matchedObjectId": {
+                    "value": "J239796098",
+                    "schemeId": "AcmeJobBoard"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2019-03-01"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["Engineer - Avionics Systems"]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations.name",
+                        "values": ["R&S Flight"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["Glendale"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 4,
+                "relevanceScore": 0.93,
+                "matchedObjectId": {
+                    "value": "J452848583",
+                    "schemeId": "AcmeJobBoard"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2019-03-01"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["Engineer - Avionics Systems"]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations.name",
+                        "values": ["Solid Avionics"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["Compton"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 5,
+                "relevanceScore": 0.89,
+                "matchedObjectId": {
+                    "value": "J348767545",
+                    "schemeId": "AcmeJobBoard"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2019-02-15"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["System Engineer (Avionics)"]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations.name",
+                        "values": ["Jet Plane"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["Pasadena"]
+                    }
+                ]
+            }
+        ]
+    }
+}

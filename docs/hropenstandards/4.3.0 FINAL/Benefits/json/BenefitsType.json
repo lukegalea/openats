@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "BenefitsType",
-    "$id": "https://www.hropenstandards.org/hros/BenefitsType.json",
     "description": "Represents the Benefits Specification.",
     "type": "object",
     "properties": {

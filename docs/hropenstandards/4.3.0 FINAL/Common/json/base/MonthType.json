@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "MonthType",
-    "$id": "https://www.hropenstandards.org/hros/MonthType.json",
     "description": "A single month, in the format MM from 01-12",
     "type": "string",
     "hropenFormat": "month",

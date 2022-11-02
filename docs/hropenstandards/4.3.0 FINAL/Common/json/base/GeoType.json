@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "GeoType",
-    "$id": "https://www.hropenstandards.org/hros/GeoType.json",
     "description": "A geographical coordinate.",
     "type": "object",
     "properties": {

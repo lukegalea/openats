@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "version": "4.1.0",
+    "title": "certificationType_sample_objects",
+    "description": "Samples for profile/CertificationType.json",
+    "type": "object",
+    "properties": {
+        "badge_instance": { "$ref": "../../../profile/CertificationType.json#" },
+        "certificate_instance": { "$ref": "../../../profile/CertificationType.json#" },
+        "certification_instance": { "$ref": "../../../profile/CertificationType.json#" },
+        "degree_instance": { "$ref": "../../../profile/CertificationType.json#" },
+        "diploma_instance": { "$ref": "../../../profile/CertificationType.json#" }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "documentId": {
+        "value": "812f766e-94f3-11ea-affd-005056931252",
+        "schemeId": "state-illinois-labor-exchange-system"
+    },
+    "language": "en-US",
+    "searchQuery": {
+        "limit": {
+            "from": 0,
+            "size": 20
+        },
+        "orders": [
+            {
+                "criterion": {
+                    "propertyPath": "relevanceScore"
+                },
+                "direction": "Desc"
+            }
+        ],
+        "requestedMatchedObjectDescriptors": [
+            {
+                "propertyPath": "publicationStartDate"
+            },
+            {
+                "propertyPath": "positionUri"
+            },
+            {
+                "propertyPath": "positionId"
+            },
+            {
+                "propertyPath": "positionTitle"
+            },
+            {
+                "propertyPath": "positionFormattedDescriptions"
+            },
+            {
+                "propertyPath": "positionOrganizations.name"
+            },
+            {
+                "propertyPath": "positionLocation"
+            }
+        ],
+        "searchCriteria": [
+            {
+                "fulltext": {
+                    "propertyPaths": [
+                        "positionTitle",
+                        "positionFormattedDescriptions"
+                    ],
+                    "values": [
+                        "Front Desk Supervisor",
+                        "Hotel"
+                    ]
+                }
+            },
+            {
+                "geoDistance": {
+                    "propertyPath": "positionLocation.geoLocation",
+                    "geoPoint": {
+                        "latitude": 41.8871616,
+                        "longitude": -87.8074676
+                    },
+                    "distance": {
+                        "lessThanOrEqualTo": 15.0,
+                        "unitCode": "SMI"
+                    }
+                }
+            }
+        ]
+    }
+}

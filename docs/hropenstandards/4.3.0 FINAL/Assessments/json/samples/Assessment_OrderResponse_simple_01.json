@@ -1,0 +1,24 @@
+{
+	"order": {
+		"documentId": {
+			"value": "3b2dec5e-f75c-47d0-9313-a8f3e9f928f2"
+		},
+		"alternateIds": [
+			{
+				"value": "order_0001",
+				"schemeId": "ATS Vendor, Inc",
+				"description": "orderId"
+			}
+		],
+		"subject": {
+			"subjectId": {
+				"value": "C001211"
+			}
+		},
+		"assessmentAccessURL": {
+			"uri": "https://www.atsvendor.com/guid",
+			"message": "Click here to begin your assessment."
+		},
+		"assessmentStatus": "OrderAcknowledged"
+	}
+}

@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "RateType",
-    "$id": "https://www.hropenstandards.org/hros/RateType.json",
     "description": "Used to represent the numerical quotient resulting from a comparison of two independent things such as a quantity measured with respect to another measured quantity.",
     "type": "object",
     "properties": {

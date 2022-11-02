@@ -1,0 +1,74 @@
+{
+	"documentId": {
+		"value": "OrgSubject",
+		"schemeId": "GlobalATS"
+	},
+	"language": "en-US",
+	"dataProtectionPolicy": {
+		"geoRestrictions": [
+			{
+				"country": "HK",
+				"policy": "Read"
+			}
+		],
+		"retentionDate": "2019-10-31",
+		"retentionDays": 365
+	},
+	"organization": {
+		"name": "ABC Inc.",
+		"taxId": {
+			"value": "1345789",
+			"description": "FEIN"
+		},
+		"legalId": {
+			"value": "ABCDEF"
+		},
+		"industryCodes": [
+			"Silk Imports"
+		],
+		"headCount": 300,
+		"revenue": {
+			"value": 100000000,
+			"currency": "HKD"
+		},
+		"geographicResponsibilityCode": "Global",
+		"ownershipType": "Private",
+		"workEnvironment": "Workshop",
+		"contacts": [
+			{
+				"roleCode": "CEO",
+				"name": {
+					"formattedName": "Scott Sao"
+				},
+				"communication": {
+					"email": [
+						{
+							"address": "SSao@abccompany.hk"
+						}
+					],
+					"address": [
+						{
+							"countryCode": "HK",
+							"countrySubDivisions": [
+								{
+									"type": "province",
+									"value": "Guangdong"
+								}
+							],
+							"city": "Shenzhen",
+							"postalCode": "518007",
+							"line": "42 Chung Ying Street"
+						}
+					]
+				}
+			}
+		],
+		"domainName": "http://www.abccompany.hk",
+		"attachments": [
+			{
+				"url": "https://api.globalats.com/id/1234/attachment/3456",
+				"descriptions": [ "Business License" ]
+			}
+		]
+	}
+}

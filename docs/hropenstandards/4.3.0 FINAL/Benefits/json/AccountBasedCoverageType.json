@@ -1,8 +1,7 @@
 {
-	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$schema": "http://json-schema.org/draft-04/schema#",
 	"version": "4.3.0",
 	"title": "AccountBasedCoverageType",
-    "$id": "https://www.hropenstandards.org/hros/AccountBasedCoverageType.json",
 	"description": "Enrollment data specific to account based coverage types.",
 	"definitions": {
 		"ElectionType": {

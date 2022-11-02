@@ -1,0 +1,125 @@
+{
+    "position": {
+        "positionId": {
+            "value": "50c1b1b8-4e7e-4118-886a-b14c568fb3da"
+        },
+        "positionTemplate": {
+            "id": {
+                "value": "97ad072b-5b81-49c7-ac6a-cf1abc29351e"
+            },
+            "name": "The Works Position Template"
+        },
+        "positionTitle": "The Works Position from a Template with additional questions",
+        "interviewFormatArray": [
+            "live video",
+            "asychronous video",
+            "live phone",
+            "asyncrhonous phone",
+            "SMS",
+            "in-person",
+            "personality assessment"
+        ]
+    },
+    "recruiter": {
+        "recruiterContact": {
+            "email": [
+                {
+                    "address": "greg.meyers@montagetalent.com",
+                    "preference": 0
+                }
+            ]
+        },
+        "id": {
+            "value": "0234bd3f-4dff-49e8-8db9-b3700dbc71a3"
+        },
+        "name": "Gregory L. Meyers"
+    },
+    "externalId": {
+        "value": "05d3b391-4db4-4497-9491-48b5df013a3d"
+    },
+    "positionQuestions": [
+        {
+            "interviewFormatType": "live video",
+            "questions": [
+                {
+                    "questionText": "This is a live video question to add in addition to the default template questions",
+                    "mediaURL": {
+                        "url": "https://aURItoaVideo.mp4"
+                    },
+                    "questionContext": "This is the context for the live video question."
+                }
+            ],
+            "id": {
+                "value": "cc76d495-f9d7-4415-9bed-e26ee11fb02a"
+            }
+        },
+        {
+            "interviewFormatType": "asynchronous video",
+            "questions": [
+                {
+                    "questionText": "This is a asynchronous video question with a video response to add in addition to the default template questions",
+                    "mediaURL": {
+                        "url": "https://aURItoaVideo.mp4"
+                    },
+                    "responseType": "video",
+                    "responsePrepTimeSeconds": 30.0,
+                    "maxResponseLength": 120.0,
+                    "rerecordCount": 1.0,
+                    "questionContext": "This is the context for the asynchronous video question."
+                },
+                {
+                    "questionText": "This is a asynchronous video question with a multiple choice response to add in addition to the default template questions",
+                    "mediaURL": {
+                        "url": "https://aURItoaVideo.mp4"
+                    },
+                    "responseType": "Multiple-Choice",
+                    "responsePrepTimeSeconds": 30.0,
+                    "rerecordCount": -1.0,
+                    "questionContext": "This is the context for the asynchronous video question.",
+                    "responseChoice": [
+                        {
+                            "text": "Yes",
+                            "value": "1"
+                        },
+                        {
+                            "text": "No",
+                            "value": "2"
+                        }
+                    ]
+                }
+            ],
+            "id": {
+                "value": "a653973a-5e32-4c06-a89c-ccfe6666e371"
+            }
+        },
+        {
+            "interviewFormatType": "SMS",
+            "questions": [
+                {
+                    "questionText": "This is a asynchronous SMS question with a multiple choice response to add in addition to the default template questions",
+                    "responseType": "Multiple-Choice",
+                    "responseChoice": [
+                        {
+                            "text": "Yes",
+                            "value": "1"
+                        },
+                        {
+                            "text": "No",
+                            "value": "2"
+                        }
+                    ]
+                }
+            ],
+            "id": {
+                "value": "717e797e-1b0b-4d0e-a512-f9f76a7d34db"
+            }
+        }
+    ],
+    "documentId": {
+        "value": " "
+    },
+    "alternateIds": [],
+    "dataProtectionPolicy": {
+    },
+    "language": "en-US"
+}

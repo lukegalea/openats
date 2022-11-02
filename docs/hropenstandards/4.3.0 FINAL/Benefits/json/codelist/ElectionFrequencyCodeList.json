@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "ElectionFrequencyCodeList",
-    "$id": "https://www.hropenstandards.org/hros/ElectionFrequencyCodeList.json",
     "description": "Election frequency  code list",
     "enum": [
         "Monthly",

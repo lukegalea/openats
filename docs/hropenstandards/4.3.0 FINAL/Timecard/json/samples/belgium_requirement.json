@@ -1,0 +1,375 @@
+{
+    "documentId": {
+        "value": "Detailed hours distribution"
+    },
+    "person": {
+        "id": {
+            "value": "BE0244"
+        },
+        "name": {
+            "given": "Bertus",
+            "family": "Blader"
+        }
+    },
+    "period": {
+        "start": "2014-12-15",
+        "end": "2014-12-21"
+    },
+    "items": [
+        {
+            "typeCode": "Unscheduled",
+            "code": "NS",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-15",
+                "end": "2014-12-15"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-15",
+                "end": "2014-12-15"
+            }
+        },
+        {
+            "typeCode": "Break",
+            "code": "BP",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-15",
+                "end": "2014-12-15"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-15",
+                "end": "2014-12-15"
+            }
+        },
+        {
+            "typeCode": "Unscheduled",
+            "code": "NS",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-15",
+                "end": "2014-12-15"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Brussels",
+                "code": "BE009"
+            },
+            "period": {
+                "start": "2014-12-16",
+                "end": "2014-12-15"
+            }
+        },
+        {
+            "typeCode": "Break",
+            "code": "BP",
+            "location": {
+                "name": "Brussels",
+                "code": "BE009"
+            },
+            "period": {
+                "start": "2014-12-16",
+                "end": "2014-12-15"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Brussels",
+                "code": "BE009"
+            },
+            "period": {
+                "start": "2014-12-16",
+                "end": "2014-12-15"
+            }
+        },
+        {
+            "typeCode": "Break",
+            "code": "BP",
+            "location": {
+                "name": "Brussels",
+                "code": "BE009"
+            },
+            "period": {
+                "start": "2014-12-16",
+                "end": "2014-12-15"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Brussels",
+                "code": "BE009"
+            },
+            "period": {
+                "start": "2014-12-16",
+                "end": "2014-12-15"
+            }
+        },
+        {
+            "typeCode": "Break",
+            "code": "BP",
+            "location": {
+                "name": "Brussels",
+                "code": "BE009"
+            },
+            "period": {
+                "start": "2014-12-16",
+                "end": "2014-12-15"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Brussels",
+                "code": "BE009"
+            },
+            "period": {
+                "start": "2014-12-16",
+                "end": "2014-12-15"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-18",
+                "end": "2014-12-18"
+            }
+        },
+        {
+            "typeCode": "Break",
+            "code": "BP",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-18",
+                "end": "2014-12-18"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-18",
+                "end": "2014-12-18"
+            }
+        },
+        {
+            "typeCode": "Break",
+            "code": "N",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-18",
+                "end": "2014-12-18"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-18",
+                "end": "2014-12-18"
+            }
+        },
+        {
+            "typeCode": "Compensation",
+            "code": "SH",
+            "period": {
+                "start": "2014-12-18",
+                "end": "2014-12-18"
+            },
+            "timeTotal": "PT36M15S"
+        },
+        {
+            "typeCode": "Training",
+            "code": "TR",
+            "location": {
+                "name": "Head Office",
+                "code": "BEHO"
+            },
+            "costCenter": { "code": "BEHO" },
+            "period": {
+                "start": "2014-12-19",
+                "end": "2014-12-19"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-19",
+                "end": "2014-12-19"
+            }
+        },
+        {
+            "typeCode": "Break",
+            "code": "BP",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-19",
+                "end": "2014-12-19"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-19",
+                "end": "2014-12-19"
+            }
+        },
+        {
+            "typeCode": "Break",
+            "code": "N",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-19",
+                "end": "2014-12-19"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-19",
+                "end": "2014-12-19"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-19",
+                "end": "2014-12-19"
+            }
+        },
+        {
+            "typeCode": "Compensation",
+            "code": "SH",
+            "period": {
+                "start": "2014-12-18",
+                "end": "2014-12-18"
+            },
+            "timeTotal": "PT30M"
+        },
+        {
+            "typeCode": "Unscheduled",
+            "code": "NS",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-19",
+                "end": "2014-12-19"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-20",
+                "end": "2014-12-20"
+            }
+        },
+        {
+            "typeCode": "Break",
+            "code": "BP",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-20",
+                "end": "2014-12-20"
+            }
+        },
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "location": {
+                "name": "Antwerp",
+                "code": "BE013"
+            },
+            "period": {
+                "start": "2014-12-20",
+                "end": "2014-12-20"
+            }
+        }
+    ]
+}

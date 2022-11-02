@@ -1,0 +1,85 @@
+{
+    "documentId": {
+        "value": "Original"
+    },
+    "person": {
+        "id": {
+            "value": "750111"
+        },
+        "name": {
+            "given": "John",
+            "family": "Doe"
+        }
+    },
+    "items": [
+        {
+            "id": {
+                "value": "4310"
+            },
+            "typeCode": "Regular",
+            "code": "N",
+            "department": {
+                "code": "S",
+                "name": "Sales"
+            },
+            "costCenter": { "code": "SL" },
+            "period": "2014-11-01",
+            "entryDate": "2014-11-01T18:02:23",
+            "timeTotal": "PT8H"
+        },
+        {
+            "id": {
+                "value": "4311"
+            },
+            "typeCode": "Regular",
+            "code": "N",
+            "department": {
+                "code": "S",
+                "name": "Sales"
+            },
+            "costCenter": { "code": "SL" },
+            "period": "2014-11-02",
+            "entryDate": "2014-11-02T18:02:23",
+            "timeTotal": "PT8H"
+        },
+        {
+            "id": {
+                "value": "4312"
+            },
+            "typeCode": "Regular",
+            "code": "N",
+            "department": {
+                "code": "S",
+                "name": "Sales"
+            },
+            "costCenter": { "code": "SL" },
+            "period": "2014-11-03",
+            "entryDate": "2014-11-03T18:02:23",
+            "timeTotal": "PT8H"
+        },
+        {
+            "id": {
+                "value": "4313"
+            },
+            "typeCode": "Regular",
+            "code": "PTO",
+            "period": {
+                "start": "2014-11-06",
+                "end": "2014-11-06"
+            },
+            "timeTotal": "PT8H"
+        },
+        {
+            "id": {
+                "value": "4314"
+            },
+            "typeCode": "Regular",
+            "code": "PTO",
+            "period": {
+                "start": "2014-11-07",
+                "end": "2014-11-07"
+            },
+            "timeTotal": "PT8H"
+        }
+    ]
+}

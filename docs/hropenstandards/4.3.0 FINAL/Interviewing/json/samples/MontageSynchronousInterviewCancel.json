@@ -1,0 +1,21 @@
+{
+    "interviewId": {
+        "value": "75ccb790-8597-4186-91b4-6398329525aa"
+    },
+    "externalInterviewId": {
+        "value": "30d99507-a952-45c3-8fad-b7b46fb56f78"
+    },
+    "status": "Cancel",
+    "comments": [
+        {
+            "status": "Click on application URL for additional status information",
+            "note": "https://sampleApplication.montagetalent.com/aURLforRedirect"
+        }
+    ],
+    "documentId": {
+        "value": " "
+    },
+    "alternateIds": [],
+    "dataProtectionPolicy": {},
+    "language": "en-US"
+}

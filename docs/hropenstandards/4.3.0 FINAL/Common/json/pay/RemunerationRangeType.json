@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "RemunerationRangeType",
-    "$id": "https://www.hropenstandards.org/hros/RemunerationRangeType.json",
     "description": "The minimum and maximum range of work compensation.",
     "type": "object",
     "properties": {

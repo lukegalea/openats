@@ -1,0 +1,253 @@
+{
+    "salarySurveySubmissions": [
+        {
+            "deployment": {
+                "employeeRecordIdentifier": {
+                    "value": "111234"
+                },
+                "job": {
+                    "id": {
+                        "value": "5011"
+                    },
+                    "title": "Buyer 1"
+                },
+                "workLocation": {
+                    "address": {
+                        "postalCode": "95032"
+                    }
+                },
+                "wageHourLawCoverageIndicator": true,
+                "organization": {
+                    "industryCodes": [
+                        "AD"
+                    ]
+                }
+            },
+            "reward": [
+                {
+                    "rewardCode": "BasePay",
+                    "eligibleIndicator": true,
+                    "clientProvidedValue": {
+                        "name": {
+                            "value": "Salary",
+                            "languageCode": "en-US"
+                        },
+                        "valueAmount": {
+                            "value": 29000,
+                            "currency": "USD"
+                        },
+                        "rateIntervalCode": "Year",
+                        "cashIndicator": true,
+                        "fixedIndicator": true
+                    }
+                }
+            ]
+        },
+        {
+            "deployment": {
+                "employeeRecordIdentifier": {
+                    "value": "1232422"
+                },
+                "job": {
+                    "id": {
+                        "value": "5011"
+                    },
+                    "title": "Buyer 1"
+                },
+                "workLocation": {
+                    "address": {
+                        "postalCode": "95032"
+                    }
+                },
+                "wageHourLawCoverageIndicator": true,
+                "organization": {
+                    "industryCodes": [
+                        "AD"
+                    ]
+                }
+            },
+            "reward": [
+                {
+                    "rewardCode": "BasePay",
+                    "eligibleIndicator": true,
+                    "clientProvidedValue": {
+                        "name": {
+                            "value": "Salary",
+                            "languageCode": "en-US"
+                        },
+                        "valueAmount": {
+                            "value": 30320,
+                            "currency": "USD"
+                        },
+                        "rateIntervalCode": "Year",
+                        "cashIndicator": true,
+                        "fixedIndicator": true
+                    }
+                }
+            ]
+        },
+        {
+            "deployment": {
+                "employeeRecordIdentifier": {
+                    "value": "544432"
+                },
+                "job": {
+                    "id": {
+                        "value": "5011"
+                    },
+                    "title": "Buyer 1"
+                },
+                "workLocation": {
+                    "address": {
+                        "postalCode": "95032"
+                    }
+                },
+                "wageHourLawCoverageIndicator": true,
+                "organization": {
+                    "industryCodes": [
+                        "CC"
+                    ]
+                }
+            },
+            "reward": [
+                {
+                    "rewardCode": "BasePay",
+                    "eligibleIndicator": true,
+                    "clientProvidedValue": {
+                        "name": {
+                            "value": "Salary",
+                            "languageCode": "en-US"
+                        },
+                        "valueAmount": {
+                            "value": 56444,
+                            "currency": "USD"
+                        },
+                        "rateIntervalCode": "Year",
+                        "cashIndicator": true,
+                        "fixedIndicator": true
+                    }
+                }
+            ]
+        },
+        {
+            "deployment": {
+                "employeeRecordIdentifier": {
+                    "value": "432567"
+                },
+                "job": {
+                    "id": {
+                        "value": "6693"
+                    },
+                    "title": "Project Manager 1"
+                },
+                "workLocation": {
+                    "address": {
+                        "postalCode": "93611"
+                    }
+                },
+                "wageHourLawCoverageIndicator": true,
+                "organization": {
+                    "industryCodes": [
+                        "AD"
+                    ]
+                }
+            },
+            "reward": [
+                {
+                    "rewardCode": "BasePay",
+                    "eligibleIndicator": true,
+                    "clientProvidedValue": {
+                        "name": {
+                            "value": "Salary",
+                            "languageCode": "en-US"
+                        },
+                        "valueAmount": {
+                            "value": 45000,
+                            "currency": "USD"
+                        },
+                        "rateIntervalCode": "Year",
+                        "cashIndicator": true,
+                        "fixedIndicator": true
+                    }
+                },
+                {
+                    "rewardCode": "VariablePay",
+                    "eligibleIndicator": true,
+                    "clientProvidedValue": {
+                        "name": {
+                            "value": "Bonus",
+                            "languageCode": "en-US"
+                        },
+                        "valueAmount": {
+                            "value": 2000,
+                            "currency": "USD"
+                        },
+                        "rateIntervalCode": "Year",
+                        "cashIndicator": true,
+                        "fixedIndicator": false
+                    }
+                }
+            ]
+        },
+        {
+            "deployment": {
+                "employeeRecordIdentifier": {
+                    "value": "54326576"
+                },
+                "job": {
+                    "id": {
+                        "value": "6693"
+                    },
+                    "title": "Project Manager 1"
+                },
+                "workLocation": {
+                    "address": {
+                        "postalCode": "93611"
+                    }
+                },
+                "wageHourLawCoverageIndicator": true,
+                "organization": {
+                    "industryCodes": [
+                        "PT"
+                    ]
+                }
+            },
+            "reward": [
+                {
+                    "rewardCode": "BasePay",
+                    "eligibleIndicator": true,
+                    "clientProvidedValue": {
+                        "name": {
+                            "value": "Salary",
+                            "languageCode": "en-US"
+                        },
+                        "valueAmount": {
+                            "value": 49809,
+                            "currency": "USD"
+                        },
+                        "rateIntervalCode": "Year",
+                        "cashIndicator": true,
+                        "fixedIndicator": true
+                    }
+                },
+                {
+                    "rewardCode": "VariablePay",
+                    "eligibleIndicator": true,
+                    "clientProvidedValue": {
+                        "name": {
+                            "value": "Bonus",
+                            "languageCode": "en-US"
+                        },
+                        "valueAmount": {
+                            "value": 3500,
+                            "currency": "USD"
+                        },
+                        "rateIntervalCode": "Year",
+                        "cashIndicator": true,
+                        "fixedIndicator": false
+                    }
+                }
+            ]
+        }
+    ]
+}

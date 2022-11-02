@@ -1,0 +1,38 @@
+{
+	"id": {
+		"value": "A9B8"
+	},
+	"title": "Flowering Botanist",
+	"categoryCode": "Professional",
+	"jobFunction": "Product development",
+	"planCode": "17C",
+	"gradeCode": "42F",
+	"stepCode": "5",
+	"managerIndicator": true,
+	"managerLevel": "Supervisor",
+	"wageHourLawCoverageIndicator": true,
+	"standardHours": {
+		"value": 40,
+		"unitCode": "WEE"
+	},
+	"occupationId": {
+		"value": "BOT",
+		"description": "Botanist"
+	},
+	"jobResponsibilities": "Develop new cultivars of flowering plants; Advise clients on best business practices",
+	"requiredEducationAndExperience": "Masters degree in botany; certified arborist; 5 years experience in horticultural genetics",
+	"requiredCompetencyIds": [
+		{
+			"value": "BOT",
+			"description": "Knowledge of botany"
+		},
+		{
+			"value": "GENG",
+			"description": "Genetic engineering"
+		},		
+		{
+			"value": "COM",
+			"description": "Written and spoken communication"
+		}
+	]
+}

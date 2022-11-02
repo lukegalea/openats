@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema",
     "version": "4.3.0",
     "title": "ScreeningReportType",
-    "$id": "https://www.hropenstandards.org/hros/ScreeningReportType.json",
     "description": "A Screening report.",
     "type": "object",
     "allOf": [
@@ -11,7 +10,6 @@
     "definitions": {
         "ServiceReportType": {
             "title": "ServiceReportType",
-    "$id": "https://www.hropenstandards.org/hros/ServiceReportType.json",
             "description": "The type of service or search type requested in the overall order.",
             "type": "object",
             "properties": {

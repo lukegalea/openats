@@ -1,0 +1,79 @@
+{
+    "id": {
+        "value": "value0",
+        "schemeId": "schemeId0",
+        "schemeVersionId": "schemeVersionId0",
+        "schemeAgencyId": "schemeAgencyId0",
+        "description": "description0",
+        "schemeLink": "http://www.oxygenxml.com/",
+        "agencyUri": "http://www.oxygenxml.com/"
+    },
+    "name": "name0",
+    "code": "code0",
+    "period": "2006-05-04",
+    "hours": "P0Y",
+    "schedules": [{"item": [
+        {
+            "id": {
+                "value": "value1",
+                "schemeId": "schemeId1",
+                "schemeVersionId": "schemeVersionId1",
+                "schemeAgencyId": "schemeAgencyId1",
+                "description": "description1",
+                "schemeLink": "http://www.oxygenxml.com/",
+                "agencyUri": "http://www.oxygenxml.com/"
+            },
+            "name": "name1",
+            "code": "code1",
+            "weekday": "Monday",
+            "date": "01:01:01.001",
+            "startTime": "01:01:01.001",
+            "endTime": "01:01:01.001",
+            "hours": "0",
+            "shift": {
+                "id": {
+                    "value": "value2",
+                    "schemeId": "schemeId2",
+                    "schemeVersionId": "schemeVersionId2",
+                    "schemeAgencyId": "schemeAgencyId2",
+                    "description": "description2",
+                    "schemeLink": "http://www.oxygenxml.com/",
+                    "agencyUri": "http://www.oxygenxml.com/"
+                },
+                "name": "name2",
+                "code": "code2"
+            }
+        },
+        {
+            "id": {
+                "value": "value3",
+                "schemeId": "schemeId3",
+                "schemeVersionId": "schemeVersionId3",
+                "schemeAgencyId": "schemeAgencyId3",
+                "description": "description3",
+                "schemeLink": "http://www.oxygenxml.com/",
+                "agencyUri": "http://www.oxygenxml.com/"
+            },
+            "name": "name3",
+            "code": "code3",
+            "weekday": "Monday",
+            "date": "01:01:01.001",
+            "startTime": "01:01:01.001",
+            "endTime": "01:01:01.001",
+            "hours": "0",
+            "shift": {
+                "id": {
+                    "value": "value4",
+                    "schemeId": "schemeId4",
+                    "schemeVersionId": "schemeVersionId4",
+                    "schemeAgencyId": "schemeAgencyId4",
+                    "description": "description4",
+                    "schemeLink": "http://www.oxygenxml.com/",
+                    "agencyUri": "http://www.oxygenxml.com/"
+                },
+                "name": "name4",
+                "code": "code4"
+            }
+        }
+    ]}]
+}

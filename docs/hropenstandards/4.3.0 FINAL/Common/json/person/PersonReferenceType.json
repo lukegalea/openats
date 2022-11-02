@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "PersonReferenceType",
-    "$id": "https://www.hropenstandards.org/hros/PersonReferenceType.json",
     "description": "A schema to reference to a person.",
     "type": "object",
     "properties": {

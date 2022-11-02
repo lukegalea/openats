@@ -1,13 +1,11 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "OrganizationReferenceType",
-    "$id": "https://www.hropenstandards.org/hros/OrganizationReferenceType.json",
     "description": "Basic information to reference a specific organization.",
     "definitions": {
         "ResponsibilityCodeList": {
             "title": "ResponsibilityCodeList",
-    "$id": "https://www.hropenstandards.org/hros/ResponsibilityCodeList.json",
             "description": "Values that classify the level or the responsibility at which the organization operates.",
             "enum": [
                 "Unit",

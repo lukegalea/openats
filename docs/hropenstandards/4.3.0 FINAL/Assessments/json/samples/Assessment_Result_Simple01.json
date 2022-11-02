@@ -1,0 +1,43 @@
+{
+    "report": {
+        "orderId": {
+            "value": "102911"
+        },
+        "party": {
+            "customer": {
+                "id": {
+                    "value": "1111"
+                }
+            }
+        },
+        "subject": {
+            "communication": {
+                "email": [{
+                    "address": "clegan.sandor@gmail.com"
+                }]
+            },
+            "subjectId": {
+                "value": "C001211"
+            },
+            "name": {
+                "formattedName": "Sandor Clegan"
+            }
+        },
+        "results": [{
+            "packageId": { "value": "pkg12345" },
+            "overallResult": {
+                "passedIndicator": true
+            },
+            "accessPoint": {
+                "url": "http://abc.com/reports/pkg12345?orderId=102911"
+            }
+        }],
+        "assessmentResultsURL": {
+            "uri": "https://reports.example-ap.com/api/v1/id=123456&",
+            "message": "Assessment report will be available at this URL.",
+            "validFrom": "2016-12-02T12:00:00",
+            "validTo": "2017-02-01T12:00:00",
+            "statusCode": ""
+        }
+    }
+}

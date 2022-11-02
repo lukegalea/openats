@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "DateType",
-    "$id": "https://www.hropenstandards.org/hros/DateType.json",
     "description": "Date representation according ISO 8601 standard.",
     "type": "string",
     "hropenFormat": "date",

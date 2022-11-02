@@ -1,0 +1,148 @@
+{
+    "documentId": {
+        "value": "c562d9ec-43bdf-11e8-89dc-86b3cf106545",
+        "schemeId": "AcmeRecruitingSystem"
+    },
+    "language": "en-US",
+    "searchQuery": {
+        "limit": {
+            "from": 0,
+            "size": 3
+        },
+        "orders": [
+            {
+                "criterion": {
+                    "propertyPath": "person.name.family"
+                },
+                "direction": "Asc",
+                "sequence": 1
+            },
+            {
+                "criterion": {
+                    "propertyPath": "person.name.given"
+                },
+                "direction": "Asc",
+                "sequence": 2
+            }
+        ],
+        "requestedMatchedObjectDescriptors": [
+            {
+                "propertyPath": "person.name.formattedName"
+            },
+            {
+                "propertyPath": "person.communication"
+            }
+        ],
+        "searchCriteria": [
+            {
+                "booleanAnd": [
+                    {
+                        "terms": {
+                            "propertyPath": "profiles.positionPreferences.careerLevelCodes",
+                            "values": [
+                                "RecentGraduate",
+                                "EntryLevel",
+                                "ExperiencedNonManager"
+                            ],
+                            "matchMode": "anyOf"
+                        }
+                    },
+                    {
+                        "terms": {
+                            "propertyPath": "profiles.education.educationDegrees.iscedEducationCode",
+                            "values": [
+                                "6"
+                            ],
+                            "matchMode": "anyOf"
+                        }
+                    },
+                    {
+                        "booleanOr": [
+                            {
+                                "terms": {
+                                    "propertyPath": "profiles.education.educationDegrees.iscedEducationCode",
+                                    "values": [
+                                        "7"
+                                    ],
+                                    "matchMode": "anyOf"
+                                }
+                            },
+                            {
+                                "rangeNumber": {
+                                    "propertyPath": "employmentExperience",
+                                    "greaterThanOrEqualTo": 10,
+                                    "unitCode": "ANN"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "searchResult": {
+        "count": 3,
+        "countAll": 81,
+        "executionCode": "0",
+        "executionTime": {
+            "value": 0.00014,
+            "unitCode": "SEC"
+        },
+        "items": [
+            {
+                "relevanceRank": 1,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "C435168493",
+                    "schemeId": "AcmeRecruitingSystem"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Anderson, Paul"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["paul.anderson@gmail.com"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 2,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "C476968437",
+                    "schemeId": "AcmeRecruitingSystem"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Anderson, Richie"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["rich.anderson@hotmail.com"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 3,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "C849390223",
+                    "schemeId": "AcmeRecruitingSystem"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Bering, Aaron"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["a.bering@yahoo.com"]
+                    }
+                ]
+            }
+        ]
+    }
+}

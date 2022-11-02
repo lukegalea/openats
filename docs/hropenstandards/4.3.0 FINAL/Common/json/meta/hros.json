@@ -1,6 +1,5 @@
 {
     "title": "HR Open Standards",
-    "$id": "https://www.hropenstandards.org/hros/HR Open Standards.json",
     "description": "HROS Core schema meta-schema",
     "definitions": {
         "schemaArray": {

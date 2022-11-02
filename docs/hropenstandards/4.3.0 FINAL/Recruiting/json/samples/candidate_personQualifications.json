@@ -1,0 +1,74 @@
+{
+    "documentId": {
+        "value": "Candidate061",
+        "schemeId": "SomeVendorAts"
+    },
+    "person": {
+        "name": {
+            "formattedName": "Mr. Jason Nustad"
+        }
+    },
+    "profiles": [
+        {
+            "languageCode": "en-US",
+            "profileId": {
+                "value": "Candidate061-01",
+                "schemeId": "SomeVendorAts"
+            },
+            "profileName": "Person Competency Profile",
+            "qualifications": [
+                {
+                    "competencyLink": {
+                        "title": "Link to skill definded by ESCO.",
+                        "schema": { },
+                        "rel": "definedBy",
+                        "href": "http://data.europa.eu/esco/skill/22587",
+                        "encType": "text/html",
+                        "targetSchema": {
+                            "description": "This is where you point to another a fully qualified schema"
+                        },
+                        "description": "option three - proposed approach."
+                    },
+                    "competencyIds": [
+                        {
+                            "description": "option one that we discussed 2016-10-19",
+                            "value": "ESCO ITM:22587",
+                            "schemeId": "ESCO Skills",
+                            "schemeVersionId": "ESCO ITM:20150303191510054",
+                            "schemeAgencyId": "EU"
+                        },
+                        {
+                            "description": "option two that we discussed 2016-10-19",
+                            "value": "http://data.europa.eu/esco/skill/22587",
+                            "schemeId": "ESCO Skills",
+                            "schemeVersionId": "ESCO ITM:20150303191510054",
+                            "schemeAgencyId": "EU"
+                        }
+                    ],
+                    "competencyName": "Java",
+                    "proficiencyLevel": {
+                        "scoresText": [
+                            {
+                                "value": "Expert level"
+                            }
+                        ]
+                    },
+                    "experienceMeasure": {
+                        "value": 5,
+                        "unitCode": "ANN"
+                    },
+                    "lastUsedDate": "2016",
+                    "interestLevel": {
+                        "scoresNumeric": [
+                            {
+                                "value": 80,
+                                "maximum": 100,
+                                "minimum": 0
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

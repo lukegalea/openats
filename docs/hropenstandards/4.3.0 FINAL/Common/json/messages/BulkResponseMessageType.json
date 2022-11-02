@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "BulkResponseMessageType",
-    "$id": "https://www.hropenstandards.org/hros/BulkResponseMessageType.json",
     "description": "A response message for communicating processing results of a request to process a set of resources, a bulk request.",
     "type": "object",
     "allOf": [

@@ -1,13 +1,11 @@
 {
-	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$schema": "http://json-schema.org/draft-04/schema#",
 	"version": "4.3.0",
 	"title": "DirectCompensationType",
-    "$id": "https://www.hropenstandards.org/hros/DirectCompensationType.json",
 	"description": "The monetary compensation paid to a worker.",
 	"definitions": {
 		"WorkedCompensationAmountType": {
 			"title": "WorkedCompensationAmountType",
-    "$id": "https://www.hropenstandards.org/hros/WorkedCompensationAmountType.json",
 			"description": "Type and monetary value for time worked.",
 			"type": "object",
 			"properties": {
@@ -27,7 +25,6 @@
 		},
 		"TimeOffCompensationAmountType": {
 			"title": "TimeOffCompensationAmountType",
-    "$id": "https://www.hropenstandards.org/hros/TimeOffCompensationAmountType.json",
 			"description": "Type and monetary value of the time off.",
 			"type": "object",
 			"properties": {

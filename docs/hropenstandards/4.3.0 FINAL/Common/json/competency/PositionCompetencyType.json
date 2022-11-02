@@ -1,13 +1,11 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "PositionCompetencyType",
-    "$id": "https://www.hropenstandards.org/hros/PositionCompetencyType.json",
     "description": "A qualified position competency has a specified required and/or desired level of proficiency and has an explicit or implicit level of importance (weight) among sibling competencies associated with a position.",
     "definitions": {
         "RelatedCompetencyType": {
             "title": "RelatedCompetencyType",
-    "$id": "https://www.hropenstandards.org/hros/RelatedCompetencyType.json",
             "description": "",
             "type": "object",
             "properties": {

@@ -1,0 +1,43 @@
+{
+	"packageCode": "PKG34",
+	"orderId": {
+		"value": "123"
+	},
+	"subjectId": {
+		"value": "123789"
+	},
+	"orderedDate": "2018-05-08T12:01:01",
+	"completedDate": "2018-05-09T12:01:01",
+	"overallEvaluation": "evaluation text",
+	"screeningResults": [{
+		"serviceId": {
+			"value": "serviceId123"
+		},
+		"serviceOrderDate": "2018-05-08T12:01:01",
+		"serviceCompletedDate": "2018-05-09T12:01:01",
+		"serviceCode": "serviceCode01",
+		"serviceName": "Fed Crim",
+		"statusMessage": "status text",
+		"flaggedIndicator": true,
+		"result": "result text",
+		"comments": [{
+			"datetime": "2018-05-23T21:18:13+00:00",
+			"note": "Received required info from the screening subject via telephone."
+		}],
+		"attachmentPointers": ["#/attachments/0"]
+	}],
+	"statusMessage": "status text",	
+	"attachments": [{
+		"content": {
+			"value": "ABCDefg==",
+			"encoding": "base64",
+			"mimeType": "application/pdf",
+			"filename": "consent.pdf"
+		},
+		"descriptions": ["Applicant's consent form"]
+	},
+	{
+		"url": "http://api.cra-example.com/hropen/4_2/report/1234?uid=adf321",
+		"descriptions": ["Contains the Fed Crim hits"]
+	}]
+}

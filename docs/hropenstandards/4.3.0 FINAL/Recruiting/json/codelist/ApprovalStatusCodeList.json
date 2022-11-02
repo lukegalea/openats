@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "ApprovalStatusCodeList",
-    "$id": "https://www.hropenstandards.org/hros/ApprovalStatusCodeList.json",
     "description": "Values that describe the status of an approval process.",
     "enum": [
         "InReview",

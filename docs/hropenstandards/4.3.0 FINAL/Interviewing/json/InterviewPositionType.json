@@ -1,14 +1,12 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "InterviewPositionType",
-    "$id": "https://www.hropenstandards.org/hros/InterviewPositionType.json",
     "description": "Provides the information needed to create a Position for an Interview.",
     "type": "object",
     "definitions": {
         "PositionType": {
             "title": "PositionType",
-    "$id": "https://www.hropenstandards.org/hros/PositionType.json",
             "description": "Information about the position.",
             "type": "object",
             "properties": {

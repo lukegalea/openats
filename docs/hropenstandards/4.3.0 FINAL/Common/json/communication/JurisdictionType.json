@@ -1,8 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "JurisdictionType",
-    "$id": "https://www.hropenstandards.org/hros/JurisdictionType.json",
     "description": "Defines a geographical area and associated legal or cultural context.",
     "type": "object",
     "properties": {
