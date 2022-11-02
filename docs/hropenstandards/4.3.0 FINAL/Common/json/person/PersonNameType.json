@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "PersonNameType",
+    "$id": "https://www.hropenstandards.org/hros/PersonNameType.json",
     "description": "A component for capturing summary or fine-grain data comprising a person's name.",
     "type": "object",
     "allOf": [

@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "AsynchronousOrderType",
+    "$id": "https://www.hropenstandards.org/hros/AsynchronousOrderType.json",
     "description": "Provides the information needed to order the Interview.",
     "type": "object",
 

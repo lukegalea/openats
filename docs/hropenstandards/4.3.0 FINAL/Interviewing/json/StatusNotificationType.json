@@ -2,11 +2,13 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "StatusNotificationType",
+    "$id": "https://www.hropenstandards.org/hros/StatusNotificationType.json",
     "description": "Provides the status information related to asyncrhonous interviewing system activity.",
     "type": "object",
     "definitions": {
         "InterviewQuestionsScoreType": {
             "title": "InterviewQuestionsScoreType",
+    "$id": "https://www.hropenstandards.org/hros/InterviewQuestionsScoreType.json",
             "description": "The collection of question scores for a specific interview type.",
             "type": "object",
             "properties": {
@@ -17,6 +19,7 @@
 
         "InterviewScoreType": {
             "title": "InterviewScoreType",
+    "$id": "https://www.hropenstandards.org/hros/InterviewScoreType.json",
             "description": "The score of a specific interview type.",
             "type": "object",
             "properties": {
@@ -27,6 +30,7 @@
         },
         "ReviewerType": {
             "title": "ReviewerType",
+    "$id": "https://www.hropenstandards.org/hros/ReviewerType.json",
             "description": "Information about the person and date/time of the review.",
             "type": "object",
             "properties": {

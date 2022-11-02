@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "LocationType",
+    "$id": "https://www.hropenstandards.org/hros/LocationType.json",
     "description": "Identified address type.",
     "allOf": [
         { "$ref": "AddressType.json#" }

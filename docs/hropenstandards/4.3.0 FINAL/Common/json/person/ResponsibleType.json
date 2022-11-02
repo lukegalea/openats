@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "ResponsibleType",
+    "$id": "https://www.hropenstandards.org/hros/ResponsibleType.json",
     "description": "A collection of information about the person who is the submitter/approver of the associated document.",
     "type": "object",
     "properties": {

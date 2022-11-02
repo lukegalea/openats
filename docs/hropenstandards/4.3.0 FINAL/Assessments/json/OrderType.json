@@ -2,10 +2,12 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.0",
 	"title": "OrderType",
+    "$id": "https://www.hropenstandards.org/hros/OrderType.json",
 	"description": "Represents an Assessments Order for HR Open Standards.",
 	"definitions": {
 		"AssessmentAccessType": {
 			"title": "AssessmentAccessType",
+    "$id": "https://www.hropenstandards.org/hros/AssessmentAccessType.json",
 			"description": "This is a set of information used to provide the assessment subject access to a test that has been ordered.",
 			"type": "object",
 			"allOf": [
@@ -29,6 +31,7 @@
 		},
 		"AssessmentPackagesType": {
 			"title": "AssessmentPackagesType",
+    "$id": "https://www.hropenstandards.org/hros/AssessmentPackagesType.json",
 			"description": "Array of packages used in staged assessments.",
 			"type": "object",
 			"allOf": [
@@ -59,6 +62,7 @@
 		},
 		"Conditions": {
 			"title": "Conditions",
+    "$id": "https://www.hropenstandards.org/hros/Conditions.json",
 			"description": "Conditions used in progression of an object/event/person",
 			"type": "array",
 			"properties": {

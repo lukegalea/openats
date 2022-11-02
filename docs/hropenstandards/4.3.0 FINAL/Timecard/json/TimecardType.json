@@ -2,10 +2,12 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "TimecardType",
+    "$id": "https://www.hropenstandards.org/hros/TimecardType.json",
     "description": "A record of time worked; associated expenses to be reimbursed; and/or allowances associated with the engagement.",
     "definitions": {
         "TimeWorkedRoundingType": {
             "title": "TimeWorkedRoundingType",
+    "$id": "https://www.hropenstandards.org/hros/TimeWorkedRoundingType.json",
             "type": "object",
             "properties": {
                 "cycleCode": { "$ref": "../../common/json/codelist/PayCycleIntervalCodeList.json#" },
@@ -15,6 +17,7 @@
         },
         "StateCodeType": {
             "title": "StateCodeType",
+    "$id": "https://www.hropenstandards.org/hros/StateCodeType.json",
             "description": "A set of codes classifying the state of a TimeCard.",
             "enum": [
                 "Raw",
@@ -29,6 +32,7 @@
         },
         "ItemTypeCodeType": {
             "title": "ItemTypeCodeType",
+    "$id": "https://www.hropenstandards.org/hros/ItemTypeCodeType.json",
             "description": "Identifies common types of time/work classification",
             "enum": [
                 "Regular",
@@ -48,6 +52,7 @@
         },
         "ItemBase": {
             "title": "ItemBase",
+    "$id": "https://www.hropenstandards.org/hros/ItemBase.json",
             "description": "Common properties used on TimeCardItem and PieceOfWork/Allowance/Expense/Balance",
             "allOf": [
                 { "$ref": "../../common/json/base/EntityType.json#" },
@@ -63,9 +68,11 @@
         },
         "QuantityAmount": {
             "title": "QuantityAmount",
+    "$id": "https://www.hropenstandards.org/hros/QuantityAmount.json",
             "anyOf": [
                 {
                     "title": "quantity",
+    "$id": "https://www.hropenstandards.org/hros/quantity.json",
                     "type": "object",
                     "properties": {
                         "quantity": { "$ref": "../../common/json/base/QuantityType.json#" }
@@ -74,6 +81,7 @@
                 },
                 {
                     "title": "amount",
+    "$id": "https://www.hropenstandards.org/hros/amount.json",
                     "type": "object",
                     "properties": {
                         "amount": { "$ref": "../../common/json/base/AmountType.json#" }
@@ -84,6 +92,7 @@
         },
         "PieceWorkType": {
             "title": "PieceWorkType",
+    "$id": "https://www.hropenstandards.org/hros/PieceWorkType.json",
             "description": "Contains information relating to renumeration based on count of items produced or serviced.",
             "allOf": [
                 { "$ref": "#/definitions/ItemBase" }
@@ -100,6 +109,7 @@
         },
         "ExpenseType": {
             "title": "ExpenseType",
+    "$id": "https://www.hropenstandards.org/hros/ExpenseType.json",
             "description": "This allows for the reporting of expenses for reimbursement or payment. TimeCard is not designed as an all-purpose expense-reporting format, but rather is designed to accommodate the type of expenses that are reported and reimbursed in the context of staffing assignments.",
             "allOf": [
                 { "$ref": "#/definitions/ItemBase" }
@@ -112,6 +122,7 @@
         },
         "AllowanceType": {
             "title": "AllowanceType",
+    "$id": "https://www.hropenstandards.org/hros/AllowanceType.json",
             "description": "Allows for the reporting of allowances that may be associated with the particular time worked. For example, some workers may be due per diems to cover expenses incurred during an assignment or may receive allowances to cover the cost of items such as uniforms.",
             "type": "object",
             "allOf": [
@@ -130,6 +141,7 @@
         },
         "BalanceType": {
             "title": "BalanceType",
+    "$id": "https://www.hropenstandards.org/hros/BalanceType.json",
             "description": "Allows for the reporting of direct balance values.",
             "type": "object",
             "allOf": [
@@ -139,6 +151,7 @@
         },
         "TimeCardItemType": {
             "title": "TimeCardItemType",
+    "$id": "https://www.hropenstandards.org/hros/TimeCardItemType.json",
             "description": "Contains data on a period of work, time event, expense, or allowance that is being reported within a time card.",
             "allOf": [
                 { "$ref": "#/definitions/ItemBase" },

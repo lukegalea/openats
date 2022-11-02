@@ -2,6 +2,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.0",
 	"title": "EmployerEstablishmentType",
+    "$id": "https://www.hropenstandards.org/hros/EmployerEstablishmentType.json",
 	"description": "Information to identify and reference a specific establishment within an organization.",
 	"type": "object",
 	"allOf": [

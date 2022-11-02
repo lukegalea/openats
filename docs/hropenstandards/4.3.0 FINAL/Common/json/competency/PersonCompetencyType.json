@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "PersonCompetencyType",
+    "$id": "https://www.hropenstandards.org/hros/PersonCompetencyType.json",
     "description": "A specified person competency is a competency within the context of a personal record (profile, appraisal, assessment) assessed or asserted at specified level of proficiency.",
     "type": "object",
     "properties": {

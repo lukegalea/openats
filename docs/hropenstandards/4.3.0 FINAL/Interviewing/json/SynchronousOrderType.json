@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "SynchronousOrderType",
+    "$id": "https://www.hropenstandards.org/hros/SynchronousOrderType.json",
     "description": "Provides the information needed to order the Interview synchronously.",
     "type": "object",
 

@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "TravelType",
+    "$id": "https://www.hropenstandards.org/hros/TravelType.json",
     "description": "Information regarding travel - preferences or necessities.",
     "type": "object",
     "properties": {

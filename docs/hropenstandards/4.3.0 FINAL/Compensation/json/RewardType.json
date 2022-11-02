@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "RewardType",
+    "$id": "https://www.hropenstandards.org/hros/RewardType.json",
     "description": "Details of the compensation reward",
     "type": "object",
     "properties": {

@@ -2,6 +2,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.0",
 	"title": "WorkerCompensationType",
+    "$id": "https://www.hropenstandards.org/hros/WorkerCompensationType.json",
 	"description": "The direct and indirect compensation a worker was paid.",
 	"type": "object",
 	"allOf": [

@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "NumberType",
+    "$id": "https://www.hropenstandards.org/hros/NumberType.json",
     "description": "A mathematical number that is assigned or is determined by calculation.",
     "type": "number"
 }

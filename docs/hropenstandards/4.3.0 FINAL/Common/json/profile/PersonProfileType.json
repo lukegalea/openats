@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "PersonProfileType",
+    "$id": "https://www.hropenstandards.org/hros/PersonProfileType.json",
     "description": "Represents person along with profile data.",
     "type": "object",
     "allOf": [

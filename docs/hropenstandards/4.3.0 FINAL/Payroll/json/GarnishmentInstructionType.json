@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "GarnishmentInstructionType",
+    "$id": "https://www.hropenstandards.org/hros/GarnishmentInstructionType.json",
     "description": "This defines the deduction associated to a garnishment in the context of that which is relevant to payroll processing.",
     "type": "object",
     "allOf": [

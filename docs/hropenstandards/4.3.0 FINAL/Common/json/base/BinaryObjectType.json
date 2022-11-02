@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "BinaryObjectType",
+    "$id": "https://www.hropenstandards.org/hros/BinaryObjectType.json",
     "description": "A binary object is a sequence of binary digits (bits) to represent a file. It is recommended to use base64 encoding.",
     "type": "object",
     "properties": {

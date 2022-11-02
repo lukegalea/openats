@@ -2,10 +2,12 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "AttachmentType",
+    "$id": "https://www.hropenstandards.org/hros/AttachmentType.json",
     "description": "Embedded attachment data or URL to actual attachment.",
     "definitions": {
         "AttachmentContent": {
             "title": "AttachmentContent",
+    "$id": "https://www.hropenstandards.org/hros/AttachmentContent.json",
             "description": "Content of an attachment in the JSON message, which can be embedded or an external reference.",
             "type": "object",
             "properties": {

@@ -2,6 +2,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.0",
 	"title": "AssignmentLifeCycleType",
+    "$id": "https://www.hropenstandards.org/hros/AssignmentLifeCycleType.json",
 	"description": "Contains a collection dates related to the assignment.",
 	"type": "object",
 	"properties": {

@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "EmploymentPermitType",
+    "$id": "https://www.hropenstandards.org/hros/EmploymentPermitType.json",
     "description": "A type that gives information on the permissions of a person to work.",
     "type": "object",
     "allOf": [

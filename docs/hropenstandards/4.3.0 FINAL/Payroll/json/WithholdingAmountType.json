@@ -2,6 +2,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.x",
 	"title": "WithholdingAmountType",
+    "$id": "https://www.hropenstandards.org/hros/WithholdingAmountType.json",
 	"description": "Type and monetary value withheld from an worker. This may include taxes, premiums, and retirement withholdings.",
 	"type": "object",
 	"properties": {

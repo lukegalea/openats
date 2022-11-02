@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "RemoteWorkType",
+    "$id": "https://www.hropenstandards.org/hros/RemoteWorkType.json",
     "description": "Represents the remote work specification.",
     "type": "object",
     "properties": {
@@ -35,6 +36,7 @@
     "definitions": {
         "WorkLocationCodeList": {
             "title": "WorkLocationCodeList",
+    "$id": "https://www.hropenstandards.org/hros/WorkLocationCodeList.json",
             "description": "A code classifying the role of an entity or the role with which that entity is associated. 'Home' allows for work at a candidate's home. 'Virtual' allows for work in any location that is not provided by the company (i.e. airport, coffee shop). 'Colocation' would be for remote office or shared office environment near the candidate.",
             "enum": [
                 "Home",
@@ -44,6 +46,7 @@
         },
         "RestrictionCodeList": {
             "title": "RestrictionCodeList",
+    "$id": "https://www.hropenstandards.org/hros/RestrictionCodeList.json",
             "description": "A code classifying the restriction of the remote work to a particular region or time zone. 'Local' typically refers to a city or small area. 'Regional' refers to a state, province or official territory. 'Timezone' refers to a restriction based on time zone. 'Country' refers to a restriction in one or more countries. 'Territory' refers to a defined area by the company. 'Other' means a restriction not defined by the other choices. If there are no restrictions, use 'None'. The details of the restriction should be specified in 'RestrictionDetails'.",
             "enum": [
                 "Local",

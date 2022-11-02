@@ -2,6 +2,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.0",
 	"title": "JobType",
+    "$id": "https://www.hropenstandards.org/hros/JobType.json",
 	"description": "A job serves as a template for more specifically defined positions and assignments in a company, in part, to provide equitable opportunity for similar work done across disparate business units inside and outside the organization",
 	"type": "object",
 	"properties": {

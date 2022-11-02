@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "RemunerationPackageType",
+    "$id": "https://www.hropenstandards.org/hros/RemunerationPackageType.json",
     "description": "Terms offered or agreed regarding remuneration for a position. May include pay as well as benefits in-kind.",
     "type": "object",
     "allOf": [

@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "DatePeriodType",
+    "$id": "https://www.hropenstandards.org/hros/DatePeriodType.json",
     "description": "Single period between dates. Both start and end are required.",
     "type": "object",
     "allOf": [

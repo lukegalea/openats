@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "IscedCodeList",
+    "$id": "https://www.hropenstandards.org/hros/IscedCodeList.json",
     "description": "The International Standard Classification of Education (ISCED) is a scheme developed by the UN to provide a normalized, international set of values for classifying the level of a school or institution. Version from year 2011.",
     "enum": [
         "0",

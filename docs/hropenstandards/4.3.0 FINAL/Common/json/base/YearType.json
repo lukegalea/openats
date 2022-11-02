@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "YearType",
+    "$id": "https://www.hropenstandards.org/hros/YearType.json",
     "description": "A single 4 digit year.",
     "type": "string",
     "hropenFormat": "year",

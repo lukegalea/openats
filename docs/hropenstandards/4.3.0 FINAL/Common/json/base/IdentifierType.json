@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "IdentifierType",
+    "$id": "https://www.hropenstandards.org/hros/IdentifierType.json",
     "description": "An identifier is a character string used to uniquely identify one instance of an object within an identification scheme that is managed by an agency. Use this type when the list or values are controlled by an external entity, the list or values are public and could be referenced or validated.",
     "type": "object",
     "properties": {

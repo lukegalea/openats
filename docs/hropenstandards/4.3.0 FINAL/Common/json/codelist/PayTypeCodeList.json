@@ -2,6 +2,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.0",
 	"title": "PayTypeCodeList",
+    "$id": "https://www.hropenstandards.org/hros/PayTypeCodeList.json",
 	"description": "Values that classify the various pay types.",
 	"enum": [
 		"BasePay",

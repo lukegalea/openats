@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "ResponsibleInclusion",
+    "$id": "https://www.hropenstandards.org/hros/ResponsibleInclusion.json",
     "description": "The people who are submitters and/or approvers information for an entity.",
     "type": "object",
     "properties": {

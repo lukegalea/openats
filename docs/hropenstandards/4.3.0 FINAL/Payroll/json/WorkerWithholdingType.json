@@ -2,6 +2,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.0",
 	"title": "WorkerWithholdingType",
+    "$id": "https://www.hropenstandards.org/hros/WorkerWithholdingType.json",
 	"description": "Amounts withheld from the worker including taxes, premiums, insurance, other withholdings.",
 	"type": "object",
 	"properties": {

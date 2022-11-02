@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "CompensationCareerLevelCodeList",
+    "$id": "https://www.hropenstandards.org/hros/CompensationCareerLevelCodeList.json",
     "description": "A set of codes classifying the compensation career level codes.",
     "enum": [
         "EntryLevel",

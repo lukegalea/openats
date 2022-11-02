@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "AtomicResponseMessageType",
+    "$id": "https://www.hropenstandards.org/hros/AtomicResponseMessageType.json",
     "description": "A response message for communicating processing results of a request to process a single resource, an atomic request.",
     "type": "object",
     "allOf": [

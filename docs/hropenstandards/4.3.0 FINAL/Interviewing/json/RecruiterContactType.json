@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "RecruiterContactType",
+    "$id": "https://www.hropenstandards.org/hros/RecruiterContactType.json",
     "description": "The contact information for a recruiter managing the position.",
     "allOf": [
         { "$ref": "../../common/json/base/EntityType.json#" }

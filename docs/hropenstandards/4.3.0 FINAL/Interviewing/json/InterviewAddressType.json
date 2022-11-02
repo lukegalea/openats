@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "InterviewAddressType",
+    "$id": "https://www.hropenstandards.org/hros/InterviewAddressType.json",
     "description": "Contact information regarding the candidate to invite.",
     "allOf": [
         { "$ref": "../../common/json/communication/AddressType.json#" }

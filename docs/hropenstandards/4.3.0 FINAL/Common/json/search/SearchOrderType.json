@@ -3,6 +3,7 @@
     "version": "4.3.0",
     "SearchOrderType": {
         "title": "SearchOrderType",
+    "$id": "https://www.hropenstandards.org/hros/SearchOrderType.json",
         "description": "Specifying order information of search results.",
         "type": "object",
         "properties": {

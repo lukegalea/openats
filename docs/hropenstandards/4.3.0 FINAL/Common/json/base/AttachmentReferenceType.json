@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "AttachmentReferenceType",
+    "$id": "https://www.hropenstandards.org/hros/AttachmentReferenceType.json",
     "description": "A reference to an attachment that is within the current context of the document, or an external reference.",
     "type": "object",
     "properties": {

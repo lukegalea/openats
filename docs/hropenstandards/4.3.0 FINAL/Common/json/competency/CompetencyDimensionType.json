@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "CompetencyDimensionType",
+    "$id": "https://www.hropenstandards.org/hros/CompetencyDimensionType.json",
     "description": "A measurable characteristic of a competency. Examples might include 'frequency of use,' 'level of interest,' etc.",
     "type": "object",
     "properties": {

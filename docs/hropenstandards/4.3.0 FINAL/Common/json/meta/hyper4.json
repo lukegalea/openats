@@ -1,5 +1,6 @@
 {
     "title": "JSON Hyper-Schema",
+    "$id": "https://www.hropenstandards.org/hros/JSON Hyper-Schema.json",
     "allOf": [
         {
             "$ref": "v4.json#"
@@ -113,6 +114,7 @@
         },
         "linkDescription": {
             "title": "Link Description Object",
+    "$id": "https://www.hropenstandards.org/hros/Link Description Object.json",
             "type": "object",
             "required": [ "href", "rel" ],
             "properties": {

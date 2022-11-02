@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "ProcessHistoryItemType",
+    "$id": "https://www.hropenstandards.org/hros/ProcessHistoryItemType.json",
     "description": "Describes a single workflow process history step or item.",
     "type": "object",
     "properties": {
@@ -54,6 +55,7 @@
     "definitions": {
         "ProcessActionType": {
             "title": "ProcessActionType",
+    "$id": "https://www.hropenstandards.org/hros/ProcessActionType.json",
             "description": "The type of action, process, or step that was executed.",
             "type": "object",
             "properties": {
@@ -73,6 +75,7 @@
         },
         "ProcessStatusType": {
             "title": "ProcessStatusType",
+    "$id": "https://www.hropenstandards.org/hros/ProcessStatusType.json",
             "description": "A type defining the status of the underlying item.",
             "type": "object",
             "properties": {
@@ -92,6 +95,7 @@
         },
         "ProcessPartyType": {
             "title": "ProcessPartyType",
+    "$id": "https://www.hropenstandards.org/hros/ProcessPartyType.json",
             "description": "A type defining the party, which may be a person or organization or both.",
             "type": "object",
             "properties": {

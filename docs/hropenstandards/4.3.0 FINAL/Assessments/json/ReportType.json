@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "ReportType",
+    "$id": "https://www.hropenstandards.org/hros/ReportType.json",
     "description": "Represents an Assessments Report for HR Open Standards.",
     "definitions": {
         "AssessmentResultType": {
@@ -45,6 +46,7 @@
         },
         "AssessmentScoreType": {
             "title": "AssessmentScoreType",
+    "$id": "https://www.hropenstandards.org/hros/AssessmentScoreType.json",
             "description": "This is the test score type structure.",
             "type": "object",
             "properties": {
@@ -75,6 +77,7 @@
         },
         "TestInstanceType": {
             "title": "TestInstanceType",
+    "$id": "https://www.hropenstandards.org/hros/TestInstanceType.json",
             "description": "TestInstance is a set of information about the test instance actually taken by the assessment subject.",
             "type": "object",
             "properties": {

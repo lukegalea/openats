@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "SearchResultType",
+    "$id": "https://www.hropenstandards.org/hros/SearchResultType.json",
     "description": "The actual search result (set/list).",
     "type": "object",
     "properties": {
@@ -32,6 +33,7 @@
     "definitions": {
         "SearchResultItemType": {
             "title": "SearchResultItemType",
+    "$id": "https://www.hropenstandards.org/hros/SearchResultItemType.json",
             "description": "Search result item.",
             "type": "object",
             "properties": {
@@ -69,6 +71,7 @@
         },
         "RelevanceScoreDetailsItemType": {
             "title": "RelevanceScoreDetailsItemType",
+    "$id": "https://www.hropenstandards.org/hros/RelevanceScoreDetailsItemType.json",
             "description": "Detailed information about the relevance score evaluation.",
             "type": "object",
             "properties": {

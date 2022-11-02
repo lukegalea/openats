@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "RedirectUrlType",
+    "$id": "https://www.hropenstandards.org/hros/RedirectUrlType.json",
     "description": "Structure for a link to an action in an assessment order and report.",
     "type": "object",
     "allOf": [

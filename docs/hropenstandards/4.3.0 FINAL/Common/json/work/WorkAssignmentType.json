@@ -2,6 +2,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.x",
 	"title": "WorkAssignmentType",
+    "$id": "https://www.hropenstandards.org/hros/WorkAssignmentType.json",
 	"description": "WorkAssignment may associate a Job and/or Position with a Worker.",
 	"type": "object",
 	"properties": {

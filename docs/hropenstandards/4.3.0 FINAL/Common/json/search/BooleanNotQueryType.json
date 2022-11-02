@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "BooleanNotQueryType",
+    "$id": "https://www.hropenstandards.org/hros/BooleanNotQueryType.json",
     "description": "Type to implement a 'boolean NOT' query.",
     "type": "object",
     "properties": {

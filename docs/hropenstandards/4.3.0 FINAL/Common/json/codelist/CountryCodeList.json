@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "CountryCodeList",
+    "$id": "https://www.hropenstandards.org/hros/CountryCodeList.json",
     "description": "Two letter country codes as defined by ISO 3166-1:2013. Content referenced from Wikipedia.",
     "enum": [
         "AD",

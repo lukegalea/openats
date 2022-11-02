@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "RemunerationBasisCodeList",
+    "$id": "https://www.hropenstandards.org/hros/RemunerationBasisCodeList.json",
     "description": "A code classifying the primary method of payment for the associated position or employment. This classifies the method by which remuneration for a position is provided or calculated.",
     "enum": [
         "Hourly",

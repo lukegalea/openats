@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "RangeDateTimeQueryType",
+    "$id": "https://www.hropenstandards.org/hros/RangeDateTimeQueryType.json",
     "description": "Range query type based on date and time data.",
     "type": "object",
     "properties": {

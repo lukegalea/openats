@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "AssessmentSubjectType",
+    "$id": "https://www.hropenstandards.org/hros/AssessmentSubjectType.json",
     "description": "Person to be assessed.",
     "allOf": [
         { "$ref": "../../common/json/person/PersonLegalType.json#" },

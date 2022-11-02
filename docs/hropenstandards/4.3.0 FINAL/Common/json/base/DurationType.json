@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "DurationType",
+    "$id": "https://www.hropenstandards.org/hros/DurationType.json",
     "description": "A duration is the specification of a length of time without a fixed start or end time.",
     "oneOf": [
         {

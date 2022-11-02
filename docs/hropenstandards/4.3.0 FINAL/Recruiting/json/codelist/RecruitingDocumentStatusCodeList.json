@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "RecruitingDocumentStatusCodeList",
+    "$id": "https://www.hropenstandards.org/hros/RecruitingDocumentStatusCodeList.json",
     "description": "Values that describe the disposition of a position opening document.",
     "enum": [
         "Active",

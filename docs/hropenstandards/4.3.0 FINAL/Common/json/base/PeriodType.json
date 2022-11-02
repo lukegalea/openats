@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "PeriodType",
+    "$id": "https://www.hropenstandards.org/hros/PeriodType.json",
     "description": "Single date/timespan/month/year or period between two dates/months/years.",
     "anyOf": [
         { "$ref": "FormattedDateTimeType.json#" },

@@ -2,10 +2,12 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.0",
 	"title": "PositionType",
+    "$id": "https://www.hropenstandards.org/hros/PositionType.json",
 	"description": "A type that defines a position type and related identifiers.",
 	"definitions": {
 		"PositionStatusCodeList": {
 			"title": "PositionStatusCodeList",
+    "$id": "https://www.hropenstandards.org/hros/PositionStatusCodeList.json",
 			"description": "A value defining the status of the position.",
 			"enum": [
 				"Approved",

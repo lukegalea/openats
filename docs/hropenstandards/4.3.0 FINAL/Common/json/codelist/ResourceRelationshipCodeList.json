@@ -2,6 +2,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.0",
 	"title": "ResourceRelationshipCodeList",
+    "$id": "https://www.hropenstandards.org/hros/ResourceRelationshipCodeList.json",
 	"description": "Resource relationship code list.",
 	"enum": [
 		"Employee",

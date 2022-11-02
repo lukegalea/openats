@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "CompetencyEvidenceType",
+    "$id": "https://www.hropenstandards.org/hros/CompetencyEvidenceType.json",
     "description": "A document or other record providing evidence of a competency or that is treated as a proxy for the existence of the competency. Examples include: an assessment result; a performance appraisal; an educational degree; a supervisor's observation; etc.",
     "type": "object",
     "properties": {

@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "SearchLimitType",
+    "$id": "https://www.hropenstandards.org/hros/SearchLimitType.json",
     "description": "Specifying limit information of a search result.",
     "type": "object",
     "properties": {

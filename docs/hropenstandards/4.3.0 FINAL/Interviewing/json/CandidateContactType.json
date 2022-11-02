@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "CandidateContactType",
+    "$id": "https://www.hropenstandards.org/hros/CandidateContactType.json",
     "description": "Contact information regarding the candidate to invite.",
     "allOf": [
         { "$ref": "../../common/json/base/EntityType.json#" }

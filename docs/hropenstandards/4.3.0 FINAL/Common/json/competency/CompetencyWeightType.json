@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "CompetencyWeightType",
+    "$id": "https://www.hropenstandards.org/hros/CompetencyWeightType.json",
     "description": "A number expressing the relative importance of a particular component (e.g., a position competency) among sibling components. Weights are most frequently expressed a percentage (where the weights assigned to individual sibling competencies would total 100 percent when totaled), but they may be expressed using another numeric scale.",
     "type": "object",
     "properties": {

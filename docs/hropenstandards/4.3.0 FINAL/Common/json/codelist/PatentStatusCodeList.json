@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "PatentStatusCodeList",
+    "$id": "https://www.hropenstandards.org/hros/PatentStatusCodeList.json",
     "description": "Patent status codelist.",
     "enum": [
         "Filed",

@@ -2,10 +2,12 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.0",
 	"title": "WorkRelationshipStatusType",
+    "$id": "https://www.hropenstandards.org/hros/WorkRelationshipStatusType.json",
 	"description": "The status of the worker in relation to the assignment.",
 	"definitions": {
 		"WorkRelationshipStatusCodeList": {
 			"title": "WorkRelationshipStatusCodeList",
+    "$id": "https://www.hropenstandards.org/hros/WorkRelationshipStatusCodeList.json",
 			"enum": [
 				"Pending",
 				"Active",

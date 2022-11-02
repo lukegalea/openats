@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "AccountBasedPlanSetupType",
+    "$id": "https://www.hropenstandards.org/hros/AccountBasedPlanSetupType.json",
     "description": "Account Based Plan set up type",
     "definitions": {
         "EmployerContributionType": {

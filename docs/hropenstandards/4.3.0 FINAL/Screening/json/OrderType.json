@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "OrderType",
+    "$id": "https://www.hropenstandards.org/hros/OrderType.json",
     "description": "A Screening order.",
     "type": "object",
     "allOf": [
@@ -11,6 +12,7 @@
     "definitions": {
         "ALaCarteScreenType": {
             "title": "ALaCarteScreenType",
+    "$id": "https://www.hropenstandards.org/hros/ALaCarteScreenType.json",
             "description": "An aLaCarte screen.",
             "type": "object",
             "properties": {

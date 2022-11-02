@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "PositionType",
+    "$id": "https://www.hropenstandards.org/hros/PositionType.json",
     "description": "A position which may be associated with a screening order.",
     "type": "object",
     "allOf": [

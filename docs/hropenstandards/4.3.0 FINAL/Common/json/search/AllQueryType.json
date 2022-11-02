@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "AllQueryType",
+    "$id": "https://www.hropenstandards.org/hros/AllQueryType.json",
     "description": "Set of all query types.",
     "type": "object",
     "allOf": [

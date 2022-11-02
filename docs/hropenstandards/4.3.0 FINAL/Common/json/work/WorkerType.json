@@ -2,6 +2,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"version": "4.3.x",
 	"title": "WorkerType",
+    "$id": "https://www.hropenstandards.org/hros/WorkerType.json",
 	"description": "Worker is a Person Role and is defined as someone who performs labor for an organization. Worker is an abstraction for other more specific work-related roles, for example, Employee and Contractor. (ADP)",
 	"type": "object",
 	"allOf": [

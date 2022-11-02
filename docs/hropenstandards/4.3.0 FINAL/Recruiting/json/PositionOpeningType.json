@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "version": "4.3.0",
     "title": "PositionOpeningType",
+    "$id": "https://www.hropenstandards.org/hros/PositionOpeningType.json",
     "description": "A job or position opening that is at an organization.",
     "type": "object",
     "allOf": [

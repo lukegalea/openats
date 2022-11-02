@@ -1,5 +1,6 @@
 {
     "title": "JSON Patch",
+    "$id": "https://www.hropenstandards.org/hros/JSON Patch.json",
     "description": "A JSON Schema describing a JSON Patch",
     "type": "object",
     "properties": {
