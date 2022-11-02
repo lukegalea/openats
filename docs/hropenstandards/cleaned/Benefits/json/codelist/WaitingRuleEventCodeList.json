@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "WaitingRuleEventCodeList",
+    "$id": "http://www.hropenstandards.org/hros/WaitingRuleEventCodeList.json",
+      "description": "A code classifying the event associated with the waiting rule.",
+    "enum": [
+        "WorkEvent",
+        "NewHire",
+        "LifeEvent"
+    ]
+}

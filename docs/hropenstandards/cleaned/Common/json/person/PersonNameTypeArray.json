@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "PersonNameTypeArray",
+    "$id": "http://www.hropenstandards.org/hros/PersonNameTypeArray.json",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "allOf": [
+            { "$ref": "PersonNameType.json#" }
+        ],
+        "properties": {
+            "nameType": { "type": "string" }
+        },
+        "required": [ "nameType" ]
+    }
+}

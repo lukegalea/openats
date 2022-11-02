@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "BaseScoreType",
+    "$id": "http://www.hropenstandards.org/hros/BaseScoreType.json",
+    "description": "Type object to contain either numeric or text scores.",
+    "type": "object",
+    "properties": {
+        "scoresNumeric": {
+            "description": "Numeric scores for a test.",
+            "type": "array",
+            "items": { "$ref": "ScoreNumericType.json#" }
+        },
+        "scoresText": {
+            "description": "Text scores for a test.",
+            "type": "array",
+            "items": { "$ref": "ScoreTextType.json#" }
+        }
+    }
+}

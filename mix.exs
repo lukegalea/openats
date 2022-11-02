@@ -54,6 +54,7 @@ defmodule Openats.MixProject do
       {:ash_postgres, "~> 1.0"},
       {:ash_json_api, "~> 0.30.1"},
       {:ash_admin, "~> 0.7.0"},
+      {:json_schema, only: [:dev]}, # For generating resources from Open HR Schema
     ]
   end
 

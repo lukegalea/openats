@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "version": "4.3.0",
+    "title": "CatalogPackageType",
+    "$id": "http://www.hropenstandards.org/hros/CatalogPackageType.json",
+    "description": "A list of available screening packages.",
+    "type": "object",
+    "definitions": {
+        "PackageType": {
+            "title": "PackageType",
+    "$id": "http://www.hropenstandards.org/hros/PackageType.json",
+            "description": "A screening package.",
+            "type": "object",
+            "properties": {
+                "packageCode": {
+                    "description": "The code corresponding to a screening package.",
+                    "$ref": "../../common/json/base/CodeType.json#"
+                },
+                "packageDescription": {
+                    "description": "The description of what the screening package.",
+                    "$ref": "../../common/json/base/TextType.json#"
+                }
+            },
+            "required": ["packageCode"]
+        }
+    },
+    "properties": {
+        "packages": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/PackageType" }
+        }
+    }
+}

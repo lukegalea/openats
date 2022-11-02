@@ -1,0 +1,8 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "RatioType",
+    "$id": "http://www.hropenstandards.org/hros/RatioType.json",
+    "description": "Relation between two independent quantities, using the same unit.",
+    "type": "number"
+}

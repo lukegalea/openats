@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "SearchOrderType": {
+        "title": "SearchOrderType",
+    "$id": "http://www.hropenstandards.org/hros/SearchOrderType.json",
+        "description": "Specifying order information of search results.",
+        "type": "object",
+        "properties": {
+            "criterion": {
+                "$ref": "OrderCriterionType.json#"
+            },
+            "direction": {
+                "enum": [
+                    "Asc",
+                    "Desc"
+                ]
+            },
+            "sequence": {
+                "type": "integer"
+            }
+        },
+        "required": [
+            "criterion"
+        ]
+    }
+}

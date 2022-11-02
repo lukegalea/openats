@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "BooleanQueryType",
+    "$id": "http://www.hropenstandards.org/hros/BooleanQueryType.json",
+    "description": "Set of all boolean query types.",
+    "type": "object",
+    "allOf": [
+        { "$ref": "BooleanAndQueryType.json#" },
+        { "$ref": "BooleanOrQueryType.json#" },
+        { "$ref": "BooleanNotQueryType.json#" }
+    ]
+}

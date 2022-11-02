@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "ScheduledHoursCodeList",
+    "$id": "http://www.hropenstandards.org/hros/ScheduledHoursCodeList.json",
+    "description": "Values that classify the various scheduled hours types.",
+    "enum": [
+        "Week",
+        "TwoWeeks",
+        "FourWeeks",
+        "HalfMonth",
+        "Month",
+        "TwoMonths",
+        "Quarter",
+        "SeasonalTerm",
+        "HalfYear",
+        "Year",
+        "Shift"
+    ],
+    "enumNames": [
+        "Week",
+        "Two Weeks",
+        "Four Weeks",
+        "Half Month",
+        "Month",
+        "Two Months",
+        "Quarter",
+        "Seasonal Term",
+        "Half Year",
+        "Year",
+        "Shift"
+    ]
+}

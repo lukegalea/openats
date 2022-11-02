@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "LocationType",
+    "$id": "http://www.hropenstandards.org/hros/LocationType.json",
+    "description": "Identified address type.",
+    "allOf": [
+        { "$ref": "AddressType.json#" }
+    ],
+    "type": "object",
+    "properties": {
+        "id": { "$ref": "../base/IdentifierType.json#" }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "TextTypeArray",
+    "$id": "http://www.hropenstandards.org/hros/TextTypeArray.json",
+    "description": "Array of TextType data - for providing a multilingual textual representation.",
+    "type": "array",
+    "items": {
+        "$ref": "TextType.json#"
+    }
+}

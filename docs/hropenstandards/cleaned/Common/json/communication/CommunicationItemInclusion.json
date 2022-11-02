@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "CommunicationItemInclusion",
+    "$id": "http://www.hropenstandards.org/hros/CommunicationItemInclusion.json",
+    "description": "Common properties for communication items.",
+    "type": "object",
+    "properties": {
+        "name": {
+            "description": "Provide description for particular communication item.",
+            "type": "string"
+        },
+        "useCode": {
+            "description": "Code identifying the usage of the contact point e.g. business, private, etc.",
+            "$ref": "../base/CodeType.json#"
+        },
+        "preference": {
+            "description": "Provide priority for given communication item.",
+            "type": "integer"
+        },
+        "availablePeriod": { "$ref": "../base/DateTimePeriodType.json#" }
+    }
+}
