@@ -4,7 +4,10 @@ defmodule Openats.Ats.PositionOpening do
     notifiers: [
       Ash.Notifier.PubSub
     ],
-    extensions: [AshJsonApi.Resource]
+    extensions: [
+      AshJsonApi.Resource,
+      AshAdmin.Resource
+    ]
 
   postgres do
     table "postion_openings"
@@ -29,9 +32,19 @@ defmodule Openats.Ats.PositionOpening do
     end
   end
 
+  relationships do
+    belongs_to :position_profile, Openats.Ats.PositionProfile
+  end
+
   actions do
     create :open do
       accept [:name]
+
+      argument :position_profile_id, :uuid do
+        allow_nil? false
+      end
+
+      #change manage_relationship(:position_profile_id, :position_profile, type: :append_and_remove)
     end
 
     update :close do
@@ -45,9 +58,7 @@ defmodule Openats.Ats.PositionOpening do
     type "position_openings"
     routes do
       base "/position_openings"
-      # Add a `GET /position_openings/:id` route, that calls into the :read action called :read
       get :read
-      # Add a `GET /position_openings` route, that calls into the :read action called :read
       index :read
     end
   end

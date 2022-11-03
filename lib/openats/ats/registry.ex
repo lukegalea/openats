@@ -6,5 +6,6 @@ defmodule Openats.Ats.Registry do
 
   entries do
     entry Openats.Ats.PositionOpening
+    entry Openats.Ats.PositionProfile
   end
 end

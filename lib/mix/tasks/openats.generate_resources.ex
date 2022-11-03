@@ -1,7 +1,7 @@
 defmodule Mix.Tasks.Openats.GenerateResources do
   use Mix.Task
   require Logger
-  alias JsonSchema.Parser.{ParserError, ParserWarning}
+  #alias JsonSchema.Parser.{ParserError, ParserWarning}
 
   @shortdoc "Regenerates the resources from the open hr schema"
 
@@ -249,9 +249,9 @@ defmodule Mix.Tasks.Openats.GenerateResources do
     :ok
   end
 
-  defp print_error(str) do
-    IO.puts(IO.ANSI.format([:cyan, str]))
-  end
+  # defp print_error(str) do
+  #   IO.puts(IO.ANSI.format([:cyan, str]))
+  # end
 
   defp print_header(str) do
     IO.puts(IO.ANSI.format([:cyan, str]))
