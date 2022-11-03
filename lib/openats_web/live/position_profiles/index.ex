@@ -3,8 +3,8 @@ defmodule OpenatsWeb.PositionProfiles.Index do
   use Phoenix.Component
   alias OpenatsWeb.Components.ListItem
 
-  @impl
-  def mount(params, _, socket) do
+  @impl true
+  def mount(_params, _, socket) do
     form =
       Openats.Ats.PositionOpening |> AshPhoenix.Form.for_create(:open, api: Openats.Ats, forms: [auto?: true])
     socket =
@@ -12,20 +12,20 @@ defmodule OpenatsWeb.PositionProfiles.Index do
         form: form
       )
 
-    socket = AshPhoenix.LiveView.keep_live(socket, :profiles, fn x ->
+    socket = AshPhoenix.LiveView.keep_live(socket, :profiles, fn _socket ->
       Openats.Ats.PositionProfile |> Openats.Ats.read!()
     end, subscribe: "position_profile:created", results: :lose)
 
     {:ok, socket}
   end
 
-  @impl
+  @impl true
   def render(assigns) do
     ~H"""
     <h1>Job Postings <.link navigate={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.New)}><button>Add</button></.link></h1>
     <ul id="profiles">
     <%= for profile <- @profiles do %>
-      <ListItem.list route={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.View, profile.id)}}>
+      <ListItem.list route={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.View, profile.id)}>
         <%= profile.name %>
       </ListItem.list>
     <% end %>
@@ -33,12 +33,12 @@ defmodule OpenatsWeb.PositionProfiles.Index do
     """
   end
 
-  @impl
+  @impl true
   def handle_event("save", %{"form" => params}, socket) do
     form = AshPhoenix.Form.validate(socket.assigns.form, params)
 
     case AshPhoenix.Form.submit(form) do
-      {:ok, result} ->
+      {:ok, _result} ->
         {:noreply, socket}
       {:error, form} ->
         assign(socket, :form, form)

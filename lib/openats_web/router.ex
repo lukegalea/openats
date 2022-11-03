@@ -22,6 +22,7 @@ defmodule OpenatsWeb.Router do
     get "/", PageController, :index
     live "/position_openings", PositionOpenings.Index
     live "/position_profiles", PositionProfiles.Index
+    live "/position_profiles/new", PositionProfiles.New
     live "/position_profiles/:id", PositionProfiles.View
   end
 

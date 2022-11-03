@@ -1,7 +1,6 @@
 defmodule OpenatsWeb.PositionProfiles.New do
   use OpenatsWeb, :live_view
   use Phoenix.Component
-  alias OpenatsWeb.Components.ListItem
 
   @impl
   def mount(params, _, socket) do
@@ -16,7 +15,6 @@ defmodule OpenatsWeb.PositionProfiles.New do
         form: form
       )
 
-    IO.inspect(form)
     {:ok, socket}
   end
 
@@ -38,9 +36,6 @@ defmodule OpenatsWeb.PositionProfiles.New do
       <%= textarea f, :description %>
       <%= error_tag f, :description %>
 
-      <%= for comment_form <- inputs_for(f, :add_opening) do %>
-          <%= text_input comment_form, :name %>
-      <% end %>
       <%= submit "Save" %>
     </.form>
     </ul>
@@ -53,6 +48,9 @@ defmodule OpenatsWeb.PositionProfiles.New do
 
     case AshPhoenix.Form.submit(form) do
       {:ok, result} ->
+        Openats.Ats.PositionOpening
+        |> Ash.Changeset.for_create(:open, %{position_profile_id: result.id, name: "default"})
+        |> Openats.Ats.create!()
         {:noreply, push_navigate(socket, to: "/position_profiles/")}
       {:error, form} ->
         assign(socket, :form, form)
