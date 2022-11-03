@@ -1,6 +1,7 @@
 defmodule OpenatsWeb.PositionProfilesLive do
   use OpenatsWeb, :live_view
   use Phoenix.Component
+  alias OpenatsWeb.Components.ListItem
 
   @impl
   def mount(params, _, socket) do
@@ -24,11 +25,9 @@ defmodule OpenatsWeb.PositionProfilesLive do
     <h1>Job Postings</h1>
     <ul id="profiles">
     <%= for profile <- @profiles do %>
-      <li id={profile.id}>
-        <.link navigate={Routes.live_path(@socket, OpenatsWeb.PositionProfilesViewLive, profile.id)}}>
-          <%= profile.name %>
-        </.link>
-      </li>
+      <ListItem.list route={Routes.live_path(@socket, OpenatsWeb.PositionProfilesViewLive, profile.id)}}>
+        <%= profile.name %>
+      </ListItem.list>
     <% end %>
     </ul>
     """

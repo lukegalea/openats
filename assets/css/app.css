@@ -1,5 +1,11 @@
 /* This file is for your main application CSS */
 @import "./phoenix.css";
+@import "./list.css";
+
+ul {
+  list-style: none;
+  padding: 0;
+}
 
 /* Alerts and form errors used by phx.new */
 .alert {
