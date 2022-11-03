@@ -20,9 +20,9 @@ defmodule OpenatsWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
-    # live "/position_openings", PositionOpeningsLive
-    live "/position_profiles", PositionProfilesLive
-    live "/position_profiles/:id", PositionProfilesViewLive
+    live "/position_openings", PositionOpenings.Index
+    live "/position_profiles", PositionProfiles.Index
+    live "/position_profiles/:id", PositionProfiles.View
   end
 
   scope "/json_api" do

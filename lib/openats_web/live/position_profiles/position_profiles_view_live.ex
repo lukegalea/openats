@@ -1,4 +1,4 @@
-defmodule OpenatsWeb.PositionProfilesViewLive do
+defmodule OpenatsWeb.PositionProfiles.View do
   use OpenatsWeb, :live_view
 
   @impl

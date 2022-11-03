@@ -1,4 +1,4 @@
-defmodule OpenatsWeb.PositionProfilesLive do
+defmodule OpenatsWeb.PositionProfiles.Index do
   use OpenatsWeb, :live_view
   use Phoenix.Component
   alias OpenatsWeb.Components.ListItem
@@ -22,10 +22,10 @@ defmodule OpenatsWeb.PositionProfilesLive do
   @impl
   def render(assigns) do
     ~H"""
-    <h1>Job Postings</h1>
+    <h1>Job Postings <button>Add</button></h1>
     <ul id="profiles">
     <%= for profile <- @profiles do %>
-      <ListItem.list route={Routes.live_path(@socket, OpenatsWeb.PositionProfilesViewLive, profile.id)}}>
+      <ListItem.list route={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.View, profile.id)}}>
         <%= profile.name %>
       </ListItem.list>
     <% end %>

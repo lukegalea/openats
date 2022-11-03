@@ -1,4 +1,4 @@
-defmodule OpenatsWeb.PositionOpeningsLive do
+defmodule OpenatsWeb.PositionOpenings.Index do
 	use OpenatsWeb, :live_view
 
 	@impl
