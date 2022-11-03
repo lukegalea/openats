@@ -22,7 +22,7 @@ defmodule OpenatsWeb.PositionProfiles.Index do
   @impl
   def render(assigns) do
     ~H"""
-    <h1>Job Postings <button>Add</button></h1>
+    <h1>Job Postings <.link navigate={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.New)}><button>Add</button></.link></h1>
     <ul id="profiles">
     <%= for profile <- @profiles do %>
       <ListItem.list route={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.View, profile.id)}}>
