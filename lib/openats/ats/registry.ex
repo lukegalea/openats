@@ -7,5 +7,7 @@ defmodule Openats.Ats.Registry do
   entries do
     entry Openats.Ats.PositionOpening
     entry Openats.Ats.PositionProfile
+    entry Openats.Ats.Candidate
+    entry Openats.Ats.Person
   end
 end

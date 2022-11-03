@@ -1,4 +1,4 @@
-defmodule Openats.Ats.PositionOpening do
+defmodule Openats.Ats.Candidate do
   use Ash.Resource,
     data_layer: AshPostgres.DataLayer,
     notifiers: [
@@ -10,16 +10,13 @@ defmodule Openats.Ats.PositionOpening do
     ]
 
   postgres do
-    table "postion_openings"
+    table "candidates"
     repo Openats.Repo
   end
 
   attributes do
     uuid_primary_key :id
 
-    attribute :name, :string do
-      allow_nil? false
-    end
 
     attribute :status, :atom do
       constraints [one_of: [:active, :closed, :incomplete]]
@@ -29,21 +26,25 @@ defmodule Openats.Ats.PositionOpening do
   end
 
   relationships do
-    belongs_to :position_profile, Openats.Ats.PositionProfile
-    has_many :candidates, Openats.Ats.Candidate
+    belongs_to :position_opening, Openats.Ats.PositionOpening
+    belongs_to :person, Openats.Ats.Person
   end
 
   actions do
     defaults [:read, :update, :destroy]
 
-    create :open do
-      accept [:name]
-
-      argument :position_profile_id, :uuid do
+    create :apply do
+      argument :position_opening_id, :uuid do
         allow_nil? false
       end
 
-      change manage_relationship(:position_profile_id, :position_profile, type: :append_and_remove)
+      argument :person_id, :uuid do
+        allow_nil? false
+      end
+
+      change manage_relationship(:position_opening_id, :position_opening, type: :append_and_remove)
+      change manage_relationship(:person_id, :person, type: :append_and_remove)
+      # change set_attribute(:status, :active)
     end
 
     update :close do
@@ -54,16 +55,16 @@ defmodule Openats.Ats.PositionOpening do
   end
 
   json_api do
-    type "position_openings"
+    type "candidates"
     routes do
-      base "/position_openings"
+      base "/candidates"
       get :read
       index :read
     end
   end
 
   pub_sub do
-    prefix "position_opening"
+    prefix "candidate"
 
     module(OpenatsWeb.Endpoint)
 
