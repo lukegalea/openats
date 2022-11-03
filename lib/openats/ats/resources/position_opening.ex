@@ -14,10 +14,6 @@ defmodule Openats.Ats.PositionOpening do
     repo Openats.Repo
   end
 
-  actions do
-    defaults [:create, :read, :update, :destroy]
-  end
-
   attributes do
     uuid_primary_key :id
 
@@ -37,6 +33,8 @@ defmodule Openats.Ats.PositionOpening do
   end
 
   actions do
+    defaults [:read, :update, :destroy]
+
     create :open do
       accept [:name]
 
@@ -44,7 +42,7 @@ defmodule Openats.Ats.PositionOpening do
         allow_nil? false
       end
 
-      #change manage_relationship(:position_profile_id, :position_profile, type: :append_and_remove)
+      change manage_relationship(:position_profile_id, :position_profile, type: :append_and_remove)
     end
 
     update :close do
@@ -71,4 +69,10 @@ defmodule Openats.Ats.PositionOpening do
     publish(:create, ["created", :id])
     publish_all :create, "created"
   end
+
+  # admin do
+  #   form do
+  #     field :name, type: :default
+  #   end
+  # end
 end

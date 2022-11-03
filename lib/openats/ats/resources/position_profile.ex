@@ -54,9 +54,11 @@ defmodule Openats.Ats.PositionProfile do
     publish_all :create, "created"
   end
 
-  # admin do
-  #   form do
-  #     field
-  #   end
-  # end
+  admin do
+    form do
+      field :name, type: :long_text
+      field :description, type: :long_text
+      field :qualifications, type: :long_text
+    end
+  end
 end
