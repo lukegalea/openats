@@ -21,6 +21,8 @@ defmodule OpenatsWeb.Router do
 
     get "/", PageController, :index
     live "/position_openings", PositionOpeningsLive
+    live "/position_profiles", PositionProfilesLive
+    live "/position_profiles/:id", PositionProfilesViewLive
   end
 
   scope "/json_api" do

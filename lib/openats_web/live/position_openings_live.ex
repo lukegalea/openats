@@ -1,6 +1,7 @@
 defmodule OpenatsWeb.PositionOpeningsLive do
 	use OpenatsWeb, :live_view
 
+	@impl
 	def mount(params, _, socket) do
 		form =
 			Openats.Ats.PositionOpening |> AshPhoenix.Form.for_create(:open, api: Openats.Ats, forms: [auto?: true])
@@ -10,12 +11,13 @@ defmodule OpenatsWeb.PositionOpeningsLive do
 			)
 
 		socket = AshPhoenix.LiveView.keep_live(socket, :openings, fn x ->
-			openings = Openats.Ats.PositionOpening |> Openats.Ats.read!()
+			Openats.Ats.PositionOpening |> Openats.Ats.read!()
 		end, subscribe: "position_opening:created", results: :lose)
 
 		{:ok, socket}
 	end
 
+	@impl
 	def render(assigns) do
 		~H"""
 		<h1>Position Openings</h1>
@@ -37,6 +39,7 @@ defmodule OpenatsWeb.PositionOpeningsLive do
 		"""
 	end
 
+	@impl
 	def handle_event("save", %{"form" => params}, socket) do
 		form = AshPhoenix.Form.validate(socket.assigns.form, params)
 
