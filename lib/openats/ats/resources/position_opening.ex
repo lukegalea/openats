@@ -1,6 +1,9 @@
 defmodule Openats.Ats.PositionOpening do
   use Ash.Resource,
     data_layer: AshPostgres.DataLayer,
+    notifiers: [
+      Ash.Notifier.PubSub
+    ],
     extensions: [AshJsonApi.Resource]
 
   postgres do
@@ -47,5 +50,14 @@ defmodule Openats.Ats.PositionOpening do
       # Add a `GET /position_openings` route, that calls into the :read action called :read
       index :read
     end
+  end
+
+  pub_sub do
+    prefix "position_opening"
+
+    module(OpenatsWeb.Endpoint)
+
+    publish(:create, ["created", :id])
+    publish_all :create, "created"
   end
 end
