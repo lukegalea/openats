@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "CompensationType",
+    "$id": "http://www.hropenstandards.org/hros/CompensationType.json",
+    "description": "Represents the Compensation Specification.",
+    "type": "object",
+    "properties": {
+        "salarySurvey": { "$ref": "SalarySurveySubmissionType.json#" },
+        "salarySurveyResults": { "$ref": "SalarySurveyReportType.json#" }
+    }
+}

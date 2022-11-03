@@ -1,0 +1,187 @@
+{
+    "documentId": {
+        "value": "9f451dd0-0a29-42c8-bf6e-ec96a42a7425",
+        "schemeId": "ATS"
+    },
+    "language": "en-US",
+    "statusCode": "Active",
+    "postingRequester": {
+        "id": {
+            "value": "1",
+            "schemeId": "atsRequesterId"
+        },
+        "code": "FIBOP111",
+        "name": "VCom",
+        "personContacts": [
+            {
+                "name": {
+                    "given": "James",
+                    "family": "Madison"
+                },
+                "roleCode": "Hiring Manager",
+                "communication": {
+                    "email": [
+                        {
+                            "address": "james.madison@vcom.com"
+                        }
+                    ],
+                    "address": [
+                        {
+                            "city": "San Jose",
+                            "countryCode": "US",
+                            "countrySubDivisions": [
+                                {
+                                    "type": "state",
+                                    "value": "CA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "positionProfiles": [
+        {
+            "profileName": "Fiber Optic Tester",
+            "profileId": {
+                "value": "FIBOP111",
+                "schemeId": "ATS"
+            },
+            "language": "en-US",
+            "postingInstructions": [
+                {
+                    "channelId": {
+                        "value": "Upstream Staffing Company"
+                    },
+                    "templateId": "",
+                    "brandingId": "",
+                    "applicationMethods": [
+                        {
+                            "instructions": "email",
+                            "personContact": {
+                                "name": {
+                                    "given": "James",
+                                    "family": "Madison"
+                                },
+                                "roleCode": "Hiring Manager",
+                                "communication": {
+                                    "email": [
+                                        {
+                                            "address": "james.madison@vcom.com"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "positionId": {
+                "value": "FIBOP111",
+                "schemeId": "ATS"
+            },
+            "positionTitle": "Fiber Optic Tester",
+            "positionLocation": [
+                {
+                    "name": "VCom Headquarters",
+                    "line": "488 S Almaden Ave",
+                    "city": "San Jose",
+                    "postalCode": "95110",
+                    "countryCode": "US",
+                    "countrySubDivisions": [
+                        {
+                            "type": "state",
+                            "value": "CA"
+                        }
+                    ],
+                    "geoLocation": {
+                        "latitude": 37.3272579,
+                        "longitude": -121.8889685
+                    }
+                }
+            ],
+            "positionOrganizations": [
+                {
+                    "name": "VCom Inc.",
+                    "responsibilityCode": "Parent",
+                    "domainName": "http://www.vcom.com"
+                }
+            ],
+            "positionOpenQuantity": 1,
+            "jobCategories": [
+                {
+                    "id": {
+                        "value": "7",
+                        "schemeId": "ATS"
+                    },
+                    "code": "Engineering"
+                }
+            ],
+            "careerLevels": [
+                {
+                    "id": {
+                        "value": "5",
+                        "schemeId": "ATS"
+                    },
+                    "code": "Technical"
+                }
+            ],
+            "positionOfferingTypes": [
+                "DirectHire"
+            ],
+            "positionQualifications": [
+                {
+                    "educationRequirement": {
+                        "educationLevelCode": "",
+                        "iscedEducationLevelCode": "6",
+                        "degreeTypeCode": "bachelors"
+                    }
+                }
+            ],
+            "positionFormattedDescriptions": [
+                {
+                    "descriptionId": {
+                        "value": "job_description"
+                    },
+                    "title": "Job Description",
+                    "content": "VCOM Inc. has immediate openings for Fibre Optic Technicians to work in San Jose and surrounding areas.<br/>Applicants must have a minimum of 2 years experience in fibre optic splicing and testing.<br/>We have been in business since 1998 and are privately owned Canadian Contracting Company that offers its' customers a wide range of services from Installations and Service, Construction, Technical, Planning & Design, Fibre Optics, Directional Drilling and much more.<br/>We offer competitive wages, benefits, Employee Retirement Plan and many more other perks.<br/>"
+                },
+                {
+                    "descriptionId": {
+                        "value": "job_requirements"
+                    },
+                    "title": "Qualifications",
+                    "content": "<ul><li>Splice and test various types of fibre optic cable</li><li>Can read system maps</li><li>Can operate all types of splicing and testing equipment</li><li>Must be able to carry and climb a twenty eight foot extension ladder and the ability to work at heights</li><li>Must be well organized and able to work independently and or as part of a team</li><li>Will be required to work in all weather conditions</li><li>Will be required to work weekends and off hours</li></ul>"
+                }
+            ],
+            "positionScheduleTypeCodes": [
+                "FullTime"
+            ],
+            "remoteWork": {
+                "remoteWorkIndicator": false
+            },
+            "offeredRemunerationPackage": {
+                "basisCode": "Salaried",
+                "ranges": [
+                    {
+                        "intervalCode": "Year",
+                        "referenceAmount": {
+                            "value": 65000,
+                            "currency": "USD"
+                        },
+                        "typeCode": "BasePay"
+                    },
+                    {
+                        "intervalCode": "Year",
+                        "referenceAmount": {
+                            "value": 5000,
+                            "currency": "USD"
+                        },
+                        "typeCode": "Bonus"
+                    }
+                ]
+            }
+        }
+    ]
+}

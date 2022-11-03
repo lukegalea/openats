@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "MeasureType",
     "description": "A measure is a numeric value determined by measuring an object along with the specified unit of measure.",

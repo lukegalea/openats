@@ -1,0 +1,10 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "DayOfMonthType",
+    "$id": "http://www.hropenstandards.org/hros/DayOfMonthType.json",
+    "description": "A day within the month, in the format DD (01-31)",
+    "type": "string",
+    "hropenFormat": "day",
+    "pattern": "^(0[1-9]|[12][0-9]|3[01])$"
+}

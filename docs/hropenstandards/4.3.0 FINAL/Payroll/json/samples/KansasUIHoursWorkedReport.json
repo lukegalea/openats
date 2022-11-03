@@ -1,0 +1,27 @@
+{
+	"workerId": {
+		"value": "ABCDEF",
+		"description": "Employee Id"
+	},
+	"reportingTimePeriod": {
+		"validFrom": "2020-07-01T00:00:00",
+		"validTo": "2020-09-30T24:00:00"
+	},
+	"paidForWorkInPayPeriod": [
+		{
+			"includedDayOfMonth": "12",
+			"reportedMonth": "07",
+			"paidForWorkIndicator": true
+		},
+		{
+			"includedDayOfMonth": "12",
+			"reportedMonth": "08",
+			"paidForWorkIndicator": true
+		},
+				{
+			"includedDayOfMonth": "12",
+			"reportedMonth": "09",
+			"paidForWorkIndicator": false
+		}
+	]
+}

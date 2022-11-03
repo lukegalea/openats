@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "WeekdayCodeList",
+    "$id": "http://www.hropenstandards.org/hros/WeekdayCodeList.json",
+    "description": "Values that classify the various days of week.",
+    "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+    ]
+}

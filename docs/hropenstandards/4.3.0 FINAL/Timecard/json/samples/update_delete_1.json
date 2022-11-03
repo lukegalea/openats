@@ -1,0 +1,48 @@
+{
+    "documentId": {
+        "value": "Change By ID"
+    },
+    "person": {
+        "id": {
+            "value": "750111"
+        },
+        "name": {
+            "given": "John",
+            "family": "Doe"
+        }
+    },
+    "items": [
+        {
+            "id": {
+                "value": "4312"
+            },
+            "statusCode": "Delete",
+            "period": "2014-11-03"
+        },
+        {
+            "id": {
+                "value": "4362"
+            },
+            "statusCode": "Create",
+            "typeCode": "Regular",
+            "code": "N",
+            "department": {
+                "code": "S",
+                "name": "Sales"
+            },
+            "costCenter": { "code": "SL" },
+            "period": "2014-11-03",
+            "timeTotal": "PT4H"
+        },
+        {
+            "id": {
+                "value": "4363"
+            },
+            "statusCode": "Create",
+            "typeCode": "Illness",
+            "code": "IA",
+            "period": "2014-11-03",
+            "timeTotal": "PT4H"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "ReferencedPropertyValueType",
+    "$id": "http://www.hropenstandards.org/hros/ReferencedPropertyValueType.json",
+    "description": "Type for representing a property referenced by its path with its value(s).",
+    "type": "object",
+    "properties": {
+        "propertyPath": {
+            "description": "Identifier / path of the property.",
+            "type": "string"
+        },
+        "values": {
+            "description": "Related values.",
+            "$ref": "../base/StringTypeArray.json#"
+        }
+    },
+    "required": [
+        "propertyPath"
+    ]
+}

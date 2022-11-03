@@ -1,0 +1,264 @@
+{
+	"documentId": {
+		"schemeId": "samples",
+		"value": "SalarySurveyReport_04",
+		"description": "This represents data from column I in the CulpepperCompensationSurveySampleReport-for-HROpenStandards.xslx document."
+	},
+	"match": {
+		"surveyJobCode": "OP20-35-027",
+		"surveyJobTitle": "Sr Mgr HR",
+		"surveyJobDescription": "",
+		"matchPercent": 1,
+		"surveyJobCodeLevel": {
+			"title": "",
+			"description": "",
+			"code": ""
+		},
+		"surveyJobCodeSpeciality": {
+			"title": "",
+			"description": "",
+			"code": ""
+		}
+	},
+	"source": {
+		"publicationCompany": "Culpepper Compensation Surveys and Services",
+		"publicationDate": "2018-05-17",
+		"publicationName": "Trial Compensation Report"
+	},
+	"results": [
+		{
+			"rewardCode": "BaseSalary",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Base Salary",
+			"statisticName": "10th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 102354
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "BaseSalary",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Base Salary",
+			"statisticName": "25th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 114747
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "BaseSalary",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Base Salary",
+			"statisticName": "50th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 130829
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "BaseSalary",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Base Salary",
+			"statisticName": "75th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 147573
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "BaseSalary",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Base Salary",
+			"statisticName": "90th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 159634
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "BaseSalary",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Base Salary",
+			"statisticName": "Average (Mean)",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 131215
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "STIs",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Targeted Short Term Incentives",
+			"statisticName": "10th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 0
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "STIs",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Targeted Short Term Incentives",
+			"statisticName": "25th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 10242
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "STIs",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Targeted Short Term Incentives",
+			"statisticName": "50th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 18705
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "STIs",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Targeted Short Term Incentives",
+			"statisticName": "75th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 24663
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "STIs",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Targeted Short Term Incentives",
+			"statisticName": "90th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 30638
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "STIs",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Targeted Short Term Incentives",
+			"statisticName": "Average (Mean)",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 17598
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "Total Targeted Cash Compensation",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Total Targeted Cash Compensation",
+			"statisticName": "10th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 110086
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "Total Targeted Cash Compensation",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Total Targeted Cash Compensation",
+			"statisticName": "25th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 127251
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "Total Targeted Cash Compensation",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Total Targeted Cash Compensation",
+			"statisticName": "50th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 147097
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "Total Targeted Cash Compensation",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Total Targeted Cash Compensation",
+			"statisticName": "75th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 171563
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "Total Targeted Cash Compensation",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Total Targeted Cash Compensation",
+			"statisticName": "90th Percentile",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 187932
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		},
+		{
+			"rewardCode": "Total Targeted Cash Compensation",
+			"dimensionType": "All Data",
+			"dimensionSubType": "All Inc's",
+			"dimensionName": "Total Targeted Cash Compensation",
+			"statisticName": "Average (Mean)",
+			"statisticAmount": {
+				"currency": "USD",
+				"value": 148826
+			},
+			"numberOfOrganizations": 105,
+			"numberOfEmployees": 355
+		}
+	]
+}

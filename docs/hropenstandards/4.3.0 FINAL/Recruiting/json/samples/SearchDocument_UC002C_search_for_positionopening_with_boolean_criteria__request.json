@@ -1,0 +1,90 @@
+{
+    "documentId": {
+        "value": "365c456d-12bdf-33e8-56cc-86b34f766545",
+        "schemeId": "AcmeRecruitingSystem"
+    },
+    "language": "en-US",
+    "searchQuery": {
+        "limit": {
+            "from": 0,
+            "size": 3
+        },
+        "orders": [
+            {
+                "criterion": {
+                    "propertyPath": "positionTitle"
+                },
+                "direction": "Asc",
+                "sequence": 1
+            }
+        ],
+        "requestedMatchedObjectDescriptors": [
+            {
+                "propertyPath": "positionTitle"
+            },
+            {
+                "propertyPath": "positionOrganizations.name"
+            },
+            {
+                "propertyPath": "positionLocation.city"
+            }
+        ],
+        "searchCriteria": [
+            {
+                "booleanAnd": [
+                    {
+                        "fulltext": {
+                            "propertyPaths": [
+                                "positionTitle"
+                            ],
+                            "values": [
+                                "Database Administrator"
+                            ]
+                        }
+                    },
+                    {
+                        "terms": {
+                            "propertyPath": "careerLevelCodes",
+                            "values": [
+                                "RecentGraduate",
+                                "EntryLevel"
+                            ],
+                            "matchMode": "anyOf"
+                        }
+                    },
+                    {
+                        "rangeNumber": {
+                            "propertyPath": "offeredRemunerationPackage.referenceAmount",
+                            "greaterThanOrEqualTo": 60000,
+                            "unitCode": "USD"
+                        }
+                    },
+                    {
+                        "booleanOr": [
+                            {
+                                "geoDistance": {
+                                    "propertyPath": "positionLocation.geoLocation",
+                                    "geoPoint": {
+                                        "latitude": 40.4313473,
+                                        "longitude": -80.05054
+                                    },
+                                    "distance": {
+                                        "lessThanOrEqualTo": 50,
+                                        "unitCode": "SMI"
+                                    }
+                                }
+                            },
+                            {
+                                "rangeNumber": {
+                                    "propertyPath": "offeredRemunerationPackage.referenceAmount",
+                                    "greaterThanOrEqualTo": 100000,
+                                    "unitCode": "USD"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

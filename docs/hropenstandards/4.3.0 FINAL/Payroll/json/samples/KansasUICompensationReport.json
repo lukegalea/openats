@@ -1,0 +1,28 @@
+{
+	"workerId": {
+		"value": "ABCDEF",
+		"description": "Employee Id"
+	},
+	"reportingTimePeriod": {
+		"validTo": "2020-07-01T00:00:00",
+		"validFrom": "2020-09-30T24:00:00"
+	},
+	"taxableCompensationAmount": [
+		{
+			"typeCode": "StateTaxableCompensation",
+			"description": "",
+			"amount": {
+				"value": 54513.00,
+				"currency": "USD"
+			}
+		},
+		{
+			"typeCode": "StateUnemploymentInsuranceTaxableCompensation",
+			"description": "",
+			"amount": {
+				"value": 12000.00,
+				"currency": "USD"
+			}
+		}
+	]
+}

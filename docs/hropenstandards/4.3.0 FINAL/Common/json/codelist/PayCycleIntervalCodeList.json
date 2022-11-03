@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "PayCycleIntervalCodeList",
     "description": "PayCycleInterval specifies how often the pay cycle occurs or, in other words, how often a person is paid, e.g., weekly, biweekly, etc. This is a different concept than an interval used in expressing a rate of pay.",

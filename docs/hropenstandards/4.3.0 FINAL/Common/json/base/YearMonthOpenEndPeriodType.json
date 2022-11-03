@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "YearMonthOpenEndPeriodType",
     "description": "Single period between year/months. The end year/month is optional and should be used in cases where the end of the period is unknown or uncertain.",

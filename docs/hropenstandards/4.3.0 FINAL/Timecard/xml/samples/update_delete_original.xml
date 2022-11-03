@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hropen:Timecard xmlns:hropen="https://hropenstandards.org/schema/xml/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<documentId>
+		<value>Delete By Negation</value>
+	</documentId>
+	<person>
+		<id>
+			<value>750111</value>
+		</id>
+		<name>
+			<given>John</given>
+			<family>Doe</family>
+		</name>
+	</person>
+	<items>
+		<item>
+			<typeCode>Regular</typeCode>
+			<code>PTO</code>
+			<timeTotal>-PT8H</timeTotal>
+			<period><hropen:FormattedDateTime>2014-11-06</hropen:FormattedDateTime></period>
+		</item>
+		<item>
+			<typeCode>Regular</typeCode>
+			<code>PTO</code>
+			<timeTotal>-PT8H</timeTotal>
+			<period><hropen:FormattedDateTime>2014-11-07</hropen:FormattedDateTime></period>
+		</item>
+	</items>
+</hropen:Timecard>

@@ -1,0 +1,40 @@
+{
+    "documentId": {
+        "value": "Direct Override"
+    },
+    "person": {
+        "id": {
+            "value": "750111"
+        },
+        "name": {
+            "given": "John",
+            "family": "Doe"
+        }
+    },
+    "items": [
+        {
+            "typeCode": "Regular",
+            "code": "N",
+            "department": {
+                "code": "S",
+                "name": "Sales"
+            },
+            "costCenter": { "code": "SL" },
+            "period": "2014-11-01",
+            "entryDate": "2014-11-30T11:32:27",
+            "timeTotal": "PT8H"
+        },
+        {
+            "typeCode": "Overtime",
+            "code": "OT",
+            "department": {
+                "code": "S",
+                "name": "Sales"
+            },
+            "costCenter": { "code": "SL" },
+            "period": "2014-11-01",
+            "entryDate": "2014-11-30T11:33:13",
+            "timeTotal": "PT3H"
+        }
+    ]
+}

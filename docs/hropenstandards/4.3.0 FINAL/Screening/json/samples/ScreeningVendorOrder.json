@@ -1,0 +1,116 @@
+{
+  "documentId": {
+    "value": "Order7777"
+  },
+  "serviceCode": "felony-misdemeanor",
+  "subjects": [
+    {
+      "subject": {
+        "person": {
+          "names": [
+            {
+              "validFrom": "2006-01-10T20:43:39.8499484Z",
+              "formattedName": "Marina Faraday"
+            },
+            {
+              "formattedName": "Mara Faraday"
+            },
+            {
+              "validFrom": "1991-05-21T00:00:00.0000000Z",
+              "validTo": "2006-01-10T20:43:39.8499484Z",
+              "formattedName": "Marina Sanderson"
+            }
+          ],
+          "addresses": [
+            {
+              "line": "5211 Cable Street",
+              "countryCode": "US",
+              "countrySubDivisions": [
+                {
+                  "type": "State",
+                  "value": "Vermont"
+                }
+              ],
+              "city": "IdleWilde",
+              "postalCode": "42119",
+              "validFrom": "2009-01-10T12:01:01",
+              "validTo": "2012-11-01T12:01:01"
+            }
+          ],
+          "traits": {
+            "citizenship": [
+              "US"
+            ],
+            "birthDate": "1991-05-21"
+          },
+          "legal": {
+            "birthPlace": "Castleton, VT"
+          },
+          "disclosures": [
+            {
+              "details": {
+                "value": "Convicted of DUI. Sentenced to 1 year."
+              }
+            }
+          ]
+        }
+      },
+      "purpose": {
+        "value": "Person to search."
+      }
+    },
+    {
+      "subject": {
+        "person": {
+          "traits": {
+            "birthDate": "1992-04-22"
+          }
+        }
+      },
+      "purpose": {
+        "value": "For adjudication."
+      }
+    }
+  ],
+  "purpose": {
+    "value": "Preemployment screening."
+  },
+  "referenceObjects": [
+    {
+      "referenceObjectName": "Billing Code",
+      "referenceObjectValue": "BC29888"
+    },
+    {
+      "referenceObjectName": "Estimated Annual Pay",
+      "referenceObjectValue": "$200,000"
+    }
+  ],
+  "instructions": {
+    "value": "Obtain copies."
+  },
+  "courtSearchOptions": {
+    "jurisdiction": {
+      "countryCode": "US",
+      "countrySubDivisions": [
+        {
+          "type": "State",
+          "value": "VT"
+        }
+      ]
+    },
+    "numberYearsSearched": 7,
+    "isCopyRequiredIndicator": true
+  },
+  "workLocations": [
+    {
+      "countryCode": "US",
+      "city": "Los Angeles",
+      "countrySubDivisions": [
+        {
+          "type": "State",
+          "value": "CA"
+        }
+      ]
+    }
+  ]
+}

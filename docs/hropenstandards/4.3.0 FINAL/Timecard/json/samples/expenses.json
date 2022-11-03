@@ -1,0 +1,143 @@
+{
+    "documentId": {
+        "value": "Expenses"
+    },
+    "person": {
+        "id": {
+            "value": "750111"
+        },
+        "name": {
+            "given": "Jennifer",
+            "family": "Miller"
+        }
+    },
+    "period": {
+        "start": "2014-07-01",
+        "end": "2014-07-31"
+    },
+    "approvers": [
+        {
+            "person": {
+                "id": {
+                    "value": "834512"
+                },
+                "name": {
+                    "given": "Jan-Willem",
+                    "family": "Boom",
+                    "middle": "van der"
+                }
+            },
+            "datetime": "2014-08-02T08:15:00"
+        },
+        {
+            "person": {
+                "id": {
+                    "value": "172890"
+                },
+                "name": {
+                    "given": "Kim",
+                    "family": "Bartkus"
+                }
+            },
+            "datetime": "2014-08-13T18:25:00"
+        }
+    ],
+    "items": [
+        {
+            "period": "2014-07-01",
+            "expenses": [
+                {
+                    "code": "Perdiem",
+                    "amount": {
+                        "value": 20.00,
+                        "currency": "USD"
+                    }
+                }
+            ]
+        },
+        {
+            "period": "2014-07-02",
+            "expenses": [
+                {
+                    "code": "Travel",
+                    "amount": {
+                        "value": 50.00,
+                        "currency": "USD"
+                    }
+                }
+            ]
+        },
+        {
+            "period": "2014-07-03",
+            "expenses": [
+                {
+                    "code": "Perdiem",
+                    "amount": {
+                        "value": 20.00,
+                        "currency": "USD"
+                    }
+                }
+            ]
+        },
+        {
+            "period": "2014-07-04",
+            "expenses": [
+                {
+                    "code": "Perdiem",
+                    "amount": {
+                        "value": 20.00,
+                        "currency": "USD"
+                    }
+                }
+            ]
+        },
+        {
+            "period": "2014-07-05",
+            "expenses": [
+                {
+                    "code": "Perdiem",
+                    "amount": {
+                        "value": 20.00,
+                        "currency": "USD"
+                    }
+                }
+            ]
+        },
+        {
+            "period": "2014-07-06",
+            "expenses": [
+                {
+                    "code": "Perdiem",
+                    "amount": {
+                        "value": 20.00,
+                        "currency": "USD"
+                    }
+                }
+            ]
+        },
+        {
+            "period": "2014-07-07",
+            "expenses": [
+                {
+                    "code": "Perdiem",
+                    "amount": {
+                        "value": 20.00,
+                        "currency": "USD"
+                    }
+                }
+            ]
+        },
+        {
+            "period": "2014-07-31",
+            "expenses": [
+                {
+                    "code": "Housing",
+                    "amount": {
+                        "value": 500.00,
+                        "currency": "USD"
+                    }
+                }
+            ]
+        }
+    ]
+}

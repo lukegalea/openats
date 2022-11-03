@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hropen:Timecard xmlns:hropen="https://hropenstandards.org/schema/xml/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<documentId>
+		<value>Clock Actions</value>
+	</documentId>
+	<period>
+<hropen:DatePeriod>		<start>2014-07-21</start>
+		<end>2014-07-27</end>
+</hropen:DatePeriod>	</period>
+	<location>
+		<code>FM01</code>
+	</location>
+	<items>
+		<item>
+			<id>
+				<value>750111</value>
+			</id>
+			<period><hropen:FormattedDateTime>2014-07-21T18:13:00Z</hropen:FormattedDateTime></period>
+			<code>IN</code>
+			<department>
+				<code>D1</code>
+				<name>Department 1</name>
+			</department>
+		</item>
+		<item>
+			<id>
+				<value>750111</value>
+			</id>
+			<period><hropen:FormattedDateTime>2014-07-21T12:13:00Z</hropen:FormattedDateTime></period>
+			<code>OUT</code>
+			<department>
+				<code>D1</code>
+				<name>Department 1</name>
+			</department>
+		</item>
+		<item>
+			<id>
+				<value>750111</value>
+			</id>
+			<period><hropen:FormattedDateTime>2014-07-21T12:23:00Z</hropen:FormattedDateTime></period>
+			<code>IN</code>
+			<department>
+				<code>D2</code>
+				<name>Department 2</name>
+			</department>
+		</item>
+		<item>
+			<id>
+				<value>750111</value>
+			</id>
+			<period><hropen:FormattedDateTime>2014-07-21T18:03:00Z</hropen:FormattedDateTime></period>
+			<code>OUT</code>
+			<department>
+				<code>D2</code>
+				<name>Department 2</name>
+			</department>
+		</item>
+		<item>
+			<id>
+				<value>172890</value>
+			</id>
+			<period><hropen:FormattedDateTime>2014-07-21T21:53:00Z</hropen:FormattedDateTime></period>
+		</item>
+		<item>
+			<id>
+				<value>172890</value>
+			</id>
+			<period><hropen:FormattedDateTime>2014-07-22T02:53:00Z</hropen:FormattedDateTime></period>
+			<entryDate>2014-07-21</entryDate>
+		</item>
+	</items>
+</hropen:Timecard>

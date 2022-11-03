@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "EmployeeType",
     "description": "This entire schema has been deprecated. The data has been added to Common/Deployment.  The information about a person and their relationship as an employee.",

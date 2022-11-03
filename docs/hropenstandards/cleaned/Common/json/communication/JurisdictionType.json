@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "JurisdictionType",
+    "$id": "http://www.hropenstandards.org/hros/JurisdictionType.json",
+    "description": "Defines a geographical area and associated legal or cultural context.",
+    "type": "object",
+    "properties": {
+        "countryCode": {
+            "description": "Two letter ISO Country code.",
+            "$ref": "../codelist/CountryCodeList.json#"
+        },
+        "city": {
+            "description": "City for the jurisdiction.",
+            "type": "string"
+        },
+        "countrySubDivisions": {
+            "description": "Subdivision for the jurisdiction, e.g. Province, State, County, Parish.",
+            "type": "array",
+            "items": { "$ref": "AddressComponentType.json#" }
+        }
+    }
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hropen:Interview
+    xmlns:hropen="https://hropenstandards.org/schema/xml/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <interviewPosition>
+        <position>
+            <positionId>
+                <value>50c1b1b8-4e7e-4118-886a-b14c568fb3db</value>
+            </positionId>
+            <positionTemplate>
+                <id>
+                    <value>97ad072b-5b81-49c7-ac6a-cf1abc29351e</value>
+                </id>
+                <name>The Works Position Template</name>
+            </positionTemplate>
+            <positionTitle>The Works Position from a Template with additional questions</positionTitle>
+            <interviewFormatArray>
+                <item>live video</item>
+                <item>asychronous video</item>
+                <item>live phone</item>
+                <item>asyncrhonous phone</item>
+                <item>SMS</item>
+                <item>in-person</item>
+                <item>personality assessment</item>
+            </interviewFormatArray>
+        </position>
+        <recruiter>
+            <recruiterContact>
+                <email>
+                    <item>
+                        <address>greg.meyers@montagetalent.com</address>
+                        <preference>0</preference>
+                    </item>
+                </email>
+            </recruiterContact>
+            <id>
+                <value>0234bd3f-4dff-49e8-8db9-b3700dbc71a3</value>
+            </id>
+            <name>Gregory L. Meyers</name>
+        </recruiter>
+        <externalId>
+            <value>05d3b391-4db4-4497-9491-48b5df013a3d</value>
+        </externalId>
+        <positionQuestions>
+            <item>
+                <interviewFormatType>live video</interviewFormatType>
+                <questions>
+                    <item>
+                        <questionText>This is a live video question to add in addition to the default template questions</questionText>
+                        <mediaURL>
+                            <url>https://aURItoaVideo.mp4</url>
+                        </mediaURL>
+                        <questionContext>This is the context for the live video question.</questionContext>
+                    </item>
+                </questions>
+                <id>
+                    <value>cc76d495-f9d7-4415-9bed-e26ee11fb02a</value>
+                </id>
+            </item>
+            <item>
+                <interviewFormatType>asynchronous video</interviewFormatType>
+                <questions>
+                    <item>
+                        <questionText>This is a asynchronous video question with a video response to add in addition to the default template questions</questionText>
+                        <mediaURL>
+                            <url>https://aURItoaVideo.mp4</url>
+                        </mediaURL>
+                        <responseType>video</responseType>
+                        <responsePrepTimeSeconds>30</responsePrepTimeSeconds>
+                        <maxResponseLength>120</maxResponseLength>
+                        <rerecordCount>1</rerecordCount>
+                        <questionContext>This is the context for the asynchronous video question.</questionContext>
+                    </item>
+                    <item>
+                        <questionText>This is a asynchronous video question with a multiple choice response to add in addition to the default template questions</questionText>
+                        <mediaURL>
+                            <url>https://aURItoaVideo.mp4</url>
+                        </mediaURL>
+                        <responseType>Multiple-Choice</responseType>
+                        <responsePrepTimeSeconds>30</responsePrepTimeSeconds>
+                        <rerecordCount>-1</rerecordCount>
+                        <questionContext>This is the context for the asynchronous video question.</questionContext>
+                        <responseChoice>
+                            <item>
+                                <text>Yes</text>
+                                <value>1</value>
+                            </item>
+                            <item>
+                                <text>No</text>
+                                <value>2</value>
+                            </item>
+                        </responseChoice>
+                    </item>
+                </questions>
+                <id>
+                    <value>a653973a-5e32-4c06-a89c-ccfe6666e371</value>
+                </id>
+            </item>
+            <item>
+                <interviewFormatType>SMS</interviewFormatType>
+                <questions>
+                    <item>
+                        <questionText>This is a asynchronous SMS question with a multiple choice response to add in addition to the default template questions</questionText>
+                        <responseType>Multiple-Choice</responseType>
+                        <responseChoice>
+                            <item>
+                                <text>Yes</text>
+                                <value>1</value>
+                            </item>
+                            <item>
+                                <text>No</text>
+                                <value>2</value>
+                            </item>
+                        </responseChoice>
+                    </item>
+                </questions>
+                <id>
+                    <value>717e797e-1b0b-4d0e-a512-f9f76a7d34db</value>
+                </id>
+            </item>
+        </positionQuestions>
+        <documentId>
+            <value></value>
+        </documentId>
+        <alternateIds/>
+        <dataProtectionPolicy/>
+        <language>en-US</language>
+    </interviewPosition>
+</hropen:Interview>

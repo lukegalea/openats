@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "FormattedDateTimeType",
+    "$id": "http://www.hropenstandards.org/hros/FormattedDateTimeType.json",
+    "description": "This is formatted representation of a date, which may be specified as a date, date/time, year, or year/month.",
+    "anyOf": [
+        { "$ref": "DateType.json#" },
+        { "$ref": "DateTimeType.json#" },
+        { "$ref": "YearType.json#" },
+        { "$ref": "YearMonthType.json#" }
+    ]
+}

@@ -1,0 +1,995 @@
+{
+    "documentId": {
+        "value": "Candidate061",
+        "schemeId": "SomeVendorAts"
+    },
+    "alternateIds": [
+        {
+            "value": "A-235674532",
+            "schemeId": "SomeOtherVendorAts"
+        },
+        {
+            "value": "EMP-3654345634",
+            "schemeId": "SomeOtherVendorHris"
+        }
+    ],
+    "dataProtectionPolicy": {
+        "retentionDays": 183,
+        "retentionDate": "2018-12-31",
+        "geoRestrictions": [
+            {
+                "country": "US",
+                "policy": "Full Control"
+            },
+            {
+                "country": "DE",
+                "policy": "Read"
+            }
+        ]
+    },
+    "uri": "https://hr-xml.org/lightweight_recruiting_example/getCandidate/61",
+    "person": {
+        "id": {
+            "value": "Candidate061",
+            "schemeAgencyId": "SomeVendor",
+            "schemeId": "SomeVendorAts",
+            "schemeVersionId": "5.0"
+        },
+        "name": {
+            "formattedName": "Mr. Jason Nustad",
+            "given": "Jason",
+            "family": "Nustad",
+            "preferredSalutationCode": "Mr."
+        },
+        "height": {
+            "value": 180,
+            "unitCode": "CMT"
+        },
+        "weight": {
+            "value": 80,
+            "unitCode": "KGM"
+        },
+        "gender": "Male",
+        "age": 38,
+        "birthDate": "1978-10-11",
+        "birthPlace": "New York",
+        "citizenship": [ "US" ],
+        "primaryLanguage": "en-US",
+        "studentIndicator": false,
+        "communication": {
+            "address": [
+                {
+                    "useCode": "private",
+                    "countryCode": "US",
+                    "countrySubDivisions": [
+                        {
+                            "type": "state",
+                            "value": "CT"
+                        }
+                    ],
+                    "city": "New Haven",
+                    "postalCode": "06511",
+                    "line": "Lawrence Street 61",
+                    "extendedLines": [
+                        {
+                            "type": "apartment",
+                            "value": "Apartment 4"
+                        }
+                    ],
+                    "geoLocation": {
+                        "longitude": -72.9171123,
+                        "latitude": 41.3188820
+                    },
+                    "formattedAddress": "Lawrence Street 61, Apartment 4, 06511 New Haven, CT"
+                }
+            ],
+            "phone": [
+                {
+                    "useCode": "private",
+                    "preference": 1,
+                    "formattedNumber": "+1 203 11223344",
+                    "countryDialingCode": "1",
+                    "areaDialingCode": "203",
+                    "dialNumber": "11223344"
+                },
+                {
+                    "useCode": "business",
+                    "preference": 2,
+                    "formattedNumber": "+1 203 55667788",
+                    "countryDialingCode": "1",
+                    "areaDialingCode": "203",
+                    "dialNumber": "55667788",
+                    "availablePeriod": {
+                        "start": "2016-01-01T08:30:00",
+                        "end": "2016-12-31T18:00:00"
+                    }
+                }
+            ],
+            "email": [
+                {
+                    "useCode": "private",
+                    "preference": 1,
+                    "address": "jason.nustad@aol.com"
+                },
+                {
+                    "useCode": "business",
+                    "preference": 2,
+                    "address": "jason.nustad@m-systems.com"
+                }
+            ],
+            "web": [
+                {
+                    "name": "Linkedin",
+                    "useCode": "business",
+                    "url": "https://www.linkedin.com/in/jnustad"
+                },
+                {
+                    "name": "Homepage",
+                    "url": "http://www.jason-nustad.com"
+                },
+                {
+                    "name": "Facebook",
+                    "useCode": "private",
+                    "url": "https://www.facebook.com/jason.nustad"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/jasonnustad"
+                }
+            ]
+        }
+    },
+    "profiles": [
+        {
+            "languageCode": "en-US",
+            "profileId": {
+                "value": "Candidate061-01",
+                "schemeId": "SomeVendorAts"
+            },
+            "alternateIds": [
+                {
+                    "value": "EMP-3654345634",
+                    "schemeId": "SomeOtherVendorHris"
+                }
+            ],
+            "profileName": "Main profile",
+            "personAvailability": {
+                "availabilityDates": [
+                    {
+                        "startDateTime": "2016-06-01T00:00:00Z",
+                        "endDateTime": "2016-06-30T23:59:59Z"
+                    },
+                    {
+                        "startDateTime": "2016-08-01T00:00:00Z",
+                        "endDateTime": "2016-08-31T23:59:59Z"
+                    },
+                    {
+                        "startDateTime": "2016-10-01T00:00:00Z",
+                        "endDateTime": "2016-10-31T23:59:59Z"
+                    }
+                ],
+                "noticePeriodMeasure": {
+                    "value": 2,
+                    "unitCode": "WEE"
+                },
+                "immediateStartIndicator": false
+            },
+            "distributionGuidelines": {
+                "doNotRedistributeIndicator": true,
+                "distributeTo": [
+                    {
+                        "startDate": "2016-01-01",
+                        "endDate": "2016-10-20",
+                        "person": {
+                            "name": "Peter Smith",
+                            "id": {
+                                "value": "P-33567234"
+                            }
+                        },
+                        "communication": {
+                            "email": [
+                                {
+                                    "address": "peter.smith@someorganization.com"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "startDate": "2016-03-05",
+                        "endDate": "2016-03-31",
+                        "organization": {
+                            "name": "Some department of some organization",
+                            "id": {
+                                "value": "O-38525483"
+                            }
+                        },
+                        "communication": {
+                            "email": [
+                                {
+                                    "address": "somedepartment@someorganization.com"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "startDate": "2016-05-01",
+                        "endDate": "2016-11-30",
+                        "descriptions": [
+                            "all US subsidiaries",
+                            "all DE subsidiaries"
+                        ]
+                    }
+                ],
+                "doNotDistributeTo": [
+                    {
+                        "organization": {
+                            "name": "Other department of some organization",
+                            "id": {
+                                "value": "O-28593058"
+                            },
+                            "domainName": "http://otherdepartment.someorganization.com"
+                        }
+                    }
+                ]
+            },
+            "associatedPositionOpenings": [
+                {
+                    "positionOpeningId": {
+                        "value": "SJB-0711",
+                        "schemeId": "SomeJobBoard"
+                    },
+                    "positionTitle": "Research Scientist",
+                    "positionUri": "http://somejobboard.com/job=sjb0711",
+                    "candidateAppliedIndicator": true,
+                    "dispositionStatus": {
+                        "name": "Hired",
+                        "code":"090",
+                        "reasonCode":"010",
+                        "reasonDescription":"External hire",
+                        "date": "2019-05-01T11:00:00Z"
+                    }
+                }
+            ],
+            "workLifeCycles": [
+                {
+                    "recruitingAndStaffing": {
+                        "applicationDate": "2016-01-15",
+                        "interviewDates": [
+                            "2016-01-29",
+                            "2016-02-07"
+                        ],
+                        "offeredOnDate": "2016-02-16",
+                        "offerAcceptedDate": "2016-02-19"
+                    },
+                    "contract": {
+                        "contractNumber": {
+                            "value": "CONTRACT-3457545-3454"
+                        },
+                        "contractStartDate": "2016-03-01",
+                        "contractEndDate": "2016-02-28",
+                        "workRelationshipType": "employee"
+                    },
+                    "hire": {
+                        "date": "2016-02-22",
+                        "expectedFirstWorkDate": "2016-03-02",
+                        "typeCode": "NewHire"
+                    }
+                }
+            ],
+            "employerPreferences": [
+                {
+                    "organizationNames": [
+                        "MedicalCorp",
+                        "MedLab"
+                    ],
+                    "organizationTypes": [
+                        "private",
+                        "public"
+                    ],
+                    "industryCodes": [
+                        {
+                            "value": "334516",
+                            "schemeId": "NAICS"
+                        }
+                    ],
+                    "headcountRange": {
+                        "minimum": 20,
+                        "maximum": 200
+                    },
+                    "descriptions": [
+                        "Prefer companies older than 5 years"
+                    ]
+                }
+            ],
+            "positionPreferences": [
+                {
+                    "locations": [
+                        {
+                            "maximumCommuteDuration": {
+                                "value": 45,
+                                "unitCode": "MIN"
+                            },
+                            "maximumCommuteDistance": {
+                                "value": 50,
+                                "unitCode": "KMT"
+                            },
+                            "referenceLocation": {
+                                "countryCode": "US",
+                                "countrySubDivisions": [
+                                    {
+                                        "type": "state",
+                                        "value": "CT"
+                                    }
+                                ],
+                                "city": "New Haven",
+                                "postalCode": "06511",
+                                "line": "Lawrence Street 61",
+                                "geoLocation": {
+                                    "longitude": -72.9171123,
+                                    "latitude": 41.3188820
+                                },
+                                "formattedAddress": "Lawrence Street 61, Apartment 4, 06511 New Haven, CT"
+                            }
+                        }
+                    ],
+                    "jobCategories": [
+                        {
+                            "name": "Medical",
+                            "code": "JC143"
+                        },
+                        {
+                            "name": "IT",
+                            "code": "JC476"
+                        }
+                    ],
+                    "positionTitles": [
+                        "Research Scientist"
+                    ],
+                    "positionOfferingTypeCodes": [
+                        "DirectHire",
+                        "ContractToHire"
+                    ],
+                    "positionScheduleTypeCodes": [
+                        "FullTime"
+                    ],
+                    "shiftSchedules": [
+                        {
+                            "schedules": [
+                                {
+                                    "startTime": "08:30:00",
+                                    "endTime": "17:30:00"
+                                }
+                            ]
+                        }
+                    ],
+                    "shiftDescriptions": [
+                        "Prefer to work part of the time from home"
+                    ],
+                    "remoteWork": {
+                        "remoteWorkIndicator": true,
+                        "workLocationCodes": [
+                            "Home"
+                        ],
+                        "restrictionCodes": [
+                            "Local",
+                            "Country"
+                        ],
+                        "restrictionDetails": "Prefer work from home office. Some restrictions on commuting."
+                    },
+                    "careerLevelCodes": [
+                        "MidCareer",
+                        "Manager"
+                    ],
+                    "offeredRemunerationPackage": {
+                        "basisCode": "Salaried",
+                        "ranges": [
+                            {
+                                "typeCode": "BasePay",
+                                "minimumAmount": {
+                                    "value": 80000,
+                                    "currency": "USD"
+                                },
+                                "intervalCode": "Year"
+                            },
+                            {
+                                "typeCode": "Bonus",
+                                "minimumAmount": {
+                                    "value": 10000,
+                                    "currency": "USD"
+                                },
+                                "maximumAmount": {
+                                    "value": 20000,
+                                    "currency": "USD"
+                                },
+                                "intervalCode": "Year"
+                            }
+                        ],
+                        "descriptions": [
+                            "Interest in company shares"
+                        ]
+                    },
+                    "travel": {
+                        "willingToTravelIndicator": true,
+                        "percentage": 50
+                    },
+                    "relocation": {
+                        "willingToRelocateIndicator": true
+                    },
+                    "workingLanguageCodes": [
+                        "en",
+                        "de"
+                    ]
+                }
+            ],
+            "candidateRelationships": [
+                {
+                    "candidateRelationshipId": {
+                        "value": "U004978537",
+                        "schemeId": "CompanyEmployeeDirectory"
+                    },
+                    "candidateRelationshipCode": "Employee",
+                    "otherCandidateRelationshipCode": "Former intern",
+                    "internalCandidateIndicator": true
+                }
+            ],
+            "candidateSources": [
+                {
+                    "code": "somejobboard",
+                    "name": "SomeJobBoard",
+                    "type": "jobboard",
+                    "order": 1
+                },
+                {
+                    "code": "linkedin",
+                    "name": "LinkedIn",
+                    "type": "socialnetwork",
+                    "order": 2
+                }
+            ],
+            "employment": [
+                {
+                    "id": {
+                        "value": "1342345"
+                    },
+                    "organization": {
+                        "name": "General Electric",
+                        "domainName": "http://www.ge.com",
+                        "headCount": 100000,
+                        "industryCodes": [
+                            "NAICS:334516"
+                        ]
+                    },
+                    "start": "2003-07",
+                    "current": true,
+                    "positionHistories": [
+                        {
+                            "id": {
+                                "value": "13423-1"
+                            },
+                            "title": "Software Developer for NMR Analysis",
+                            "resourceRelationshipCode": "VendorEmployee",
+                            "organization": {
+                                "id": {
+                                    "value": "23534523"
+                                },
+                                "name": "Research Lab NMR",
+                                "domainName": "http://www.ge.com/nmr"
+                            },
+                            "location": {
+                                "countryCode": "US",
+                                "countrySubDivisions": [
+                                    {
+                                        "type": "state",
+                                        "value": "CT"
+                                    }
+                                ],
+                                "city": "New Haven",
+                                "postalCode": "06511",
+                                "line": "Lawrence Street 61"
+                            },
+                            "start": "2001-07",
+                            "end": "2008-12"
+                        },
+                        {
+                            "id": {
+                                "value": "13423-2"
+                            },
+                            "title": "Project manager, NMR Analyis",
+                            "resourceRelationshipCode": "Employee",
+                            "organization": {
+                                "id": {
+                                    "value": "2353423"
+                                },
+                                "name": "Research Center",
+                                "domainName": "http://www.ge.com/nmr"
+                            },
+                            "location": {
+                                "countryCode": "US",
+                                "countrySubDivisions": [
+                                    {
+                                        "type": "state",
+                                        "value": "NY"
+                                    }
+                                ],
+                                "city": "Niskayuna",
+                                "postalCode": "12309",
+                                "line": "1 Research Cir"
+                            },
+                            "start": "2008-01",
+                            "current": true
+                        }
+                    ],
+                    "attachmentReferences": [
+                        {
+                            "uri": "/profiles/attachments/2",
+                            "descriptions": [ "Certificate of Employment - GE" ]
+                        }
+                    ]
+                }
+            ],
+            "education": [
+                {
+                    "id": {
+                        "value": "EDUHIST1"
+                    },
+                    "start": "1988-06",
+                    "end": "1996-05",
+                    "institution": {
+                        "name": "Martin Luther King High School",
+                        "communication": {
+                            "address": [
+                                {
+                                    "countryCode": "US",
+                                    "countrySubDivisions": [
+                                        {
+                                            "type": "state",
+                                            "value": "PA"
+                                        }
+                                    ],
+                                    "city": "Philadelphia",
+                                    "postalCode": "19138",
+                                    "line": "6100 Stenton Ave"
+                                }
+                            ]
+                        }
+                    },
+                    "currentlyAttendingIndicator": false
+                },
+                {
+                    "id": {
+                        "value": "EDUHIST2"
+                    },
+                    "start": "1996-10",
+                    "end": "1999-05",
+                    "institution": {
+                        "name": "Yale University"
+                    },
+                    "department": {
+                        "name": "Department of Computer Science",
+                        "communication": {
+                            "address": [
+                                {
+                                    "countryCode": "US",
+                                    "countrySubDivisions": [
+                                        {
+                                            "type": "state",
+                                            "value": "CT"
+                                        }
+                                    ],
+                                    "city": "New Haven",
+                                    "postalCode": "06511",
+                                    "line": "51 Prospect St"
+                                }
+                            ]
+                        }
+                    },
+                    "programs": [
+                        "Computer Science",
+                        "Linguistics"
+                    ],
+                    "educationLevelCodes": [
+                        {
+                            "id": {
+                                "value": "",
+                                "schemeId": ""
+                            },
+                            "name": ""
+                        }
+                    ],
+                    "currentlyAttendingIndicator": false,
+                    "educationDegrees": [
+                        {
+                            "name": "Bachelor of Science",
+                            "codes": [ "Bachelor of Science" ],
+                            "iscedEducationLevelCode": "6",
+                            "degreeGrantedStatus": "Granted",
+                            "date": "1999-05-15",
+                            "score": {
+                                "scoresNumeric": [
+                                    {
+                                        "value": 88,
+                                        "minimum": 0,
+                                        "maximum": 100,
+                                        "scoreCode": "Percentile"
+                                    }
+                                ]
+                            },
+                            "specializations": [
+                                {
+                                    "name": "Computer Science",
+                                    "type": "major"
+                                },
+                                {
+                                    "name": "Linguistics",
+                                    "type": "minor"
+                                }
+                            ]
+                        }
+                    ],
+                    "attachmentReferences": [
+                        {
+                            "uri": "/profiles/attachments/3",
+                            "descriptions": [ "Bachelor Degree Certificate" ]
+                        }
+                    ]
+                },
+                {
+                    "id": {
+                        "value": "EDUHIST3"
+                    },
+                    "start": "1999-10",
+                    "institution": {
+                        "name": "Harvard University"
+                    },
+                    "department": {
+                        "name": "Department of Computer Science",
+                        "communication": {
+                            "address": [
+                                {
+                                    "countryCode": "US",
+                                    "countrySubDivisions": [
+                                        {
+                                            "type": "state",
+                                            "value": "MA"
+                                        }
+                                    ],
+                                    "city": "Cambridge",
+                                    "postalCode": "02138"
+                                }
+                            ]
+                        }
+                    },
+                    "programs": [
+                        "Computer Science"
+                    ],
+                    "currentlyAttendingIndicator": true,
+                    "goodStandingIndicator": true,
+                    "educationDegrees": [
+                        {
+                            "name": "Master of Science",
+                            "codes": [ "Master of Science" ],
+                            "iscedEducationLevelCode": "7",
+                            "degreeGrantedStatus": "Granted",
+                            "date": "2001-05-15",
+                            "specializations": [
+                                {
+                                    "name": "Computer Science",
+                                    "type": "major"
+                                },
+                                {
+                                    "name": "Artificial Intelligence",
+                                    "type": "minor"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "PhD",
+                            "codes": [ "PhD" ],
+                            "iscedEducationLevelCode": "8",
+                            "degreeGrantedStatus": "InProgress",
+                            "specializations": [
+                                {
+                                    "name": "Artificial Intelligence",
+                                    "type": "major"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "licenses": [
+                {
+                    "id": {
+                        "value": "F01335916X1",
+                        "schemeId": "Führerschein Bundesrepublik Deutschland",
+                        "schemeAgencyId": "Bundesrepublik Deutschland"
+                    },
+                    "name": "Führerschein",
+                    "type": {
+                        "name": "Führerschein",
+                        "code": "Driving License"
+                    },
+                    "status": "Active",
+                    "effectiveTimePeriod": {
+                        "validFrom": "2015-01-22T00:00:00Z",
+                        "validTo": "2030-01-21T23:59:59Z"
+                    },
+                    "firstIssued": "2003-06-05T11:23:00Z",
+                    "issuingAuthority": {
+                        "name": "Landratsamt Musterhausen am See"
+                    },
+                    "endorsements": [
+                        {
+                            "value": "B",
+                            "description": "Car"
+                        },
+                        {
+                            "value": "C",
+                            "description": "Truck",
+                            "validFrom": "2015-01-22T00:00:00Z",
+                            "validTo": "2020-01-21T23:59:59Z"
+                        }
+                    ],
+                    "restrictions": [
+                        {
+                            "value": "B, only accompanied driving",
+                            "validTo": "2016-12-31T23:59:59Z"
+                        }
+                    ],
+                    "descriptions": [
+                        "class B, only accompanied driving until 2016-12-31"
+                    ],
+                    "attachmentReferences": [
+                        {
+                            "uri": "/profiles/attachments/4",
+                            "descriptions": [ "Driver License" ]
+                        }
+                    ]
+                },
+                {
+                    "id": {
+                        "value": "",
+                        "schemeId": "EASA VERORDNUNG (EG) Nr. 2042/2003 Anhang Part-145",
+                        "schemeAgencyId": "Luftfahrt-Bundesamt Bundesrepublik Deutschland"
+                    },
+                    "name": "Aircraft Maintenance Licence",
+                    "type": {
+                        "name": "Aircraft Maintenance Licence",
+                        "code": "Aircraft Maintenance License"
+                    },
+                    "status": "Active",
+                    "effectiveTimePeriod": {
+                        "validFrom": "2015-04-15T00:00:00Z",
+                        "validTo": "2020-04-14T23:59:59Z"
+                    },
+                    "firstIssued": "2015-04-15T10:21:00Z",
+                    "issuingAuthority": {
+                        "name": "Luftfahrt-Bundesamt Bundesrepublik Deutschland"
+                    },
+                    "endorsements": [
+                        {
+                            "value": "A1",
+                            "description": "Flugzeug mit Turbinentriebwerk"
+                        },
+                        {
+                            "value": "A4",
+                            "description": "Hubschrauber mit Kolbentriebwerk"
+                        }
+                    ],
+                    "attachmentReferences": [
+                        {
+                            "uri": "/profiles/attachments/5",
+                            "descriptions": [ "EASA License" ]
+                        }
+                    ]
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Certified Professional for Software Architecture, Foundation Level",
+                    "type": {
+                        "code": "CPSA"
+                    },
+                    "id": {
+                        "value": "125432-SA",
+                        "schemeAgencyId": "iSAQB"
+                    },
+                    "issuingAuthority": {
+                        "name": "Software Quality Laboratory",
+                        "communication": {
+                            "address": [
+                                {
+                                    "city": "Boston"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "active",
+                    "firstIssued": "2014-10-15T12:21:00Z",
+                    "effectiveTimePeriod": {
+                        "validFrom": "2014-10-15T00:00:00Z",
+                        "validTo": "2024-10-14T23:59:59Z"
+                    }
+                }
+            ],
+            "patents": [
+                {
+                    "ids": [
+                        {
+                            "value": "US2016305896 (A1)",
+                            "schemeAgencyId": "USPTO"
+                        },
+                        {
+                            "value": "PCT/US2010/031194",
+                            "schemeAgencyId": "USPTO"
+                        }
+                    ],
+                    "issuingAuthority": {
+                        "name": "United States Patent and Trademark Office"
+                    },
+                    "inventorNames": [
+                        "Jason Nustad",
+                        "David Micheals"
+                    ],
+                    "assigneeNames": [
+                        "Baker Hughes Incorporated"
+                    ],
+                    "title": "Apparatus And Method For Analyzing Samples With NMR",
+                    "descriptions": [
+                        "An apparatus and method for testing and analyzing the molecular structure of a sample material in an NMR device are described. A sample is held in a pre-determined stretched state in an apparatus that includes the sample arranged between two body components that are secured together with one or more retaining members that fit around the bodies or portions thereof. The apparatus is inserted into an NMR device to obtain NMR spectrums for analyzing the molecular structure of the samples, for instance, identifying strain-induced crystallinity and quantifying the same at pre-determined stretch ratios of a sample material."
+                    ],
+                    "status": "Issued"
+                }
+            ],
+            "qualifications": [
+                {
+                    "competencyIds": [
+                        {
+                            "value": "19a8293b-8e95-4de3-983f-77484079c389",
+                            "schemeId": "ESCO Skills",
+                            "schemeVersionId": "1.0.1",
+                            "schemeAgencyId": "EU",
+                            "schemeLink": "http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389",
+                            "agencyUri": "http://data.europa.eu"
+                        }
+                    ],
+                    "competencyName": "Java",
+                    "proficiencyLevel": {
+                        "scoresText": [
+                            {
+                                "value": "Expert level"
+                            }
+                        ]
+                    },
+                    "experienceMeasure": {
+                        "value": 5,
+                        "unitCode": "ANN"
+                    },
+                    "lastUsedDate": "2016-03",
+                    "interestLevel": {
+                        "scoresNumeric": [
+                            {
+                                "value": 80,
+                                "maximum": 100,
+                                "minimum": 0
+                            }
+                        ]
+                    }
+                }
+            ],
+            "references": [
+                {
+                    "personName": {
+                        "given": "Henry",
+                        "family": "Ferguson"
+                    },
+                    "organizationName": "General Electric",
+                    "positionTitle": "Head of NMR research",
+                    "communication": {
+                        "email": [
+                            {
+                                "address": "henry.ferguson@ge.com"
+                            }
+                        ]
+                    },
+                    "refereeId": {
+                        "value": "R34554-01"
+                    },
+                    "relationship": "Professional",
+                    "yearsKnown": 6,
+                    "comments": [
+                        {
+                            "note": "Mr. Nustad has profound knowledge and pushed the development significantly forward."
+                        }
+                    ],
+                    "attachmentReferences": [
+                        {
+                            "uri": "/profiles/attachments/6",
+                            "descriptions": [ "Recommendation Letter - GE" ]
+                        }
+                    ]
+                }
+            ],
+            "attachments": [
+                {
+                    "id": {
+                        "value": "ExampleAttachmentWithContent"
+                    },
+                    "descriptions": [
+                        "An example for an attachment with inline content."
+                    ],
+                    "content": {
+                        "value": "VGhpcyBpcyBqdXN0IGFuIGV4YW1wbGUgYXR0YWNobWVudC4gIDotKQ==",
+                        "encoding": "base64",
+                        "mimeType": "application/pdf",
+                        "filename": "ExampleCertificate.pdf"
+                    }
+                },
+                {
+                    "id": {
+                        "value": "ExampleAttachmentWithUrl"
+                    },
+                    "descriptions": [
+                        "An example for an attachment with URL reference."
+                    ],
+                    "url": "https://www.linkedin.com/in/jnustad"
+                },
+                {
+                    "descriptions": [
+                        "Certificate of Employment - GE"
+                    ],
+                    "content": {
+                        "value": "VGhpcyBpcyBqdXN0IGFuIGV4YW1wbGUgYXR0YWNobWVudC4gIDotKQ==",
+                        "encoding": "base64",
+                        "mimeType": "application/pdf",
+                        "filename": "Certificate-of-Employment-GE.pdf"
+                    }
+                },
+                {
+                    "descriptions": [
+                        "Bachelor Degree Certificate"
+                    ],
+                    "content": {
+                        "value": "VGhpcyBpcyBqdXN0IGFuIGV4YW1wbGUgYXR0YWNobWVudC4gIDotKQ==",
+                        "encoding": "base64",
+                        "mimeType": "application/pdf",
+                        "filename": "Bachelor-Degree-Certificate.pdf"
+                    }
+                },
+                {
+                    "descriptions": [
+                        "Driver License"
+                    ],
+                    "content": {
+                        "value": "VGhpcyBpcyBqdXN0IGFuIGV4YW1wbGUgYXR0YWNobWVudC4gIDotKQ==",
+                        "encoding": "base64",
+                        "mimeType": "application/pdf",
+                        "filename": "Driver-License.pdf"
+                    }
+                },
+                {
+                    "descriptions": [
+                        "EASA License"
+                    ],
+                    "content": {
+                        "value": "VGhpcyBpcyBqdXN0IGFuIGV4YW1wbGUgYXR0YWNobWVudC4gIDotKQ==",
+                        "encoding": "base64",
+                        "mimeType": "application/pdf",
+                        "filename": "EASA-License.pdf"
+                    }
+                },
+                {
+                    "descriptions": [
+                        "Recommendation Letter - GE"
+                    ],
+                    "content": {
+                        "value": "VGhpcyBpcyBqdXN0IGFuIGV4YW1wbGUgYXR0YWNobWVudC4gIDotKQ==",
+                        "encoding": "base64",
+                        "mimeType": "application/pdf",
+                        "filename": "Recommendation-Letter-GE.pdf"
+                    }
+                }
+            ]
+        }
+    ]
+}

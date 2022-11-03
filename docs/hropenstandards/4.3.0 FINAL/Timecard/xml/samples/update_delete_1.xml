@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hropen:Timecard xmlns:hropen="https://hropenstandards.org/schema/xml/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<documentId>
+		<value>Change By ID</value>
+	</documentId>
+	<person>
+		<id>
+			<value>750111</value>
+		</id>
+		<name>
+			<given>John</given>
+			<family>Doe</family>
+		</name>
+	</person>
+	<items>
+		<item>
+			<id>
+				<value>4312</value>
+			</id>
+			<statusCode>Delete</statusCode>
+			<period><hropen:FormattedDateTime>2014-11-03</hropen:FormattedDateTime></period>
+		</item>
+		<item>
+			<id>
+				<value>4362</value>
+			</id>
+			<statusCode>Create</statusCode>
+			<typeCode>Regular</typeCode>
+			<code>N</code>
+			<department>
+				<code>S</code>
+				<name>Sales</name>
+			</department>
+			<costCenter>
+				<code>SL</code>
+			</costCenter>
+			<period><hropen:FormattedDateTime>2014-11-03</hropen:FormattedDateTime></period>
+			<timeTotal>PT4H</timeTotal>
+		</item>
+		<item>
+			<id>
+				<value>4363</value>
+			</id>
+			<statusCode>Create</statusCode>
+			<typeCode>Illness</typeCode>
+			<code>IA</code>
+			<period><hropen:FormattedDateTime>2014-11-03</hropen:FormattedDateTime></period>
+			<timeTotal>PT4H</timeTotal>
+		</item>
+	</items>
+</hropen:Timecard>

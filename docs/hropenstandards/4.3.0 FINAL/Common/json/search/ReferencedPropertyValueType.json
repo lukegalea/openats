@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "ReferencedPropertyValueType",
     "description": "Type for representing a property referenced by its path with its value(s).",

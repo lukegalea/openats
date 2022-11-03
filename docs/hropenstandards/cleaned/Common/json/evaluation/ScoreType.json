@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "ScoreType",
+    "$id": "http://www.hropenstandards.org/hros/ScoreType.json",
+    "type": "object",
+    "allOf": [
+        { "$ref": "BaseScoreType.json#" },
+        { "$ref": "../base/EffectiveTimePeriodType.json#" }
+    ]
+}

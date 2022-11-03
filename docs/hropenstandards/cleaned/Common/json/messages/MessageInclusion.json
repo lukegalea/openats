@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "MessageInclusion",
+    "$id": "http://www.hropenstandards.org/hros/MessageInclusion.json",
+    "description": "Human readable description of the response message.",
+    "type": "object",
+    "properties": {
+        "type": {
+            "description": "The purpose of the message.",
+            "enum": [
+                "Warning",
+                "Error",
+                "Success", 
+                "Info"
+            ]
+        },
+        "code": {
+            "description": "The code that classifies the message.",
+            "$ref": "../base/CodeType.json#"
+        },
+        "text": {
+            "description": "Human readable text of the message.",
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hropen:Interview
+    xmlns:hropen="https://hropenstandards.org/schema/xml/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <statusNotification>
+        <interviewId>
+            <value>75ccb790-8597-4186-91b4-6398329525aa</value>
+        </interviewId>
+        <externalInterviewId>
+            <value>30d99507-a952-45c3-8fad-b7b46fb56f78</value>
+        </externalInterviewId>
+        <status>Submitted</status>
+        <comments>
+            <item>
+                <status>Click on application URL for additional status information</status>
+                <note>https://sampleApplication.montagetalent.com/aURLforRedirect</note>
+            </item>
+        </comments>
+        <documentId>
+            <value></value>
+        </documentId>
+        <alternateIds/>
+        <dataProtectionPolicy/>
+        <language>en-US</language>
+    </statusNotification>
+</hropen:Interview>
+

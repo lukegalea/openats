@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hropen:Timecard xmlns:hropen="https://hropenstandards.org/schema/xml/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<documentId>
+		<value>Cost Allocation</value>
+	</documentId>
+	<person>
+		<id>
+			<value>E1222</value>
+		</id>
+		<name>
+			<given>John</given>
+			<family>Doe</family>
+		</name>
+	</person>
+	<costAllocation>
+		<item>
+			<percentage>0.50</percentage>
+			<department>
+				<code>KIT</code>
+				<name>Kitchen</name>
+			</department>
+		</item>
+		<item>
+			<percentage>0.30</percentage>
+			<department>
+				<code>BTR</code>
+				<name>Bathroom</name>
+			</department>
+		</item>
+		<item>
+			<percentage>0.20</percentage>
+			<department>
+				<code>MENT</code>
+				<name>Mentoring</name>
+			</department>
+		</item>
+	</costAllocation>
+	<items>
+		<item>
+			<id>
+				<value>regular</value>
+			</id>
+			<code>N</code>
+			<location>
+				<code>ST100</code>
+			</location>
+			<period>
+				<hropen:DateTimePeriod>
+					<start>2014-07-21T08:00:00Z</start>
+					<end>2014-07-21T17:00:00Z</end>
+				</hropen:DateTimePeriod>
+			</period>
+			<timeTotal>PT8H</timeTotal>
+		</item>
+	</items>
+</hropen:Timecard>

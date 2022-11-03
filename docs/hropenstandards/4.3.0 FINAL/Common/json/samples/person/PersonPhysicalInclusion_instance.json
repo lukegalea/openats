@@ -1,0 +1,16 @@
+{
+    "height": {
+        "value": 170.18,
+        "unitCode": "CMT"
+    },
+    "weight": {
+        "value": 54.1,
+        "unitCode": "KGM"
+    },
+    "tobaccoUserIndicator": true,
+    "hairColor": "brown",
+    "eyeColor": "brown",
+    "identifyingMarks": ["Tatoo on left arm."],
+    "age": 28,
+    "bloodType": "O-positive"
+}

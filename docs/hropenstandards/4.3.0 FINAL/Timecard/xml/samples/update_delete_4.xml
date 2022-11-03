@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hropen:Timecard xmlns:hropen="https://hropenstandards.org/schema/xml/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<documentId>
+		<value>Delete By ID</value>
+	</documentId>
+	<person>
+		<id>
+			<value>750111</value>
+		</id>
+		<name>
+			<given>John</given>
+			<family>Doe</family>
+		</name>
+	</person>
+	<items>
+		<item>
+			<id>
+				<value>4313</value>
+			</id>
+			<statusCode>Delete</statusCode>
+			<period><hropen:FormattedDateTime>2014-11-06</hropen:FormattedDateTime></period>
+		</item>
+		<item>
+			<id>
+				<value>4314</value>
+			</id>
+			<statusCode>Delete</statusCode>
+			<period><hropen:FormattedDateTime>2014-11-06</hropen:FormattedDateTime></period>
+		</item>
+	</items>
+</hropen:Timecard>

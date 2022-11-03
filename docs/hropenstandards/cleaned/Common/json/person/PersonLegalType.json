@@ -1,0 +1,22 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"version": "4.3.0",
+	"title": "PersonLegalType",
+    "$id": "http://www.hropenstandards.org/hros/PersonLegalType.json",
+	"description": "Represents person along with legal data.",
+	"type": "object",
+	"allOf": [
+		{
+			"$ref": "PersonBaseType.json#"
+		},
+		{
+			"$ref": "PersonLegalInclusion.json#"
+		}
+	],
+	"properties": {
+		"disabilityIndicator": {
+			"description": "Legal details about a person, e.g. passport, parents names, marital status.",
+			"$ref": "../base/IndicatorType.json#"
+		}
+	}
+}

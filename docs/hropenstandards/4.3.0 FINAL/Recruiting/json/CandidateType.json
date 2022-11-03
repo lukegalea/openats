@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "CandidateType",
     "description": "A person who is requesting consideration or is being considered for a current or future position at a company.",

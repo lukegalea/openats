@@ -1,0 +1,8 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "OrdinalType",
+    "$id": "http://www.hropenstandards.org/hros/OrdinalType.json",
+    "description": "An ordinal number is an assigned mathematical number that represents order or sequence.",
+    "type": "integer"
+}

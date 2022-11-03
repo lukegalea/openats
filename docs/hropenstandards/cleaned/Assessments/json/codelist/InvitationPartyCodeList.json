@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "InvitationPartyCodeList",
+    "$id": "http://www.hropenstandards.org/hros/InvitationPartyCodeList.json",
+    "description": "Specifies who will send the invitation to the assessment subject.  Options are the Customer or the Supplier.",
+    "enum": [
+        "Customer",
+        "Supplier"
+    ]
+}

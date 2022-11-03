@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hropen:SearchDocument xmlns:hropen="https://hropenstandards.org/schema/xml/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <documentId>
+    <value><![CDATA[c562d9ec-43bdf-11e8-89dc-86b3cf106545]]></value>
+    <schemeId><![CDATA[AcmeFederatedSearch]]></schemeId>
+  </documentId>
+  <language><![CDATA[en-US]]></language>
+  <searchQuery>
+    <limit>
+      <from><![CDATA[0]]></from>
+      <size><![CDATA[10]]></size>
+    </limit>
+    <orders>
+      <item>
+        <criterion>
+          <propertyPath><![CDATA[relevanceScore]]></propertyPath>
+        </criterion>
+        <direction><![CDATA[Desc]]></direction>
+        <sequence><![CDATA[1]]></sequence>
+      </item>
+    </orders>
+    <requestedMatchedObjectDescriptors>
+      <item>
+        <propertyPath><![CDATA[person.name.formattedName]]></propertyPath>
+      </item>
+      <item>
+        <propertyPath><![CDATA[person.communication]]></propertyPath>
+      </item>
+    </requestedMatchedObjectDescriptors>
+    <searchCriteria>
+      <item>
+        <fulltext>
+          <propertyPaths>
+            <item><![CDATA[fulltext]]></item>
+            <item><![CDATA[profiles.employment.positionHistories.title]]></item>
+            <item><![CDATA[profiles.employment.positionHistories.descriptions]]></item>
+            <item><![CDATA[profiles.positionPreferences.positionTitles]]></item>
+          </propertyPaths>
+          <values>
+            <item><![CDATA[widget machinist]]></item>
+            <item><![CDATA[senior widget machinist]]></item>
+          </values>
+        </fulltext>
+      </item>
+    </searchCriteria>
+  </searchQuery>
+</hropen:SearchDocument>

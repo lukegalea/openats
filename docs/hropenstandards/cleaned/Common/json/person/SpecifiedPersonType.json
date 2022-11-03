@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "SpecifiedPersonType",
+    "$id": "http://www.hropenstandards.org/hros/SpecifiedPersonType.json",
+    "description": "Contains information to identify a person associated with the interaction or entity.",
+    "allOf": [
+        { "$ref": "PersonReferenceType.json#" }
+    ],
+    "type": "object",
+    "properties": {
+        "roleCode": { "$ref": "../base/CodeType.json#" }
+    }
+}

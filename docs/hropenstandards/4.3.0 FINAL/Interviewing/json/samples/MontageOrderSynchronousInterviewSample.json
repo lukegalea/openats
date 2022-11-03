@@ -1,0 +1,77 @@
+{
+	"positionId": {
+		"value": "a7206ec8-0f51-43dc-a7f9-443fb315203b"
+	},
+	"externalPositionId": {
+		"value": "ea2f1eeb-ac1a-43c6-8751-d8fd40da167f"
+	},
+	"externalInterviewOrderId": {
+		"value": "dc8a83a5-dc37-4c6d-8af6-939e83db404e"
+	},
+	"interviewFormatType": "live video",
+	"recruiter": {
+		"recruiterName": {
+			"formattedName": "Gregory L. Meyers"
+		},
+		"recruiterContact": {
+			"email": [
+				{
+					"address": "greg.meyers@montagetalent.com"
+				}
+			]
+		},
+		"name": "Gregory L. Meyers"
+	},
+	"candidates": [
+		{
+			"candidateName": {
+				"formattedName": "Can - GM"
+			},
+			"candidateContact": {
+				"phone": [
+					{
+						"countryDialingCode": "1",
+						"areaDialingCode": "262",
+						"dialNumber": "12623371791",
+						"formattedNumber": "12623371791",
+						"name": "mobile"
+					}
+				],
+				"email": [
+					{
+						"address": "can-gm@montagetalent.com"
+					}
+				]
+			},
+			"name": "Can - GM"
+		}
+	],
+	"accountCode": "1234AccountCode",
+	"documentId": {
+		"value": " "
+	},
+	"timezone": "America/Chicago",
+	"sessions": [
+		{
+			"name": "Interview Session",
+			"durationMinutes": 30,
+			"startTime": "2019-02-28T13:00:00",
+			"participants": [
+				{
+					"formattedName": "Recruiter GM",
+					"contactEmail": {
+						"address": "rec-gm@email.com"
+					},
+					"family": "GM",
+					"fullName": "Recruiter GM",
+					"given": "Recruiter"
+				}
+			]
+		}
+	],
+	"alternateIds": [
+	],
+	"dataProtectionPolicy": {
+	},
+	"language": "en-US"
+}

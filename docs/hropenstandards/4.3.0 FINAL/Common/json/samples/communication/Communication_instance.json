@@ -1,0 +1,56 @@
+{
+    "web": [{"url": "http://www.SomeEnterpriseHRCompany.com"}],
+    "email": [
+        {"address": "info@SomeEnterpriseHRCompany.com"},
+        {"address": "sales@SomeEnterpriseHRCompany.com"}
+    ],
+    "phone": [
+        {
+            "countryDialingCode": "1",
+            "areaDialingCode": "212",
+            "dialNumber": "555-8271",
+            "phoneExtension": "102",
+            "access": "*70",
+            "formattedNumber": "+1-212-555-8271",
+            "useCode": "SalesOffice"
+        },
+        {
+            "countryDialingCode": "1",
+            "areaDialingCode": "212",
+            "dialNumber": "555-8724",
+            "phoneExtension": "301",
+            "access": "*44",
+            "formattedNumber": "+1-212-555-8724",
+            "useCode": "HeadQuarters"
+        }
+    ],
+    "address": [
+        {
+            "city": "New York",
+            "line": "123 Main Street",
+            "extendedLines": [{
+                "type": "suite",
+                "value": "100"
+            }],
+            "postalCode": "12345",
+            "countryCode": "US",
+            "countrySubDivisions": [{
+                "type": "state",
+                "value": "New York"
+            }],
+            "useCode": "CompanyHeadquarters"
+        },
+        {
+            "postOfficeBox": "456",
+            "city": "New York",
+            "postalCode": "12345",
+            "countryCode": "US",
+            "countrySubDivisions": [{
+                "type": "state",
+                "value": "New York"
+            }],
+            "useCode": "SalesOffice",
+            "formattedAddress": "P.O. Box 456, New York, NY, 12345"
+        }
+    ]
+}

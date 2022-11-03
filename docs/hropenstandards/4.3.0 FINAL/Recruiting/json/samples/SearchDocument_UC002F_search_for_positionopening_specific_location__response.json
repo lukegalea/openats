@@ -1,0 +1,426 @@
+{
+    "documentId": {
+        "value": "0126849c-818c-11e9-bc42-526af7764f64",
+        "schemeId": "MyJobApp"
+    },
+    "language": "en-US",
+    "searchQuery": {
+        "limit": {
+            "from": 0,
+            "size": 20
+        },
+        "orders": [
+            {
+                "criterion": {
+                    "propertyPath": "positionLocation.distance",
+                    "options": [
+                        {
+                            "key": "latitude",
+                            "value": "30.2671698"
+                        },
+                        {
+                            "key": "longitude",
+                            "value": "-97.7371827"
+                        }
+                    ]
+                },
+                "direction": "Asc"
+            }
+        ],
+        "requestedMatchedObjectDescriptors": [
+            {
+                "propertyPath": "publicationStartDate"
+            },
+            {
+                "propertyPath": "positionTitle"
+            },
+            {
+                "propertyPath": "positionOrganizations.name"
+            },
+            {
+                "propertyPath": "positionLocation.countryCode"
+            },
+            {
+                "propertyPath": "positionLocation.city"
+            },
+            {
+                "propertyPath": "positionLocation.postalCode"
+            },
+            {
+                "propertyPath": "positionLocation.line"
+            },
+            {
+                "propertyPath": "positionLocation.distance"
+            }
+        ],
+        "searchCriteria": [
+            {
+                "id": {
+                    "value": "criterion#fulltext"
+                },
+                "fulltext": {
+                    "propertyPaths": [
+                        "positionTitle",
+                        "positionFormattedDescriptions",
+                        "fulltext"
+                    ],
+                    "values": [
+                        "retail"
+                    ]
+                }
+            },
+            {
+                "id": {
+                    "value": "criterion#geodistance"
+                },
+                "geoDistance": {
+                    "propertyPath": "positionLocation.geoLocation",
+                    "geoPoint": {
+                        "latitude": 30.2671698,
+                        "longitude": -97.7371827
+                    },
+                    "distance": {
+                        "lessThanOrEqualTo": 2.0,
+                        "unitCode": "SMI"
+                    }
+                }
+            }
+        ]
+    },
+    "searchResult": {
+        "count": 5,
+        "countAll": 5,
+        "executionCode": "0",
+        "executionTime": {
+            "value": 0.045,
+            "unitCode": "SEC"
+        },
+        "items": [
+            {
+                "relevanceRank": 1,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "181ad3b0-8191-11e9-bc42-526af7764f64"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "language",
+                        "values": ["en-US"]
+                    },
+                    {
+                        "propertyPath": "statusCode",
+                        "values": ["Active"]
+                    },
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2018-06-11"]
+                    },
+                    {
+                        "propertyPath": "positionId",
+                        "values": ["J34592200"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["Cashier"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countryCode",
+                        "values": ["US"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countrySubDivision.state",
+                        "values": ["TX"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["Austin"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.postalCode",
+                        "values": ["78702"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.line",
+                        "values": ["610 Brazos Street"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.geoLocation.latitude",
+                        "values": ["30.2684995"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.geoLocation.longitude",
+                        "values": ["-97.7438006"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.distance",
+                        "values": ["0.6"]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations",
+                        "values": ["Shop 4 Lift"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 2,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "f3fd674a-8190-11e9-bc42-526af7764f64"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "language",
+                        "values": ["en-US"]
+                    },
+                    {
+                        "propertyPath": "statusCode",
+                        "values": ["Active"]
+                    },
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2018-06-19"]
+                    },
+                    {
+                        "propertyPath": "positionId",
+                        "values": ["J14390554"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["Experienced Clerk"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countryCode",
+                        "values": ["US"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countrySubDivision.state",
+                        "values": ["TX"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["Austin"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.postalCode",
+                        "values": ["78702"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.line",
+                        "values": ["816 Congress Ave"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.geoLocation.latitude",
+                        "values": ["30.2707495"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.geoLocation.longitude",
+                        "values": ["-97.7447555"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.distance",
+                        "values": ["0.8"]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations",
+                        "values": ["ACME Clean & Green"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 3,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "0625bdd2-8191-11e9-bc42-526af7764f64"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "language",
+                        "values": ["en-US"]
+                    },
+                    {
+                        "propertyPath": "statusCode",
+                        "values": ["Active"]
+                    },
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2018-05-30"]
+                    },
+                    {
+                        "propertyPath": "positionId",
+                        "values": ["J34445900"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["Cashier"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countryCode",
+                        "values": ["US"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countrySubDivision.state",
+                        "values": ["TX"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["Austin"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.postalCode",
+                        "values": ["78702"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.line",
+                        "values": ["1401 Rosewood Ave"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.geoLocation.latitude",
+                        "values": ["30.268774"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.geoLocation.longitude",
+                        "values": ["-97.7262759"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.distance",
+                        "values": ["1.0"]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations",
+                        "values": ["Cool Kids Clothing"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 4,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "f3fd674a-8190-11e9-bc42-526af7764f64"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "language",
+                        "values": ["en-US"]
+                    },
+                    {
+                        "propertyPath": "statusCode",
+                        "values": ["Active"]
+                    },
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2018-06-01"]
+                    },
+                    {
+                        "propertyPath": "positionId",
+                        "values": ["J23990044"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["Barista"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countryCode",
+                        "values": ["US"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countrySubDivision.state",
+                        "values": ["TX"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["Austin"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.postalCode",
+                        "values": ["78702"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.line",
+                        "values": ["2027 E Cesar Chavez Street"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.geoLocation.latitude",
+                        "values": ["30.2561114"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.geoLocation.longitude",
+                        "values": ["-97.7245364"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.distance",
+                        "values": ["1.3"]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations",
+                        "values": ["ACME Coffee Corp"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 5,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "0f26a7d4-8191-11e9-bc42-526af7764f64"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "language",
+                        "values": ["en-US"]
+                    },
+                    {
+                        "propertyPath": "statusCode",
+                        "values": ["Active"]
+                    },
+                    {
+                        "propertyPath": "publicationStartDate",
+                        "values": ["2018-05-27"]
+                    },
+                    {
+                        "propertyPath": "positionId",
+                        "values": ["J94930220"]
+                    },
+                    {
+                        "propertyPath": "positionTitle",
+                        "values": ["Visual Merchandiser"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countryCode",
+                        "values": ["US"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.countrySubDivision.state",
+                        "values": ["TX"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.city",
+                        "values": ["Austin"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.postalCode",
+                        "values": ["78702"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.line",
+                        "values": ["600 W 2nd Street"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.geoLocation.latitude",
+                        "values": ["30.2662883"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.geoLocation.longitude",
+                        "values": ["-97.7522995"]
+                    },
+                    {
+                        "propertyPath": "positionLocation.distance",
+                        "values": ["1.4"]
+                    },
+                    {
+                        "propertyPath": "positionOrganizations",
+                        "values": ["Shine a Light Corp"]
+                    }
+                ]
+            }
+        ]
+    }
+}

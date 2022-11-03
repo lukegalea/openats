@@ -1,0 +1,587 @@
+{
+    "documentId": {
+        "value": "JOB-2344234",
+        "schemeId": "SomeVendorAts"
+    },
+    "alternateIds": [
+        {
+            "value": "PO-123123",
+            "schemeId": "SomeOtherVendorAts"
+        },
+        {
+            "value": "HRIS-846939",
+            "schemeId": "SomeOtherVendorHris"
+        }
+    ],
+    "language": "en-US",
+    "dataProtectionPolicy": {
+        "geoRestrictions": [
+            {
+                "country": "US",
+                "policy": "Full Control"
+            }
+        ],
+        "retentionDate": "2020-12-31",
+        "retentionDays": 365
+    },
+    "statusCode": "Active",
+    "approvalStatusCode": "Approved",
+    "approvalMessage": "Granted by controlling department.",
+    "postingRequester": {
+        "id": {
+            "value": "124342",
+            "schemeId": "SomeVendorAts"
+        },
+        "code": "D-145364",
+        "name": "Department X",
+        "taxId": {
+            "value": "LID-23343434",
+            "schemeId": "SomeVendorAts"
+        },
+        "personContacts": [
+            {
+                "id": {
+                    "value": "PID112233",
+                    "schemeId": "SomeVendorAts"
+                },
+                "name": {
+                    "given": "Geraldine",
+                    "family": "Thompson"
+                },
+                "primaryLanguage": "en-US",
+                "roleCode": "Hiring Manager",
+                "communication": {
+                    "email": [
+                        {
+                            "address": "geraldine.thompson@acme.com"
+                        }
+                    ],
+                    "address": [
+                        {
+                            "line": "",
+                            "city": "San Francisco",
+                            "countryCode": "US"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "positionProfiles": [
+        {
+            "profileName": "Basic Profile",
+            "profileId": {
+                "value": "PP-1000000",
+                "schemeId": "SomeVendorAts"
+            },
+            "alternateIds": [
+                {
+                    "value": "OPP-1000001",
+                    "schemeId": "SomeVendorHris"
+                }
+            ],
+            "language": "en-US",
+            "postingInstructions": [
+                {
+                    "channelId": {
+                        "value": "homepage"
+                    },
+                    "start": "2017-01-08",
+                    "end": "2017-12-31",
+                    "templateId": "",
+                    "brandingId": "",
+                    "applicationMethods": [
+                        {
+                            "instructions": "Online applications are preferred.",
+                            "personContact": {
+                                "name": {
+                                    "given": "Geraldine",
+                                    "family": "Thompson"
+                                },
+                                "roleCode": "Hiring Manager",
+                                "communication": {
+                                    "email": [
+                                        {
+                                            "address": "geraldine.thompson@acme.com"
+                                        }
+                                    ],
+                                    "address": [
+                                        {
+                                            "line": "144 Townsend St",
+                                            "city": "San Francisco",
+                                            "postalCode": "CA 94107",
+                                            "countryCode": "US"
+                                        }
+                                    ],
+                                    "phone": [
+                                        {
+                                            "formattedNumber": "+1-916-555-0176"
+                                        }
+                                    ]
+                                },
+                                "primaryLanguage": "en-US"
+                            },
+                            "applicationUri": {
+                                "url": "http://www.acme.com/application/job2344234.php?tracking=3869194593940985"
+                            },
+                            "applicationEmail": {
+                                "address": "recruiting@acme.com"
+                            },
+                            "applicationSms": {
+                                "formattedNumber": "+1-916-555-0185",
+                                "containedText": "Apply PP-1000000"
+                            },
+                            "applicationPhone": {
+                                "formattedNumber": "+1-916-555-0185"
+                            },
+                            "inPersonApplication": {
+                                "additionalInstructions": "",
+                                "address": {
+                                    "line": "144 Townsend St",
+                                    "city": "San Francisco",
+                                    "postalCode": "CA 94107",
+                                    "countryCode": "US"
+                                },
+                                "travelDirections": "Located in the north-eastern corner of the company campus."
+                            },
+                            "applicationCloseDate": {
+                                "end": "2018-01-15",
+                                "typeCode": "internal"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "channelId": {
+                        "value": "monster"
+                    },
+                    "start": "2017-01-09",
+                    "end": "2017-12-31",
+                    "templateId": "",
+                    "brandingId": "",
+                    "applicationMethods": [
+                        {
+                            "instructions": "Online applications are preferred.",
+                            "personContact": {
+                                "name": {
+                                    "given": "Geraldine",
+                                    "family": "Thompson"
+                                },
+                                "roleCode": "Hiring Manager",
+                                "communication": {
+                                    "email": [
+                                        {
+                                            "address": "geraldine.thompson@acme.com"
+                                        }
+                                    ],
+                                    "address": [
+                                        {
+                                            "line": "144 Townsend St",
+                                            "city": "San Francisco",
+                                            "postalCode": "CA 94107",
+                                            "countryCode": "US"
+                                        }
+                                    ],
+                                    "phone": [
+                                        {
+                                            "formattedNumber": "+1-916-555-0176"
+                                        }
+                                    ]
+                                },
+                                "primaryLanguage": "en-US"
+                            },
+                            "applicationUri": {
+                                "url": "http://www.acme.com/application/job2344234.php?tracking=1294593839346785"
+                            },
+                            "applicationCloseDate": {
+                                "end": "2017-12-31",
+                                "typeCode": "external"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "positionId": {
+                "value": "JOB-122334",
+                "schemeId": "SomeVendorAts"
+            },
+            "positionTitle": "Software Developer Java",
+            "positionLocation": [
+                {
+                    "name": "ACME R&D Headquarters",
+                    "line": "144 Townsend St",
+                    "city": "San Francisco",
+                    "postalCode": "CA 94107",
+                    "countryCode": "US",
+                    "countrySubDivisions": [
+                        {
+                            "type": "state",
+                            "value": "California"
+                        }
+                    ],
+                    "geoLocation": {
+                        "latitude": 37.7801551,
+                        "longitude": -122.3941757
+                    }
+                }
+            ],
+            "positionOrganizations": [
+                {
+                    "id": {
+                        "value": "OID-123576",
+                        "schemeId": "SomeOrganization"
+                    },
+                    "name": "ACME Industries",
+                    "responsibilityCode": "Parent",
+                    "domainName": "http://www.acme.com"
+                },
+                {
+                    "id": {
+                        "value": "OID-485930",
+                        "schemeId": "SomeOrganization"
+                    },
+                    "name": "ACME Solutions",
+                    "responsibilityCode": "Division"
+                },
+                {
+                    "id": {
+                        "value": "OID-589302",
+                        "schemeId": "SomeOrganization"
+                    },
+                    "name": "ACME Sustainable Solutions Department",
+                    "responsibilityCode": "Department"
+                }
+            ],
+            "positionOpenQuantity": 2,
+            "jobCategories": [
+                {
+                    "id": {
+                        "value": "4",
+                        "schemeId": "SomeVendorAts"
+                    },
+                    "code": "Technicians"
+                }
+            ],
+            "careerLevels": [
+                {
+                    "id": {
+                        "value": "7",
+                        "schemeId": "SomeVendorAts"
+                    },
+                    "code": "MidCareer"
+                }
+            ],
+            "positionOfferingTypes": [
+                "DirectHire"
+            ],
+            "positionQualifications": [
+                {
+                    "qualificationSummary": "",
+                    "positionCompetencies": [
+                        {
+                            "competencyName": "Java",
+                            "competencyIds": [
+                                {
+                                    "value": "19a8293b-8e95-4de3-983f-77484079c389",
+                                    "schemeId": "ESCO Skills",
+                                    "schemeVersionId": "1.0.1",
+                                    "schemeAgencyId": "EU",
+                                    "schemeLink": "http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389",
+                                    "agencyUri": "http://data.europa.eu"
+                                },
+                                {
+                                    "value": "",
+                                    "schemeId": ""
+                                }
+                            ],
+                            "competencyClassificationCode": "",
+                            "taxonomyIds": [
+                                {
+                                    "value": "",
+                                    "schemeId": ""
+                                },
+                                {
+                                    "value": "",
+                                    "schemeId": ""
+                                }
+                            ],
+                            "competencyDimension": {
+                                "dimensionType": "",
+                                "score": {
+                                    "scoresText": [
+                                        {
+                                            "value": ""
+                                        },
+                                        {
+                                            "value": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            "competencyEvidenceRequirement": {
+                                "evidenceName": "",
+                                "evidenceTypeCode": "",
+                                "verificationDate": "2016-01-23",
+                                "verificationSourceName": ""
+                            },
+                            "requiredProficiencyLevel": {
+                                "scoresText": [
+                                    {
+                                        "value": "Professional"
+                                    },
+                                    {
+                                        "value": ""
+                                    }
+                                ]
+                            },
+                            "desiredProficiencyLevel": {
+                                "scoresText": [
+                                    {
+                                        "value": "Expert"
+                                    },
+                                    {
+                                        "value": ""
+                                    }
+                                ]
+                            },
+                            "weight": {
+                                "value": 80,
+                                "minimumScore": 0,
+                                "maximumScore": 100
+                            }
+                        },
+                        {
+                            "competencyName": "NoSQL",
+                            "competencyIds": [
+                                {
+                                    "value": "76ef6ed3-1658-4a1a-9593-204d799c6d0c",
+                                    "schemeId": "ESCO Skills",
+                                    "schemeVersionId": "1.0.1",
+                                    "schemeAgencyId": "EU",
+                                    "schemeLink": "http://data.europa.eu/esco/skill/76ef6ed3-1658-4a1a-9593-204d799c6d0c",
+                                    "agencyUri": "http://data.europa.eu"
+                                },
+                                {
+                                    "value": "",
+                                    "schemeId": ""
+                                }
+                            ],
+                            "requiredProficiencyLevel": {
+                                "scoresText": [
+                                    {
+                                        "value": "Professional"
+                                    },
+                                    {
+                                        "value": ""
+                                    }
+                                ]
+                            },
+                            "desiredProficiencyLevel": {
+                                "scoresText": [
+                                    {
+                                        "value": "Expert"
+                                    },
+                                    {
+                                        "value": ""
+                                    }
+                                ]
+                            },
+                            "weight": {
+                                "value": 50,
+                                "minimumScore": 0,
+                                "maximumScore": 100
+                            }
+                        }
+                    ],
+                    "educationRequirement": {
+                        "educationLevelCode": "",
+                        "iscedEducationLevelCode": "6",
+                        "degreeTypeCode": "",
+                        "programs": [
+                            "",
+                            ""
+                        ],
+                        "programConcentrations": [
+                            "",
+                            ""
+                        ],
+                        "institutions": [
+                            "",
+                            ""
+                        ],
+                        "descriptions": [
+                            "",
+                            ""
+                        ]
+                    },
+                    "experienceSummary": [
+                        {
+                            "categoryCode": "",
+                            "measure": {
+                                "value": 60,
+                                "unitCode": "MON"
+                            },
+                            "levelCode": "",
+                            "descriptions": [
+                                "",
+                                ""
+                            ]
+                        }
+                    ],
+                    "licences": [
+                        "Licence A",
+                        "Licence B"
+                    ]
+                }
+            ],
+            "positionFormattedDescriptions": [
+                {
+                    "descriptionId": {
+                        "value": "job_description"
+                    },
+                    "title": "Job Description",
+                    "content": "1) Elaboration and implementation of standards with respect to all types of contracts impacting digitalization in the region and with a global approach. 2) Manage legal topics and support other Global Expert Team and regional Law Department members within a special digital field of legal expertise like in Data Privacy, Data. 3) Protection, Cyber Security, Cloud computing, Telecommunications, Software as a Service, Big Data, OSS, Business, artificial intelligence, IoT, Social Media, App Development."
+                },
+                {
+                    "descriptionId": {
+                        "value": "job_requirements"
+                    },
+                    "title": "Qualifications",
+                    "content": "1) 7+ working experience in digital legal matters, e.g. software contracts, Data Compliance, Big Data Business, Cyper Security, Telecommunication, Cloud Computing, XaaS, social media. 2) Working experience in a global team. 3) Persuasiveness, ability to negotiate and draft contracts and effectively communicate legal and non-legal advice in a timely manner."
+                },
+                {
+                    "descriptionId": {
+                        "value": "company_description"
+                    },
+                    "title": "",
+                    "content": "With sales of €22.3 billion in 2016, ACME is among the leading suppliers worldwide and currently employs more than 165,000 employees in 49 countries."
+                }
+            ],
+            "travel": {
+                "willingToTravelIndicator": true,
+                "percentage": 40,
+                "descriptions": [
+                    "Work partly on customer site"
+                ]
+            },
+            "workingLanguages": [
+                {
+                    "name": "Spanish",
+                    "code": "es-MX"
+                },
+                {
+                    "name": "French",
+                    "code": "fr-CA"
+                }
+            ],
+            "positionPeriod": {
+                "start": "2018-01-01",
+                "end": "2022-12-31"
+            },
+            "immediateStartIndicator": true,
+            "positionScheduleTypeCodes": [
+                "FullTime"
+            ],
+            "workingPeriods": [
+                {
+                    "workDuration": {
+                        "value": 35,
+                        "unitCode": "HUR"
+                    },
+                    "baseDuration": {
+                        "value": 1,
+                        "unitCode": "WEE"
+                    }
+                }
+            ],
+            "shiftSchedules": [
+                {
+                    "hours": 27800,
+                    "schedules": [
+                        {
+                            "startTime": "08:30:00",
+                            "endTime": "17:30:00"
+                        }
+                    ]
+                }
+            ],
+            "shiftDescription": "",
+            "remoteWork": {
+                "remoteWorkIndicator": true,
+                "workLocationCodes": [
+                    "Home"
+                ],
+                "restrictionCodes": [
+                    "Local",
+                    "Country"
+                ],
+                "restrictionDetails": "Work from home office is allowed. Requirement to report into local office at least once per week."
+            },
+            "offeredRemunerationPackage": {
+                "benefitsSummary": [
+                    "Contract of type XYZ"
+                ],
+                "validFrom": "2018-01-01T00:00:00Z",
+                "validTo": "2018-12-31T23:59:59Z",
+                "basisCode": "Salaried",
+                "ranges": [
+                    {
+                        "intervalCode": "Year",
+                        "referenceAmount": {
+                            "value": 100000,
+                            "currency": "USD"
+                        },
+                        "typeCode": "BasePay"
+                    },
+                    {
+                        "intervalCode": "Year",
+                        "referenceAmount": {
+                            "value": 5000,
+                            "currency": "USD"
+                        },
+                        "typeCode": "Bonus"
+                    }
+                ],
+                "descriptions": [
+                    "",
+                    ""
+                ]
+            },
+            "positionClassification": {
+                "DEPositionClassification": {
+                    "BKZClassification": {
+                        "id": {
+                            "value": "",
+                            "schemeId": "",
+                            "schemeAgencyId": ""
+                        },
+                        "code": "",
+                        "name": ""
+                    },
+                    "DEEducationAuthorizationIndicator": false
+                },
+                "USPositionClassification": {
+                    "EEOCJobCategoryCodes": [
+                        "Technicians",
+                        "Professionals"
+                    ],
+                    "affirmativeActionPlanJobGroupIds": [
+                        {
+                            "value": "",
+                            "schemeId": "",
+                            "schemeAgencyId": ""
+                        }
+                    ],
+                    "exemptIndicator": false
+                },
+                "extendedPositionClassifications": [
+                    {
+                        "countryCode": "DE",
+                        "name": "minijob",
+                        "value": "1"
+                    }
+                ]
+            }
+        }
+    ]
+}

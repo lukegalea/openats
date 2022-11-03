@@ -1,0 +1,30 @@
+{
+    "documentId": {
+        "value": "Delete By ID"
+    },
+    "person": {
+        "id": {
+            "value": "750111"
+        },
+        "name": {
+            "given": "John",
+            "family": "Doe"
+        }
+    },
+    "items": [
+        {
+            "id": {
+                "value": "4313"
+            },
+            "statusCode": "Delete",
+            "period": "2014-11-06"
+        },
+        {
+            "id": {
+                "value": "4314"
+            },
+            "statusCode": "Delete",
+            "period": "2014-11-06"
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "AddressType",
     "description": "The physical or mailing address of the entity. This may include the street and building number, city, region (state, province, etc), country and postal code.",

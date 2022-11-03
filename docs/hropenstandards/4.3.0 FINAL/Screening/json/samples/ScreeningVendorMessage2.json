@@ -1,0 +1,33 @@
+{
+  "orderId": {
+    "value": "Order7777"
+  },
+  "message": {
+    "value": "Found mother's maiden name and DL"
+  },
+  "fields": [
+    {
+      "path": "#/subjects/0/person/legal/motherName",
+      "value": "Smith"
+    }
+  ],
+  "attachments": [
+    {
+      "content": {
+        "value": "ABCDefg==",
+        "encoding": "base64",
+        "mimeType": "application/pdf",
+        "filename": "consent.pdf"
+      },
+      "descriptions": [
+        "Applicant's consent form"
+      ]
+    },
+    {
+      "url": "http://api.cra-example.com/attachments?id=adf321",
+      "descriptions": [
+        "Contains applicant's DL"
+      ]
+    }
+  ]
+}

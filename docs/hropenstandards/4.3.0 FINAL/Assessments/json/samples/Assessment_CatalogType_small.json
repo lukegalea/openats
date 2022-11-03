@@ -1,0 +1,24 @@
+{
+	"party": {
+		"requester": {
+			"id": {
+				"value": "1826378303",
+				"schemeId": "DUNS"
+			}
+		}
+	},
+	"packages": [
+		{
+			"ids": [
+				{
+					"value": "urn:williamsandwilliamsexample:assessments:catalog:12345",
+					"schemeId": "URN"
+				}
+			]
+		}
+	],
+	"documentId": {
+		"value": "918203038",
+		"schemeId": "RequestForCatalogOrderNumber"
+	}
+}

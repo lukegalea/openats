@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "version": "4.3.0",
     "title": "RefereeType",
     "description": "A person who may be referred to for information or guidance on the character or other qualities of someone e.g. an applicant for employment or for an academic or other award.",

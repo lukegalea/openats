@@ -1,0 +1,16 @@
+{
+	"legalId": {
+		"value": "999-88-7777",
+		"description": "SSN",
+		"schemeAgencyId": "US Social Security"
+	},
+	"workerId": {
+		"value": "ABCDEF",
+		"description": "Employee Id"
+	},
+	"name": {
+		"given": "Jasmine",
+		"family": "Rose",
+		"middle": "Violet"
+	}
+}

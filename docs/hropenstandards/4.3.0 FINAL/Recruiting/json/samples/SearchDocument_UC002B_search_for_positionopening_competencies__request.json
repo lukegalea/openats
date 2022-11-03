@@ -1,0 +1,52 @@
+{
+    "documentId": {
+        "value": "71a2d9ec-6eb0-21e8-89dc-1211cf1065ef",
+        "schemeId": "Get-A-Good-Job"
+    },
+    "language": "en-US",
+    "searchQuery": {
+        "limit": {
+            "from": 0,
+            "size": 20
+        },
+        "orders": [
+            {
+                "criterion": {
+                    "propertyPath": "publicationStartDate"
+                },
+                "direction": "Desc"
+            }
+        ],
+        "requestedMatchedObjectDescriptors": [
+            {
+                "propertyPath": "publicationStartDate"
+            },
+            {
+                "propertyPath": "positionTitle"
+            },
+            {
+                "propertyPath": "positionOrganizations.name"
+            },
+            {
+                "propertyPath": "positionLocation.city"
+            },
+            {
+                "propertyPath": "positionLocation.countryCode"
+            }
+        ],
+        "searchCriteria": [
+            {
+                "fulltext": {
+                    "propertyPaths": [
+                        "positionProfiles.positionQualifications.positionCompetencies.competencyName"
+                    ],
+                    "values": [
+                        "user experience",
+                        "user interface",
+                        "design"
+                    ]
+                }
+            }
+        ]
+    }
+}

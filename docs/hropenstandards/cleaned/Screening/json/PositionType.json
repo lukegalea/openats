@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "version": "4.3.0",
+    "title": "PositionType",
+    "$id": "http://www.hropenstandards.org/hros/PositionType.json",
+    "description": "A position which may be associated with a screening order.",
+    "type": "object",
+    "allOf": [
+        { "$ref": "../../common/json/base/NounType.json#" }
+    ],
+    "properties": {
+        "jurisdiction": {
+            "description": "The jurisdiction of the position.",
+            "$ref": "../../common/json/communication/JurisdictionType.json#"
+        }
+    }
+}

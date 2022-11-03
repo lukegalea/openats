@@ -1,5 +1,5 @@
 {
-	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$schema": "http://json-schema.org/draft-04/schema#",
 	"version": "4.3.x",
 	"title": "IndirectCompensationType",
 	"description": "The monetary value of compensation paid by the employer for a worker's voluntary and non-voluntary non-cash fringe benefits.",

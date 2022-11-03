@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "4.3.0",
+    "title": "ResponsibleInclusion",
+    "$id": "http://www.hropenstandards.org/hros/ResponsibleInclusion.json",
+    "description": "The people who are submitters and/or approvers information for an entity.",
+    "type": "object",
+    "properties": {
+        "submitters": {
+            "type": "array",
+            "items": { "$ref": "ResponsibleType.json#" }
+        },
+        "approvers": {
+            "type": "array",
+            "items": { "$ref": "ResponsibleType.json#" }
+        }
+    }
+}

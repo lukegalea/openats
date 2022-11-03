@@ -1,0 +1,32 @@
+{
+    "name": {
+        "formattedName": "Maria Rodrìguez",
+        "given": "Maria",
+        "family": "Rodrìguez",
+        "preferredSalutationCode": "Ms."
+    },
+    "communication": {"address": [{
+        "city": "Denver",
+        "line": "123 Person Street",
+        "postalCode": "80014",
+        "countryCode": "US",
+        "countrySubDivisions": [{
+            "type": "state",
+            "value": "Colorado"
+        }],
+        "useCode": "ResidenceAddress"
+    }]},
+    "primaryLanguage": "es-MX",
+    "legalId": {
+        "value": "279012832",
+        "schemeAgencyId": "Matrícula Consular de Alta Seguridad"
+    },
+    "birthDate": "1966-01-23",
+    "gender": "Female",
+    "citizenship": [
+        "US",
+        "MX"
+    ],
+    "residenceCountry": ["US"],
+    "ethnicity": ["Hispanic"]
+}

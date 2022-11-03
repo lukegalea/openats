@@ -1,0 +1,26 @@
+{
+	"workerId": {
+		"value": "LMNO",
+		"description": "Employee Id"
+	},
+	"establishmentIds": [
+		{
+			"value": "99999"
+		}
+	],
+	"workAssignments": [
+		{	
+			"jobId": {
+				"value": "B03"
+			}	
+		}
+	],
+	"primaryWorkLocation": {
+		"formattedAddress": "23 Azalea Lane, Edelweiss, CA 98462"
+	},
+	"workerTypeCode": "Employee",
+	"workRelationshipStatus": {
+		"statusCode": "Active",
+		"statusDate": "20190601"
+	}
+}

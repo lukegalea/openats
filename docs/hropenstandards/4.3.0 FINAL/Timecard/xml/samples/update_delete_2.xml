@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hropen:Timecard xmlns:hropen="https://hropenstandards.org/schema/xml/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<documentId>
+		<value>Direct Override</value>
+	</documentId>
+	<person>
+		<id>
+			<value>750111</value>
+		</id>
+		<name>
+			<given>John</given>
+			<family>Doe</family>
+		</name>
+	</person>
+	<items>
+		<item>
+			<typeCode>Regular</typeCode>
+			<code>N</code>
+			<department>
+				<code>S</code>
+				<name>Sales</name>
+			</department>
+			<costCenter>
+				<code>SL</code>
+			</costCenter>
+			<period><hropen:FormattedDateTime>2014-11-01</hropen:FormattedDateTime></period>
+			<entryDate>2014-11-30T11:32:27</entryDate>
+			<timeTotal>PT8H</timeTotal>
+		</item>
+		<item>
+			<typeCode>Overtime</typeCode>
+			<code>OT</code>
+			<department>
+				<code>S</code>
+				<name>Sales</name>
+			</department>
+			<costCenter>
+				<code>SL</code>
+			</costCenter>
+			<period><hropen:FormattedDateTime>2014-11-01</hropen:FormattedDateTime></period>
+			<entryDate>2014-11-30T11:33:13</entryDate>
+			<timeTotal>PT3H</timeTotal>
+		</item>
+	</items>
+</hropen:Timecard>

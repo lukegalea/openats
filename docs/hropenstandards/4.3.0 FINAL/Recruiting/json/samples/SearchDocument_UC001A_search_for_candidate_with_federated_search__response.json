@@ -1,0 +1,237 @@
+{
+    "documentId": {
+        "value": "c562d9ec-43bdf-11e8-89dc-86b3cf106545",
+        "schemeId": "AcmeFederatedSearch"
+    },
+    "language": "en-US",
+    "searchQuery": {
+        "limit": {
+            "from": 0,
+            "size": 10
+        },
+        "orders": [
+            {
+                "criterion": {
+                    "propertyPath": "relevanceScore"
+                },
+                "direction": "Desc",
+                "sequence": 1
+            }
+        ],
+        "requestedMatchedObjectDescriptors": [
+            {
+                "propertyPath": "person.name.formattedName"
+            },
+            {
+                "propertyPath": "person.communication"
+            }
+        ],
+        "searchCriteria": [
+            {
+                "fulltext": {
+                    "propertyPaths": [
+                        "fulltext",
+                        "profiles.employment.positionHistories.title",
+                        "profiles.employment.positionHistories.descriptions",
+                        "profiles.positionPreferences.positionTitles"
+                    ],
+                    "values": [
+                        "widget machinist",
+                        "senior widget machinist"
+                    ]
+                }
+            }
+        ]
+    },
+    "searchResult": {
+        "count": 10,
+        "countAll": 271,
+        "executionCode": "0",
+        "executionTime": {
+            "value": 0.0254,
+            "unitCode": "SEC"
+        },
+        "items": [
+            {
+                "relevanceRank": 1,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "C435168493",
+                    "schemeId": "AcmeRecruitingSystem"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Jones, Paul"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["paul.jones@gmail.com"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 2,
+                "relevanceScore": 1.0,
+                "matchedObjectId": {
+                    "value": "C54764321",
+                    "schemeId": "AcmeRecruitingSystem"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Smith, Jill"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["jill.smith@mail.com"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 3,
+                "relevanceScore": 0.99,
+                "matchedObjectId": {
+                    "value": "4557-43455987",
+                    "schemeId": "LocalCandidateDatabase"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Miller, Richie"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["rich.miller@hotmail.com"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 4,
+                "relevanceScore": 0.98,
+                "matchedObjectId": {
+                    "value": "C849390223",
+                    "schemeId": "AcmeRecruitingSystem"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Bering, Aaron"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["a.bering@yahoo.com"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 5,
+                "relevanceScore": 0.98,
+                "matchedObjectId": {
+                    "value": "2456-35839209",
+                    "schemeId": "LocalCandidateDatabase"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Thompson, Danielle"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["d.thompson@hotmail.com"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 6,
+                "relevanceScore": 0.96,
+                "matchedObjectId": {
+                    "value": "A34561112",
+                    "schemeId": "PublicEmploymentDatabase"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Myer, Tony"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["tony.myer@google.com"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 7,
+                "relevanceScore": 0.95,
+                "matchedObjectId": {
+                    "value": "A56784345",
+                    "schemeId": "PublicEmploymentDatabase"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["James, Jennifer"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["jenni.james@hotmail.com"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 8,
+                "relevanceScore": 0.89,
+                "matchedObjectId": {
+                    "value": "C77895940",
+                    "schemeId": "AcmeRecruitingSystem"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Harding, Antonio"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["a.harding@email.com"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 9,
+                "relevanceScore": 0.87,
+                "matchedObjectId": {
+                    "value": "C22569870",
+                    "schemeId": "AcmeRecruitingSystem"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Fisher, Sam"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["fisher.sam@devops.com"]
+                    }
+                ]
+            },
+            {
+                "relevanceRank": 10,
+                "relevanceScore": 0.87,
+                "matchedObjectId": {
+                    "value": "5877-33468060",
+                    "schemeId": "LocalCandidateDatabase"
+                },
+                "matchedObjectDescriptors": [
+                    {
+                        "propertyPath": "person.name.formattedName",
+                        "values": ["Hope, Zoe"]
+                    },
+                    {
+                        "propertyPath": "person.communication.email.address",
+                        "values": ["z.hope@zmail.com"]
+                    }
+                ]
+            }
+        ]
+    }
+}
