@@ -34,6 +34,7 @@ defmodule Openats.Accounts.User do
     |> cast(attrs, [:email, :password, :account_type])
     |> validate_email()
     |> validate_password(opts)
+    |> validate_required([:account_type])
   end
 
   defp validate_email(changeset) do

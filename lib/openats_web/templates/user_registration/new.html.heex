@@ -15,9 +15,9 @@
   <%= password_input f, :password, required: true %>
   <%= error_tag f, :password %>
   
-  <%= label f, :applicant_type %>
-  <%= select f, :applicant_type, ["Applicant": :applicant, "Employer": :employer], required: true %>
-  <%= error_tag f, :applicant_type %>
+  <%= label f, :account_type %>
+  <%= select f, :account_type, ["Applicant": :applicant, "Employer": :employer], required: true %>
+  <%= error_tag f, :account_type %>
 
   <div>
     <%= submit "Register" %>
