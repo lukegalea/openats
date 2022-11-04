@@ -1,27 +1,41 @@
-<h1>Log in</h1>
-
-<.form let={f} for={@conn} action={Routes.user_session_path(@conn, :create)} as={:user}>
-  <%= if @error_message do %>
-    <div class="alert alert-danger">
-      <p><%= @error_message %></p>
+<div class="login-page">
+  <div class="login-page__wrap">
+    <div class="login-page__logo">
+      <h1>Log in</h1>
     </div>
-  <% end %>
-
-  <%= label f, :email %>
-  <%= email_input f, :email, required: true %>
-
-  <%= label f, :password %>
-  <%= password_input f, :password, required: true %>
-
-  <%= label f, :remember_me, "Keep me logged in for 60 days" %>
-  <%= checkbox f, :remember_me %>
-
-  <div>
-    <%= submit "Log in" %>
+    <div class="panel">
+      <div class="panel__content">
+        <.form let={f} for={@conn} action={Routes.user_session_path(@conn, :create)} as={:user}>
+          <%= if @error_message do %>
+            <div class="alert alert-danger">
+              <p><%= @error_message %></p>
+            </div>
+          <% end %>
+        
+          <div class="form-control">
+            <%= label f, :email, class: "form-label" %>
+            <%= email_input f, :email, required: true, class: "text-field" %>
+          </div>
+        
+          <div class="form-control">
+            <%= label f, :password, class: "form-label" %>
+            <%= password_input f, :password, required: true, class: "text-field" %>
+          </div>
+        
+          <div class="form-check">
+            <%= label f, :remember_me, "Keep me logged in for 60 days" %>
+            <%= checkbox f, :remember_me %>
+          </div>
+        
+          <div>
+            <%= submit "Log in", class: "button button--full-width" %>
+          </div>
+        </.form>
+      </div>
+    </div>
+    <div class="login-page__footnote">
+      <%= link "Register", to: Routes.user_registration_path(@conn, :new) %> |
+      <%= link "Forgot your password?", to: Routes.user_reset_password_path(@conn, :new) %>
+    </div>
   </div>
-</.form>
-
-<p>
-  <%= link "Register", to: Routes.user_registration_path(@conn, :new) %> |
-  <%= link "Forgot your password?", to: Routes.user_reset_password_path(@conn, :new) %>
-</p>
+</div>

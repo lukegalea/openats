@@ -1,0 +1,23 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.login-page__wrap {
+  padding: 40px;
+  .panel {
+    min-width: 300px;
+    max-width: 100%;
+  }
+}
+
+.login-page__logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.login-page__footnote {
+  text-align: center;
+}

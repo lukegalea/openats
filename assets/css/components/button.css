@@ -1,0 +1,19 @@
+.button {
+  display: inline-block;
+  padding: 8px 10px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  background-color: #e67635;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  .icon {
+    margin-right: 6px;
+  }
+}
+
+.button--full-width {
+  width: 100%;
+}

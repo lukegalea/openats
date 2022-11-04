@@ -1,11 +1,15 @@
 /* This file is for your main application CSS */
 @import "./phoenix.css";
-@import "./list.css";
-
-ul {
-  list-style: none;
-  padding: 0;
-}
+@import "./reset.css";
+@import "./components/button.css";
+@import "./components/list.css";
+@import "./components/panel.css";
+@import "./components/select.css";
+@import "./components/dropdown.css";
+@import "./components/form.css";
+@import "./components/page.css";
+@import "./pages/login_page.css";
+@import "./pages/settings_page.css";
 
 .document-wrap {
   display: flex;

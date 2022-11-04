@@ -1,30 +1,45 @@
-<h1>Register</h1>
-
-<.form let={f} for={@changeset} action={Routes.user_registration_path(@conn, :create)}>
-  <%= if @changeset.action do %>
-    <div class="alert alert-danger">
-      <p>Oops, something went wrong! Please check the errors below.</p>
+<div class="login-page">
+  <div class="login-page__wrap">
+    <div class="login-page__logo">
+      <h1>Register</h1>
     </div>
-  <% end %>
+    
+    <div class="panel">
+      <div class="panel__content">
+        <.form let={f} for={@changeset} action={Routes.user_registration_path(@conn, :create)}>
+          <%= if @changeset.action do %>
+            <div class="alert alert-danger">
+              <p>Oops, something went wrong! Please check the errors below.</p>
+            </div>
+          <% end %>
 
-  <%= label f, :email %>
-  <%= email_input f, :email, required: true %>
-  <%= error_tag f, :email %>
+          <div class="form-control">
+            <%= label f, :email, class: "form-label" %>
+            <%= email_input f, :email, required: true, class: "text-field" %>
+            <%= error_tag f, :email %>
+          </div>
 
-  <%= label f, :password %>
-  <%= password_input f, :password, required: true %>
-  <%= error_tag f, :password %>
-  
-  <%= label f, :account_type %>
-  <%= select f, :account_type, ["Applicant": :applicant, "Employer": :employer], required: true %>
-  <%= error_tag f, :account_type %>
-
-  <div>
-    <%= submit "Register" %>
+          <div class="form-control">
+            <%= label f, :password, class: "form-label" %>
+            <%= password_input f, :password, required: true, class: "text-field" %>
+            <%= error_tag f, :password %>
+          </div>
+          
+          <div class="form-control">
+            <%= label f, :account_type, class: "form-label" %>
+            <%= select f, :account_type, ["Applicant": :applicant, "Employer": :employer], required: true %>
+            <%= error_tag f, :account_type %>
+          </div>
+        
+          <div>
+            <%= submit "Register", class: "button button--full-width" %>
+          </div>
+        </.form>
+      </div>
+    </div>
+    <div class="login-page__footnote">
+      <%= link "Log in", to: Routes.user_session_path(@conn, :new) %> |
+      <%= link "Forgot your password?", to: Routes.user_reset_password_path(@conn, :new) %>
+    </div>
   </div>
-</.form>
-
-<p>
-  <%= link "Log in", to: Routes.user_session_path(@conn, :new) %> |
-  <%= link "Forgot your password?", to: Routes.user_reset_password_path(@conn, :new) %>
-</p>
+</div>

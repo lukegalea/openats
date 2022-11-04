@@ -46,15 +46,25 @@ defmodule OpenatsWeb.PositionProfiles.Index do
         </li>
       </ul>
     </div>
-    <div class="page-content">
-     <h1>Job Postings <.link navigate={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.New)}><button>Add</button></.link></h1>
-     <ul id="profiles">
-     <%= for profile <- @profiles do %>
-       <ListItem.list route={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.View, profile.id)}>
-         <%= profile.name %>
-       </ListItem.list>
-     <% end %>
-     </ul>
+    <div class="page">
+      <div class="page-content">
+        <div class="page-header">
+          <h1>Job Postings</h1>
+          <.link navigate={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.New)}><button class="button">Create Posting</button></.link>
+        </div>
+       
+        <div class="panel">
+          <div class="panel__content">
+            <ul id="profiles">
+            <%= for profile <- @profiles do %>
+              <ListItem.list route={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.View, profile.id)}>
+                <%= profile.name %>
+              </ListItem.list>
+            <% end %>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
     """
   end

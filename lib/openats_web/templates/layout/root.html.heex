@@ -13,7 +13,10 @@
     <header>
       <section class="container">
         <nav>
-          <%= render "_user_menu.html", assigns %>
+          <div class="dropdown">
+            Menu
+            <%= render "_user_menu.html", assigns %>
+          </div>
         </nav>
         <h1>OpenATS</h1>
       </section>
