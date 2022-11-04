@@ -53,17 +53,15 @@ defmodule OpenatsWeb.PositionProfiles.Index do
           <.link navigate={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.New)}><button class="button">Create Posting</button></.link>
         </div>
        
-        <div class="panel">
-          <div class="panel__content">
-            <ul id="profiles">
-            <%= for profile <- @profiles do %>
-              <ListItem.list route={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.View, profile.id)}>
-                <%= profile.name %>
-              </ListItem.list>
-            <% end %>
-            </ul>
-          </div>
-        </div>
+        
+        <ul id="profiles" class="list">
+        <%= for profile <- @profiles do %>
+          <ListItem.list route={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.View, profile.id)}>
+            <%= profile.name %>
+          </ListItem.list>
+        <% end %>
+        </ul>
+
       </div>
     </div>
     """

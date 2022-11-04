@@ -37,19 +37,29 @@ defmodule OpenatsWeb.People.Edit do
         </li>
       </ul>
     </div>
-    <div class="page-content">
-     <h1>Your Profile</h1>
-     <.form
-       :let={f}
-       for={@form}
-       phx-submit="save"
-     >
-       <%= label f, :name %>
-       <%= text_input f, :name %>
-       <%= error_tag f, :name %>
-     
-       <%= submit "Save" %>
-     </.form>
+    <div class="page">
+      <div class="page-content">
+        <div class="page-header">
+          <h1>Your Profile</h1>
+        </div>
+        <div class="panel">
+          <div class="panel__content">
+            <.form
+              :let={f}
+              for={@form}
+              phx-submit="save"
+            >
+              <div class="form-control">
+                <%= label f, :name, class: "form-label" %>
+                <%= text_input f, :name, class: "text-field" %>
+                <%= error_tag f, :name %>
+              </div>
+              
+              <%= submit "Save", class: "button" %>
+            </.form>
+          </div>
+        </div>
+      </div>
     </div>
     """
   end
