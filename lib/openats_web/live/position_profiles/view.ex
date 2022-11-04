@@ -1,5 +1,6 @@
 defmodule OpenatsWeb.PositionProfiles.View do
   use OpenatsWeb, :live_view
+  use Phoenix.Component
   require Ash.Query
 
   on_mount {OpenatsWeb.LiveAuth, :require_authenticated_user}
@@ -45,28 +46,40 @@ defmodule OpenatsWeb.PositionProfiles.View do
   @impl
   def render(assigns) do
     ~H"""
-    <h1>
-      Position Profile
-      <%= if (!@has_applied) do %>
-        <button type="button" phx-click="apply">Apply Now</button>
-      <% else %>
-        Applied!
-      <% end %>
-    </h1>
-
-    <h2>Name</h2>
-    <%= @profile.name %>
-
-    <h2>Description</h2>
-    <%= @profile.description %>
-
-    <%= if (@current_user.account_type == :employer) do %>
+    <div class="nav">
       <ul>
-      <%= for candidate <- @candidates do %>
-        <li><%= candidate.person.name %></li>
-      <% end %>
+        <li class="nav-item">
+          <.link navigate={Routes.live_path(@socket, OpenatsWeb.People.Edit, @current_user.id)}>Profile</.link>
+        </li>
+        <li class="nav-item">
+          <.link navigate={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.Index)}>Job Postings</.link>
+        </li>
       </ul>
-    <% end %>
+    </div>
+    <div class="page-content">
+     <h1>
+       Position Profile
+       <%= if (!@has_applied) do %>
+         <button type="button" phx-click="apply">Apply Now</button>
+       <% else %>
+         Applied!
+       <% end %>
+     </h1>
+     
+     <h2>Name</h2>
+     <%= @profile.name %>
+     
+     <h2>Description</h2>
+     <%= @profile.description %>
+     
+     <%= if (@current_user.account_type == :employer) do %>
+       <ul>
+       <%= for candidate <- @candidates do %>
+         <li><%= candidate.person.name %></li>
+       <% end %>
+       </ul>
+     <% end %>
+    </div>
     """
   end
 

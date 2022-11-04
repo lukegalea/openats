@@ -7,6 +7,26 @@ ul {
   padding: 0;
 }
 
+.document-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.live-container {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+.page-content {
+  width: 100%;
+}
+
 /* Alerts and form errors used by phx.new */
 .alert {
   padding: 15px;
