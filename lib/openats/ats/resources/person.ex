@@ -14,11 +14,16 @@ defmodule Openats.Ats.Person do
     repo Openats.Repo
   end
 
+  identities do
+    identity(:user_id, [:user_id])
+  end
+
   attributes do
-    uuid_primary_key :id
+    uuid_primary_key(:id)
+    attribute(:user_id, :integer)
 
     attribute :name, :string do
-      allow_nil? false
+      allow_nil?(false)
     end
   end
 
@@ -27,14 +32,15 @@ defmodule Openats.Ats.Person do
   end
 
   actions do
-    defaults [:create, :read, :update, :destroy]
+    defaults([:create, :read, :update, :destroy])
   end
 
   json_api do
-    type "people"
+    type("people")
+
     routes do
-      base "/people"
-      get :read
+      base("/people")
+      get(:read)
       index :read
     end
   end
@@ -45,6 +51,6 @@ defmodule Openats.Ats.Person do
     module(OpenatsWeb.Endpoint)
 
     publish(:create, ["created", :id])
-    publish_all :create, "created"
+    publish_all(:create, "created")
   end
 end

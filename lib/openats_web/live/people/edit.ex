@@ -1,15 +1,20 @@
-defmodule OpenatsWeb.PositionProfiles.New do
+defmodule OpenatsWeb.People.Edit do
   use OpenatsWeb, :live_view
   use Phoenix.Component
 
   @impl
   def mount(params, _, socket) do
-    form = Openats.Ats.PositionProfile
-      |> AshPhoenix.Form.for_create(
-        :create,
+    person = Openats.Ats.Person |> Openats.Ats.get!(user_id: params["id"])
+    IO.inspect(person)
+
+    form =
+      person
+      |> AshPhoenix.Form.for_update(
+        :update,
         api: Openats.Ats,
         forms: [auto?: true]
       )
+
     socket =
       assign(socket,
         form: form
@@ -21,7 +26,7 @@ defmodule OpenatsWeb.PositionProfiles.New do
   @impl
   def render(assigns) do
     ~H"""
-    <h1>Create a New Job Posting</h1>
+    <h1>Your Profile</h1>
     <.form
       :let={f}
       for={@form}
@@ -30,10 +35,6 @@ defmodule OpenatsWeb.PositionProfiles.New do
       <%= label f, :name %>
       <%= text_input f, :name %>
       <%= error_tag f, :name %>
-
-      <%= label f, :description %>
-      <%= textarea f, :description %>
-      <%= error_tag f, :description %>
 
       <%= submit "Save" %>
     </.form>
@@ -46,10 +47,8 @@ defmodule OpenatsWeb.PositionProfiles.New do
 
     case AshPhoenix.Form.submit(form) do
       {:ok, result} ->
-        Openats.Ats.PositionOpening
-        |> Ash.Changeset.for_create(:open, %{position_profile_id: result.id, name: "default"})
-        |> Openats.Ats.create!()
         {:noreply, push_navigate(socket, to: "/position_profiles/")}
+
       {:error, form} ->
         assign(socket, :form, form)
     end

@@ -78,7 +78,19 @@ defmodule Openats.Accounts do
     %User{}
     |> User.registration_changeset(attrs)
     |> Repo.insert()
+    |> IO.inspect()
+    |> create_person()
   end
+  
+  defp create_person({:ok, user}) do
+    Openats.Ats.Person
+    |> Ash.Changeset.for_create(:create, %{user_id: user.id, name: "default"})
+    |> Openats.Ats.create!()
+    
+    {:ok, user}
+  end
+  
+  defp create_person(result), do: result
 
   @doc """
   Returns an `%Ecto.Changeset{}` for tracking user changes.

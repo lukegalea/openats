@@ -32,6 +32,7 @@ defmodule OpenatsWeb.Router do
     live "/position_profiles", PositionProfiles.Index
     live "/position_profiles/new", PositionProfiles.New
     live "/position_profiles/:id", PositionProfiles.View
+    live "/people/:id/edit", People.Edit
   end
 
   scope "/json_api" do
