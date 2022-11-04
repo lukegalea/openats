@@ -18,6 +18,10 @@
   margin-bottom: 20px;
 }
 
+.login-page__logo img {
+  border-radius: 50%;
+}
+
 .login-page__footnote {
   text-align: center;
 }

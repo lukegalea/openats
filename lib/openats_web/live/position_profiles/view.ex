@@ -33,12 +33,26 @@ defmodule OpenatsWeb.PositionProfiles.View do
       |> Openats.Ats.read!()
 
     socket =
+      AshPhoenix.LiveView.keep_live(
+        socket,
+        :candidates,
+        fn _socket ->
+          candidates =
+            Openats.Ats.Candidate
+            |> Ash.Query.filter(position_opening_id: position_opening.id)
+            |> Ash.Query.load([:person])
+            |> Openats.Ats.read!()
+        end,
+        subscribe: "candidate:created",
+        results: :lose
+      )
+
+    socket =
       assign(socket,
         current_person: current_person,
         profile: profile,
         position_opening: position_opening,
-        has_applied: has_applied,
-        candidates: candidates
+        has_applied: has_applied
       )
 
     {:ok, socket}
@@ -95,18 +109,23 @@ defmodule OpenatsWeb.PositionProfiles.View do
 
   def handle_event("apply", _params, socket) do
     person = socket.assigns.current_person
-    opening_id = socket.assigns.profile.position_opening.id
+    opening_id = socket.assigns.position_opening.id
 
     Openats.Ats.Candidate
     |> Ash.Changeset.for_create(:apply, %{position_opening_id: opening_id, person_id: person.id})
     |> Openats.Ats.create!()
+
+    socket =
+      assign(socket,
+        has_applied: true
+      )
 
     {:noreply, socket}
   end
 
   @impl true
   def handle_info(%{topic: topic, payload: %Ash.Notifier.Notification{}}, socket) do
-    socket = AshPhoenix.LiveView.handle_live(socket, topic, [:openings])
+    socket = AshPhoenix.LiveView.handle_live(socket, topic, [:candidates])
     {:noreply, socket}
   end
 end

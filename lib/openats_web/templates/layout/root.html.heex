@@ -11,14 +11,17 @@
   </head>
   <body>
     <header>
-      <section class="container">
-        <nav>
+      <section class="header">
+        <div class="header__logo">
+          <img src={Routes.static_path(@conn, "/images/logo.png")} width="30px" />
+        </div>
+          
+        <div class="header__util">
           <div class="dropdown">
-            Menu
+            <img src={Routes.static_path(@conn, "/images/default_profile.png")} width="39px" />
             <%= render "_user_menu.html", assigns %>
           </div>
-        </nav>
-        <h1>OpenATS</h1>
+        </div>
       </section>
     </header>
     <div class="document-wrap">

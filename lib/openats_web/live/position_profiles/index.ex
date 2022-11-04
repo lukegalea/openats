@@ -50,7 +50,9 @@ defmodule OpenatsWeb.PositionProfiles.Index do
       <div class="page-content">
         <div class="page-header">
           <h1>Job Postings</h1>
-          <.link navigate={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.New)}><button class="button">Create Posting</button></.link>
+          <%= if (@current_user.account_type == :employer) do %>
+            <.link navigate={Routes.live_path(@socket, OpenatsWeb.PositionProfiles.New)}><button class="button">Create Posting</button></.link>
+          <% end %>
         </div>
        
         
