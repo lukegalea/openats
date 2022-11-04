@@ -1,0 +1,41 @@
+<div class="login-page">
+  <div class="login-page__wrap">
+    <div class="login-page__logo">
+      <img src={Routes.static_path(@conn, "/images/logo.png")} width="80px" />
+    </div>
+    <div class="panel">
+      <div class="panel__content">
+        <.form let={f} for={@conn} action={Routes.user_session_path(@conn, :create)} as={:user}>
+          <%= if @error_message do %>
+            <div class="alert alert-danger">
+              <p><%= @error_message %></p>
+            </div>
+          <% end %>
+        
+          <div class="form-control">
+            <%= label f, :email, class: "form-label" %>
+            <%= email_input f, :email, required: true, class: "text-field" %>
+          </div>
+        
+          <div class="form-control">
+            <%= label f, :password, class: "form-label" %>
+            <%= password_input f, :password, required: true, class: "text-field" %>
+          </div>
+        
+          <div class="form-check">
+            <%= label f, :remember_me, "Keep me logged in for 60 days" %>
+            <%= checkbox f, :remember_me %>
+          </div>
+        
+          <div>
+            <%= submit "Log in", class: "button button--full-width" %>
+          </div>
+        </.form>
+      </div>
+    </div>
+    <div class="login-page__footnote">
+      <%= link "Register", to: Routes.user_registration_path(@conn, :new) %> |
+      <%= link "Forgot your password?", to: Routes.user_reset_password_path(@conn, :new) %>
+    </div>
+  </div>
+</div>

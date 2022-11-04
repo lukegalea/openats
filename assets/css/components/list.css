@@ -1,4 +1,5 @@
 .list {
+  margin-top: 10px;
   padding: 0;
   background-color: #fff;
   border-radius: 6px;
@@ -31,6 +32,7 @@
 
 .list-item__content {
   display: flex;
+  padding: 0 15px;
 }
 
 .list-item__title {

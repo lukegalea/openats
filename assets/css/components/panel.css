@@ -1,0 +1,22 @@
+.panel {
+  min-width: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: var(--element-bg-colour);
+  border-radius: 6px;
+  box-shadow: var(--element-shadow);
+  border: none;
+}
+
+.panel__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.panel__content {
+  padding: 20px;
+}

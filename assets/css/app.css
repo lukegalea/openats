@@ -1,10 +1,34 @@
 /* This file is for your main application CSS */
 @import "./phoenix.css";
-@import "./list.css";
+@import "./reset.css";
+@import "./components/button.css";
+@import "./components/list.css";
+@import "./components/panel.css";
+@import "./components/select.css";
+@import "./components/dropdown.css";
+@import "./components/form.css";
+@import "./components/page.css";
+@import "./pages/login_page.css";
+@import "./pages/settings_page.css";
 
-ul {
-  list-style: none;
-  padding: 0;
+.document-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.live-container {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+.page-content {
+  width: 100%;
 }
 
 /* Alerts and form errors used by phx.new */

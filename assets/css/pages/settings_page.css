@@ -1,0 +1,8 @@
+.settings-page {
+  .stack {
+    flex-direction: column;
+    @media (min-width: 700px) {
+      flex-direction: row;
+    }
+  }
+}
