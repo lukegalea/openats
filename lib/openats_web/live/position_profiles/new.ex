@@ -35,23 +35,36 @@ defmodule OpenatsWeb.PositionProfiles.New do
         </li>
       </ul>
     </div>
-    <div class="page-content">
-     <h1>Create a New Job Posting</h1>
-     <.form
-       :let={f}
-       for={@form}
-       phx-submit="save"
-     >
-       <%= label f, :name %>
-       <%= text_input f, :name %>
-       <%= error_tag f, :name %>
-     
-       <%= label f, :description %>
-       <%= textarea f, :description %>
-       <%= error_tag f, :description %>
-     
-       <%= submit "Save" %>
-     </.form>
+    <div class="page">
+      <div class="page-content">
+        <div class="page-header">
+          <h1>Create a New Job Posting</h1>
+        </div>
+       
+        <div class="panel">
+          <div class="panel__content">
+            <.form
+               :let={f}
+               for={@form}
+               phx-submit="save"
+             >
+              <div class="form-control">
+                <%= label f, :name, class: "form-label" %>
+                <%= text_input f, :name, class: "text-field" %>
+                <%= error_tag f, :name %>
+              </div>
+              
+              <div class="form-control">
+                <%= label f, :description, class: "form-label" %>
+                <%= textarea f, :description, class: "text-area" %>
+                <%= error_tag f, :description %>
+              </div>
+
+               <%= submit "Save", class: "button" %>
+            </.form>
+          </div>
+        </div>
+      </div>
     </div>
     """
   end
