@@ -1,32 +1,43 @@
 defmodule OpenatsWeb.PositionProfiles.View do
   use OpenatsWeb, :live_view
+  require Ash.Query
 
   on_mount {OpenatsWeb.LiveAuth, :require_authenticated_user}
 
   @impl
   def mount(params, _, socket) do
-    position_opening = socket.assigns.profile.position_openings |> Enum.at(0)
+    current_user = socket.assigns.current_user
+
+    profile =
+      Openats.Ats.PositionProfile
+      |> Openats.Ats.get!(id: params["id"])
+      |> Openats.Ats.load!(position_openings: [:candidates])
+
+    position_opening = profile.position_openings |> Enum.at(0)
 
     current_person =
       Openats.Ats.Person
-      |> Openats.Ats.get!(user_id: socket.assigns.current_user.id)
+      |> Openats.Ats.get!(user_id: current_user.id)
       |> Openats.Ats.load!(:candidates)
 
     has_applied =
       current_person.candidates
       |> Enum.any?(fn candidate -> candidate.position_opening_id == position_opening.id end)
 
-    profile =
-      Openats.Ats.PositionProfile
-      |> Openats.Ats.get!(id: params["id"])
-      |> Openats.Ats.load!(:position_openings)
+    candidates =
+      Openats.Ats.Candidate
+      |> Ash.Query.filter(position_opening_id: position_opening.id)
+      |> Ash.Query.load([:person])
+      |> Openats.Ats.read!()
 
-    assign(socket,
-      form: form,
-      current_person: current_person,
-      profile: profile,
-      position_opening: position_opening
-    )
+    socket =
+      assign(socket,
+        current_person: current_person,
+        profile: profile,
+        position_opening: position_opening,
+        has_applied: has_applied,
+        candidates: candidates
+      )
 
     {:ok, socket}
   end
@@ -34,13 +45,28 @@ defmodule OpenatsWeb.PositionProfiles.View do
   @impl
   def render(assigns) do
     ~H"""
-    <h1>Position Profile <button type="button" phx-click="apply">Apply Now</button></h1>
+    <h1>
+      Position Profile
+      <%= if (!@has_applied) do %>
+        <button type="button" phx-click="apply">Apply Now</button>
+      <% else %>
+        Applied!
+      <% end %>
+    </h1>
 
     <h2>Name</h2>
     <%= @profile.name %>
 
     <h2>Description</h2>
     <%= @profile.description %>
+
+    <%= if (@current_user.account_type == :employer) do %>
+      <ul>
+      <%= for candidate <- @candidates do %>
+        <li><%= candidate.person.name %></li>
+      <% end %>
+      </ul>
+    <% end %>
     """
   end
 
